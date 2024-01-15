@@ -1,0 +1,5787 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DigiMember\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28 08:47+0100\n"
+"PO-Revision-Date: 2019-11-28 08:47+0100\n"
+"Last-Translator: Digistore24 Team <support@digistore24.com>\n"
+"Language-Team: DigiMember Translation Team <support@digimember.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _digi;_digie\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: application/config/html_include.php:43
+#, php-format
+msgid "Add a %s shortcode"
+msgstr ""
+
+#: application/config/html_include.php:44
+msgid "Please enter a valid URL like http://example.com/?page=123."
+msgstr ""
+
+#: application/config/html_include.php:45
+msgid "Please select at least one product."
+msgstr ""
+
+#: application/config/html_include.php:46
+msgid "Add your content here (only visible for the new user)."
+msgstr ""
+
+#: application/config/html_include.php:47
+#: application/model/logic/mail_hook.php:264
+msgid "Your user name:"
+msgstr ""
+
+#: application/config/html_include.php:48
+#: application/model/logic/mail_hook.php:265
+msgid "Your password:"
+msgstr ""
+
+#: application/config/html_include.php:49
+msgid "Add your content here."
+msgstr ""
+
+#: application/config/html_include.php:50
+#: application/view/admin/shortcode.php:57
+msgid "Preview"
+msgstr ""
+
+#: application/config/menu.php:9
+msgid "[PLUGIN] Products"
+msgstr ""
+
+#: application/config/menu.php:36 application/config/menu.php:37
+#: application/controller/admin/payment_list.php:161
+#: application/controller/admin/product_edit.php:62
+#: application/controller/admin/product_list.php:21
+#: application/controller/shortcode.php:1701
+#: application/controller/shortcode.php:2008
+msgid "Products"
+msgstr ""
+
+#: application/config/menu.php:46 application/config/menu.php:47
+#: application/controller/admin/product_list.php:90
+msgid "Content"
+msgstr ""
+
+#: application/config/menu.php:52 application/config/menu.php:53
+#: application/controller/admin/log.php:131
+msgid "Payment"
+msgstr ""
+
+#: application/config/menu.php:63
+msgid "Edit payment provider"
+msgstr ""
+
+#: application/config/menu.php:68 application/config/menu.php:69
+msgid "Email texts"
+msgstr ""
+
+#: application/config/menu.php:74 application/config/menu.php:75
+#: application/controller/admin/log.php:128
+#: application/controller/shortcode.php:2470
+msgid "Autoresponder"
+msgstr ""
+
+#: application/config/menu.php:83 application/config/menu.php:84
+msgid "Actions"
+msgstr ""
+
+#: application/config/menu.php:94 application/config/menu.php:95
+msgid "Exams"
+msgstr ""
+
+#: application/config/menu.php:104 application/config/menu.php:105
+#: application/controller/admin/certificate_list.php:37
+msgid "Exam certificates"
+msgstr ""
+
+#: application/config/menu.php:115
+msgid "Web push notifications"
+msgstr ""
+
+#: application/config/menu.php:116
+msgid "Push notifications"
+msgstr ""
+
+#: application/config/menu.php:126 application/config/menu.php:127
+#: application/controller/admin/order_list.php:9
+msgid "Orders"
+msgstr ""
+
+#: application/config/menu.php:136 application/config/menu.php:137
+#: application/controller/admin/webhook_edit.php:23
+#: application/controller/admin/webhook_list.php:9
+msgid "Webhooks"
+msgstr ""
+
+#: application/config/menu.php:145 application/config/menu.php:146
+msgid "Signup form"
+msgstr ""
+
+#: application/config/menu.php:151 application/config/menu.php:152
+#: application/controller/admin/log.php:9
+msgid "Log"
+msgstr ""
+
+#: application/config/menu.php:157 application/config/menu.php:158
+#: application/controller/admin/product_edit.php:968
+#: application/controller/admin/shortcode.php:9
+#: application/view/admin/shortcode.php:145
+msgid "Shortcodes"
+msgstr ""
+
+#: application/config/menu.php:163 application/config/menu.php:164
+#: application/controller/admin/csv_import.php:14
+msgid "CSV Import"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:271
+#, php-format
+msgid ""
+"This action will be triggered for each user not more than once in %s days."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:307
+msgid "Send Webpush notification"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:314
+msgid "Webpush message"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:325
+msgid "Please <a>setup webpush messages</a> first."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:356
+msgid "Send email notification"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:365
+#: application/controller/admin/action_edit.php:387
+#: application/controller/admin/mail_text.php:135
+msgid "Subject"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:375
+#: application/controller/admin/action_edit.php:387
+#: application/controller/admin/mail_text.php:144
+#: application/controller/admin/webpush_message_edit.php:103
+#: application/controller/admin/webpush_message_edit.php:116
+msgid "Message"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:384
+#: application/controller/admin/action_settings.php:92
+#: application/controller/admin/exam_edit.php:84
+#: application/controller/admin/mail_text.php:153
+#: application/controller/admin/webpush_message_edit.php:113
+msgid "Placeholder"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:387
+#: application/controller/admin/webpush_message_edit.php:116
+#, php-format
+msgid "For %s and %s"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:394
+msgid "Sent if webpush was successfull"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:405
+msgid "Set autoresponder tag"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:482
+msgid "Test"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:513
+msgid "Webpush notification"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:517
+msgid "Send email"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:565
+msgid ""
+"The autoresponder connection of this action has been deleted and replaced. "
+"Please check the autoresponder setting below. If you experienced problems "
+"with setting tags, please try again now."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:607
+msgid "The action has been triggered. Please observe the resulting action."
+msgstr ""
+
+#: application/controller/admin/action_list.php:24
+msgid ""
+"KlickTipp tagging by user actions is NOT included in your subscription."
+msgstr ""
+
+#: application/controller/admin/action_list.php:29
+msgid ""
+"When your customers perform actions like visiting a page or logging in, you "
+"can give Autoresponder-Tags for actions."
+msgstr ""
+
+#: application/controller/admin/action_list.php:315
+msgid "Please add an action first."
+msgstr ""
+
+#: application/controller/admin/action_log.php:96
+msgid "Web push notification"
+msgstr ""
+
+#: application/controller/admin/action_settings.php:46
+msgid "Action settings"
+msgstr ""
+
+#: application/controller/admin/action_settings.php:72
+msgid "Imprint"
+msgstr ""
+
+#: application/controller/admin/action_settings.php:75
+#, php-format
+msgid "This text will be appended to each action email send by %s."
+msgstr ""
+
+#: application/controller/admin/action_settings.php:77
+msgid ""
+"For legal reasons add your business name and address and a phone number."
+msgstr ""
+
+#: application/controller/admin/action_settings.php:101
+msgid "Unsubscribe thankyou page"
+msgstr ""
+
+#: application/controller/admin/action_settings.php:118
+msgid "Sending email"
+msgstr ""
+
+#: application/controller/admin/api_key_edit.php:41
+#: application/controller/admin/api_key_list.php:14
+#: application/controller/admin/options.php:18
+msgid "Setup"
+msgstr ""
+
+#: application/controller/admin/api_key_edit.php:45
+#: application/controller/admin/api_key_list.php:18
+#: application/controller/admin/options.php:19
+msgid "Options"
+msgstr ""
+
+#: application/controller/admin/api_key_edit.php:49
+#: application/controller/admin/api_key_list.php:32
+#: application/controller/admin/options.php:21
+msgid "Api Keys"
+msgstr ""
+
+#: application/controller/admin/api_key_edit.php:76
+msgid "Api Key"
+msgstr ""
+
+#: application/controller/admin/api_key_edit.php:98
+msgid "Permissions"
+msgstr ""
+
+#: application/controller/admin/api_key_list.php:60
+msgid "API usage is NOT included in your subscription."
+msgstr ""
+
+#: application/controller/admin/api_key_list.php:209
+msgid "Please add an api key first."
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:36
+#: application/controller/shortcode.php:2412
+msgid "Exam certificate"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:94
+#: application/controller/admin/certificate_list.php:177
+msgid "Passed exams"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:95
+msgid ""
+"The certificate is granted, if all of the selected exams are passed. If no "
+"exam is checked, the user can download it when he has access to the page "
+"containing the shortcode for this certificate."
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:109
+#: application/controller/admin/certificate_edit.php:346
+#: application/controller/admin/certificate_list.php:170
+msgid "Template"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:127
+msgid "Download a template image"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:165
+#: application/controller/admin/webpush_settings.php:210
+msgid "Shortcode"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:167
+msgid ""
+"Use this shortcode to display the certificate download button in your page."
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:174
+msgid "Button type"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:176
+msgid "Display text button"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:177
+msgid "Display image button"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:186
+msgid "Text of download button"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:195
+#: application/controller/admin/webpush_settings.php:115
+#: application/controller/admin/webpush_settings.php:172
+#: application/controller/shortcode.php:2304
+#: application/controller/shortcode.php:2360
+msgid "Background color"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:204
+#: application/controller/admin/webpush_settings.php:124
+#: application/controller/admin/webpush_settings.php:181
+msgid "Text color"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:214
+#: application/controller/admin/webpush_settings.php:134
+#: application/controller/admin/webpush_settings.php:191
+#: application/controller/shortcode.php:1922
+#: application/controller/shortcode.php:2066
+#: application/controller/shortcode.php:2310
+#: application/controller/shortcode.php:2367
+#: application/controller/shortcode.php:2540
+#: application/controller/shortcode.php:2592
+#: application/controller/shortcode.php:2644
+#: application/controller/shortcode.php:2712
+#: application/controller/shortcode.php:2796
+#: application/controller/shortcode.php:2862
+#: application/controller/shortcode.php:2987
+msgid "Corner radius"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:224
+#: application/controller/admin/webpush_settings.php:144
+msgid "Button image"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:238
+msgid "Text after user passed all exams"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:239
+msgid ""
+"Is shown, after the user has passed all exams (if any selected) and can "
+"download the certificate."
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:248
+msgid "Text while user is taking the exams"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:249
+msgid ""
+"Is shown, while the user has not yes taken all of the exams. If no exams are "
+"selected, this text is never shown."
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:258
+msgid "Text if user fails one or more exams permanently"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:259
+msgid ""
+"Is shown, if the user has failed at least one exam permanently. If no exams "
+"are selected, this text is never shown."
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:278
+msgid "Placeholders"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:300
+msgid "Create a certificate"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:306
+msgid "Preview / Create certificate"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:313
+msgid "Full name of recipient"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:350
+#: application/controller/admin/product_edit.php:143
+#: application/controller/admin/product_edit.php:365
+#: application/controller/admin/product_list.php:321
+#: application/controller/shortcode.php:2957
+msgid "Download"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:444
+msgid "The certificate has been created. <a>Click here to download it.</a>"
+msgstr ""
+
+#: application/controller/admin/certificate_list.php:56
+msgid "Exams are NOT included in your subscription."
+msgstr ""
+
+#: application/controller/admin/certificate_list.php:232
+msgid "Please add an exam certificate first."
+msgstr ""
+
+#: application/controller/admin/certificate_select.php:38
+msgid "New exam certificate"
+msgstr ""
+
+#: application/controller/admin/checklist.php:9
+msgid "Checklist"
+msgstr ""
+
+#: application/controller/admin/checklist.php:25
+msgid "Then click on the checkbox to mark this point as completed."
+msgstr ""
+
+#: application/controller/admin/checklist.php:36
+msgid "Product created"
+msgstr ""
+
+#: application/controller/admin/checklist.php:40
+msgid "Create at least one product you want to sell."
+msgstr ""
+
+#: application/controller/admin/checklist.php:43
+msgid "Payment provider integrated"
+msgstr ""
+
+#: application/controller/admin/checklist.php:47
+#, php-format
+msgid ""
+"For automated payment handling, you need to setup a payment provider like %s."
+msgstr ""
+
+#: application/controller/admin/checklist.php:51
+msgid "Protected content created"
+msgstr ""
+
+#: application/controller/admin/checklist.php:54
+msgid ""
+"You need to create content pages, which the buyers of your product(s) will "
+"get access to. <a>Click here</a> to add your content to Wordpess."
+msgstr ""
+
+#: application/controller/admin/checklist.php:58
+msgid "Protected content to product assigned"
+msgstr ""
+
+#: application/controller/admin/checklist.php:62
+msgid ""
+"Assign Wordpress pages to your product. These pages will only be visible by "
+"users with access to the product."
+msgstr ""
+
+#: application/controller/admin/checklist.php:65
+msgid "Welcome email reviewed"
+msgstr ""
+
+#: application/controller/admin/checklist.php:69
+msgid ""
+"Adjust the text of the welcome email to your customers. <a>Click here</a> to "
+"edit the welcome email. You have a welcome email each product. Use the "
+"<em>Send Test Email</em> button to review the welcome mail in your mail "
+"software."
+msgstr ""
+
+#: application/controller/admin/checklist.php:72
+msgid "Login page created"
+msgstr ""
+
+#: application/controller/admin/checklist.php:75
+#, php-format
+msgid ""
+"<a>Create a page</a> and add the <a>shortcode %s</a> for a login box. Make "
+"sure this page is linked in the menu on the home page, so that users can "
+"easily login."
+msgstr ""
+
+#: application/controller/admin/checklist.php:79
+msgid "Paylink integrated on salespage"
+msgstr ""
+
+#: application/controller/admin/checklist.php:83
+msgid ""
+"Get your paylink from your payment provider. Put a buy button on your "
+"salespage, which follows this link."
+msgstr ""
+
+#: application/controller/admin/checklist.php:86
+msgid "Created test membership"
+msgstr ""
+
+#: application/controller/admin/checklist.php:90
+msgid ""
+"<a>Click here</a> and then on <em>Create</em> to add a member for testing. "
+"Don't use the admin email, because the admin account has too much privileges "
+"for testing."
+msgstr ""
+
+#: application/controller/admin/checklist.php:93
+msgid "Membership login tested"
+msgstr ""
+
+#: application/controller/admin/checklist.php:98
+msgid ""
+"For your convenience use a second browser, if you have one. If so, in your "
+"first browser stay logged in as admin. In the second browser stay logged in "
+"as the buyer. As buyer, browse to the blog's home page and log into the test "
+"account. Review the pages assigned to your product and make sure, the buyer "
+"has access to the right pages. Make sure, he has no access, when he is "
+"logged out."
+msgstr ""
+
+#: application/controller/admin/checklist.php:99
+msgid ""
+"If you use time based unlocking of pages, you may test this in the following "
+"way: As admin <a>edit the membership</a> and set the order date to a date in "
+"the past. Then view the pages as the buyer. This helps you to validate, that "
+"the pages are unlocked in the correct order."
+msgstr ""
+
+#: application/controller/admin/checklist.php:104
+msgid "Test sale completed"
+msgstr ""
+
+#: application/controller/admin/checklist.php:109
+msgid ""
+"On your payment providers salespage perform a test sale. Usually this can be "
+"done without actually paying. E.g. with Digistore24 you have a test pay "
+"button, when you are logged in and view your own orderform page."
+msgstr ""
+
+#: application/controller/admin/checklist.php:110
+msgid ""
+"<strong>Important:</strong> When performing the test sale, don't use your "
+"wordpress admin email address. Use an email address which is not registered "
+"with the blog. This is important, because the admin has too much priviliges "
+"for testing. And if the user already exists, DigiMember assigns the product "
+"to the existing user, but for the test it's important to test a completely "
+"new sale."
+msgstr ""
+
+#: application/controller/admin/checklist.php:115
+#, php-format
+msgid "Upgrade to %s"
+msgstr ""
+
+#: application/controller/admin/checklist.php:116
+#, php-format
+msgid "<a>Click here</a> and enter the %s license key for this domain."
+msgstr ""
+
+#: application/controller/admin/checklist.php:118
+msgid "If you don't have a license key, <a>click here</a> to get one."
+msgstr ""
+
+#: application/controller/admin/content.php:46
+msgid "Please <a>add a product</a> first."
+msgstr ""
+
+#: application/controller/admin/content.php:53
+msgid "Content for Product:"
+msgstr ""
+
+#: application/controller/admin/content.php:67
+#: application/view/post/products.php:90
+msgid "Unlocking content periodically is NOT included in your subscription."
+msgstr ""
+
+#: application/controller/admin/content.php:70
+msgid ""
+"Here you can add content to a product. Just use your mouse to drag the "
+"content from the left column to the right column. All content in the right "
+"column belongs to the products. This means, that every buyer of the product "
+"gets access to this content."
+msgstr ""
+
+#: application/controller/admin/content.php:71
+msgid ""
+"If you want to unlock content step by step, use the text input fields in the "
+"right column. Enter the number of days the user has to wait to view this "
+"content. E.g. enter 14 to make the content available after two weeks. Leave "
+"it blank, if the buyer should gain access immediately after buying the "
+"product."
+msgstr ""
+
+#: application/controller/admin/content.php:72
+msgid ""
+"When you edit a page or a post, you also can assign content (page or post) "
+"to a product to protect the content."
+msgstr ""
+
+#: application/controller/admin/content.php:179
+msgid "Available content"
+msgstr ""
+
+#: application/controller/admin/content.php:180
+msgid "Content selected for this product"
+msgstr ""
+
+#: application/controller/admin/content.php:203
+msgid "Unlock day"
+msgstr ""
+
+#: application/controller/admin/content.php:204
+msgid ""
+"Enter the number of days after which this page will be visible to the buyer. "
+"E.g. enter 7 to make it visible a week after the sale. Leave blank to make "
+"it visible immediately after buying."
+msgstr ""
+
+#: application/controller/admin/csv_import.php:107
+#, php-format
+msgid "%s is not a valid email address"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:40
+#: application/controller/admin/exam_edit.php:373
+#: application/controller/admin/exam_list.php:132
+msgid "Questions"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:42
+#: application/controller/admin/product_edit.php:132
+msgid "Texts"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:44
+msgid "Properties"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:56
+#: application/controller/admin/exam_list.php:9
+#: application/controller/shortcode.php:2397
+msgid "Exam"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:85
+msgid "Example value"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:156
+msgid "Introduction"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:159
+msgid "This text is shown when taking the exam right above the questions."
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:165
+msgid "Exam passed"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:168
+msgid "This text is shown after the exam, if the user passes the exam."
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:174
+msgid "Exam failed (may retry)"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:177
+msgid ""
+"This text is shown after the exam, if the user fails the exam and may retry."
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:183
+msgid "Exam failed (finally)"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:186
+msgid ""
+"This text is shown after the exam, if the user fails the exam and may "
+"<strong>NOT</strong> retry."
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:193
+msgid "In the texts above you may use these placeholders:"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:246
+msgid "Arange answers randomly"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:258
+msgid "Required score"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:261
+#, php-format
+msgid "= %s of %s questions answered correctly"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:268
+#: application/controller/admin/exam_list.php:141
+msgid "May be repeated"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:277
+msgid "Exam type"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:288
+#: application/controller/shortcode.php:1908
+#: application/controller/shortcode.php:2052
+#: application/controller/shortcode.php:2526
+#: application/controller/shortcode.php:2578
+#: application/controller/shortcode.php:2630
+#: application/controller/shortcode.php:2698
+#: application/controller/shortcode.php:2782
+#: application/controller/shortcode.php:2848
+#: application/controller/shortcode.php:2973
+msgid "Button background color"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:296
+#: application/controller/shortcode.php:1915
+#: application/controller/shortcode.php:2059
+#: application/controller/shortcode.php:2533
+#: application/controller/shortcode.php:2585
+#: application/controller/shortcode.php:2637
+#: application/controller/shortcode.php:2705
+#: application/controller/shortcode.php:2789
+#: application/controller/shortcode.php:2855
+#: application/controller/shortcode.php:2980
+msgid "Button text color"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:305
+msgid "Button corner radius"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:314
+msgid "Reset exams"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:316
+msgid "for single user"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:317
+msgid "for all users"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:326
+msgid "User name"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:391
+#: application/library/form_renderer/input/exam_questions.php:82
+msgid "Add question"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:403
+#: application/controller/admin/exam_edit.php:443
+msgid "Reset answers"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:406
+msgid ""
+"The answers of the selected users will now be reset.|The user(s) then can "
+"take the exam again.|Continue?"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:439
+#: application/controller/shortcode.php:1900
+msgid "Style"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:509
+msgid "The exams for the selected user(s) have been resetted."
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:510
+msgid "The selected user(s) did not take the exam."
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:558
+msgid "Please save to show the shortcode for this exam."
+msgstr ""
+
+#: application/controller/admin/exam_list.php:32
+msgid "Exams are not included in your subscription."
+msgstr ""
+
+#: application/controller/admin/exam_list.php:150
+msgid "Correct answers"
+msgstr ""
+
+#: application/controller/admin/exam_list.php:200
+msgid "Please add an exam first."
+msgstr ""
+
+#: application/controller/admin/log.php:30
+msgid "All"
+msgstr ""
+
+#: application/controller/admin/log.php:31
+#: application/controller/admin/webpush_subscription_list.php:131
+msgid "Errors"
+msgstr ""
+
+#: application/controller/admin/log.php:35
+msgid "Other"
+msgstr ""
+
+#: application/controller/admin/log.php:119
+msgid "Info"
+msgstr ""
+
+#: application/controller/admin/log.php:120
+msgid "Error"
+msgstr ""
+
+#: application/controller/admin/log.php:127
+msgid "Data privacy"
+msgstr ""
+
+#: application/controller/admin/log.php:129
+msgid "Api"
+msgstr ""
+
+#: application/controller/admin/log.php:130
+#: application/controller/admin/mail_text.php:234
+#: application/controller/admin/order_edit.php:43
+#: application/library/payment_handler/payment_handler.php:293
+msgid "Email"
+msgstr ""
+
+#: application/controller/admin/log.php:132
+msgid "Plugin"
+msgstr ""
+
+#: application/controller/admin/log.php:133
+msgid "Cronjob"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:67
+msgid "Please <a>add a membership product</a> first."
+msgstr ""
+
+#: application/controller/admin/mail_text.php:68
+msgid "Please <a>add a download product</a> first."
+msgstr ""
+
+#: application/controller/admin/mail_text.php:80
+msgid "Email Texts for membership product:"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:84
+msgid "Email Texts for download product:"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:88
+msgid "New Password Email"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:166
+msgid "Send this email ..."
+msgstr ""
+
+#: application/controller/admin/mail_text.php:202
+#, php-format
+msgid "for product %s"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:227
+msgid "Test email settings"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:253
+msgid "Copy this text"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:257
+msgid "Copy this text to:"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:258
+msgid "Copy email text"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:260
+msgid ""
+"The email texts of the chosen products will be overwritten by this email "
+"text.|Continue?"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:291
+#: application/controller/admin/product_edit.php:109
+msgid "Membership product"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:292
+#: application/controller/admin/product_edit.php:110
+msgid "Download product"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:293
+msgid "New Password Mail"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:557
+msgid "No products selected to copy the email text to."
+msgstr ""
+
+#: application/controller/admin/mail_text.php:560
+msgid "Copied the email text to one product."
+msgstr ""
+
+#: application/controller/admin/mail_text.php:563
+#, php-format
+msgid "Copied the email text to %s products."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:153
+msgid "Add this subscription to the autoresponder:"
+msgstr ""
+
+#: application/controller/admin/options.php:58
+#, php-format
+msgid ""
+"Using a real email account for sending may improve delivery rates - "
+"especially if you have specified an email sender address above.|Without an "
+"email account, the mail are likely to be considered as spam.|Ask your "
+"webhoster for the details concerning your email web account.|Some webhoster "
+"(like %s) forbid using this options for their mail accounts. For these web "
+"hosters just disable the checkbox. This will also work fine."
+msgstr ""
+
+#: application/controller/admin/options.php:70
+#, php-format
+msgid "By using %s you accept our <a>license agreement</a>."
+msgstr ""
+
+#: application/controller/admin/options.php:72
+msgid "Get your license code now!"
+msgstr ""
+
+#: application/controller/admin/options.php:98
+#, php-format
+msgid "Connection to %s"
+msgstr ""
+
+#: application/controller/admin/options.php:172
+msgid "Sie (formal)"
+msgstr ""
+
+#: application/controller/admin/options.php:173
+msgid "du (lower case)"
+msgstr ""
+
+#: application/controller/admin/options.php:174
+msgid "Du (upper case)"
+msgstr ""
+
+#: application/controller/admin/options.php:177
+msgid "Your own texts"
+msgstr ""
+
+#: application/controller/admin/options.php:186
+msgid "How to address user"
+msgstr ""
+
+#: application/controller/admin/options.php:187
+msgid ""
+"Only for German language (if locale is set to: [LOCALE]). Only for texts in "
+"the user area."
+msgstr ""
+
+#: application/controller/admin/options.php:210
+msgid ""
+"Follow these steps to create a language file named [MO] using <a>Poedit</"
+"a>.|- You may use [START] as a starting point. See folder: [SRC]|- Copy the "
+"file to your computer and rename it to [PO].|- Edit it with Poedit and save "
+"it. You'll then get the file [MO].|- Copy this file to your server into the "
+"folder [DST]. The file will survive a [PLUGIN] update.|- Keep the file [PO] "
+"safe just in case you want to make changes in the future."
+msgstr ""
+
+#: application/controller/admin/options.php:228
+msgid "Sender name"
+msgstr ""
+
+#: application/controller/admin/options.php:238
+msgid "Sender email address"
+msgstr ""
+
+#: application/controller/admin/options.php:246
+msgid "Reply to address"
+msgstr ""
+
+#: application/controller/admin/options.php:247
+msgid ""
+"If not empty, the receiver of the email will reply to this email address."
+msgstr ""
+
+#: application/controller/admin/options.php:249
+msgid "Optional"
+msgstr ""
+
+#: application/controller/admin/options.php:256
+msgid "Send via email account"
+msgstr ""
+
+#: application/controller/admin/options.php:266
+msgid "SMTP host"
+msgstr ""
+
+#: application/controller/admin/options.php:281
+#: application/controller/admin/payment_list.php:166
+msgid "none"
+msgstr ""
+
+#: application/controller/admin/options.php:282
+msgid "Connection security"
+msgstr ""
+
+#: application/controller/admin/options.php:289
+#, php-format
+msgid "Please use a secure connection like %s."
+msgstr ""
+
+#: application/controller/admin/options.php:293
+#, php-format
+msgid ""
+"Default for for connection security SSL/TLS is 465.%s Default for STARTTTLS "
+"is 587."
+msgstr ""
+
+#: application/controller/admin/options.php:297
+msgid "For security reasons port 25 is NOT possible."
+msgstr ""
+
+#: application/controller/admin/options.php:298
+msgid "Default for no security is 25."
+msgstr ""
+
+#: application/controller/admin/options.php:311
+msgid "SMTP port"
+msgstr ""
+
+#: application/controller/admin/options.php:324
+msgid "SMTP username"
+msgstr ""
+
+#: application/controller/admin/options.php:336
+msgid "SMTP password"
+msgstr ""
+
+#: application/controller/admin/options.php:359
+#: application/controller/admin/options.php:405
+msgid "Facebook integration"
+msgstr ""
+
+#: application/controller/admin/options.php:369
+msgid "Facebook app id"
+msgstr ""
+
+#: application/controller/admin/options.php:380
+msgid "Facebook app secret"
+msgstr ""
+
+#: application/controller/admin/options.php:400
+#, php-format
+msgid "Use the %s Facebook connector with Facebook logins."
+msgstr ""
+
+#: application/controller/admin/options.php:416
+msgid "Enable support info URL"
+msgstr ""
+
+#: application/controller/admin/options.php:418
+msgid ""
+"If you file a <em>technical</em> support ticket, please enable this option "
+"and include the support info URL into the support ticket."
+msgstr ""
+
+#: application/controller/admin/options.php:425
+msgid "Support info URL"
+msgstr ""
+
+#: application/controller/admin/options.php:447
+msgid "Login URL"
+msgstr ""
+
+#: application/controller/admin/options.php:448
+#, php-format
+msgid "This URL is used in emails as parameter %%loginurl%%."
+msgstr ""
+
+#: application/controller/admin/options.php:450
+msgid ""
+"When using Digistore24, the login URL is also displayed together with the "
+"username and password in the Digistore24 mail confirmation mail and on the "
+"Digistore24 receipt page."
+msgstr ""
+
+#: application/controller/admin/options.php:451
+#, php-format
+msgid "If left blank, the default is used: %s"
+msgstr ""
+
+#: application/controller/admin/options.php:458
+msgid "Hide user login data in Digistore24"
+msgstr ""
+
+#: application/controller/admin/options.php:459
+msgid ""
+"By default, the username and the password of new users are transferred to "
+"Digistore24. Then in Digistore24 the login data are show to the user. This "
+"makes it easy for the user to get his login data. If this option is enabled, "
+"Digistore24 will not get and display the login data."
+msgstr ""
+
+#: application/controller/admin/options.php:467
+msgid "Digistore24 transfers thankyou URL data ..."
+msgstr ""
+
+#: application/controller/admin/options.php:469
+msgid "... as PLAIN TEXT to DigiMember"
+msgstr ""
+
+#: application/controller/admin/options.php:470
+msgid "... ENCRYPTED to DigiMember"
+msgstr ""
+
+#: application/controller/admin/options.php:471
+msgid "... NEVER to DigiMember"
+msgstr ""
+
+#: application/controller/admin/options.php:473
+msgid "Only for products, that are synchronised with Digistore24."
+msgstr ""
+
+#: application/controller/admin/options.php:481
+msgid "<a>Digistore24 Wordpress plugin</a> is required for decryption."
+msgstr ""
+
+#: application/controller/admin/options.php:488
+msgid "Disable Navbar for Non-Admins"
+msgstr ""
+
+#: application/controller/admin/options.php:489
+msgid ""
+"By default, logged in members see a navigation at the top of the page.|If "
+"checked, for non admin members the navigation bar will be hidden."
+msgstr ""
+
+#: application/controller/admin/options.php:497
+msgid "Disable access to admin area for Non-Admins"
+msgstr ""
+
+#: application/controller/admin/options.php:498
+#, php-format
+msgid ""
+"By default, logged in members may access %s.|If checked, they may not access "
+"it and will be redirected."
+msgstr ""
+
+#: application/controller/admin/options.php:504
+msgid "Admin area redirect URL"
+msgstr ""
+
+#: application/controller/admin/options.php:505
+msgid ""
+"If a non-admin logs in and access the Wordpress admin area, he is redirected "
+"to this URL."
+msgstr ""
+
+#: application/controller/admin/options.php:510
+#: application/controller/admin/product_edit.php:763
+msgid "First login redirect"
+msgstr ""
+
+#: application/controller/admin/options.php:511
+#: application/controller/admin/product_edit.php:769
+msgid "Login redirect"
+msgstr ""
+
+#: application/controller/admin/options.php:512
+#: application/controller/admin/product_edit.php:789
+msgid "Link for products short code"
+msgstr ""
+
+#: application/controller/admin/options.php:513
+#: application/controller/admin/product_edit.php:1116
+msgid "Download page"
+msgstr ""
+
+#: application/controller/admin/options.php:518
+msgid "Use free form URL for login page"
+msgstr ""
+
+#: application/controller/admin/options.php:519
+msgid "If set to yes, you may use any URL for these product settings:"
+msgstr ""
+
+#: application/controller/admin/options.php:520
+#, php-format
+msgid ""
+"Important: if you change this settings, your current product settings for "
+"%s, %s and %s as well as for %s may be lost."
+msgstr ""
+
+#: application/controller/admin/options.php:546
+msgid "Affiliate footer link"
+msgstr ""
+
+#: application/controller/admin/options.php:548
+msgid ""
+"Do you want to make money for nothing?|If checked, in the footer of your "
+"blog your affiliate link is displayed.|If an interested merchant checks out "
+"your blog, he may click on your affiliate link. If he buys, you get a "
+"provision.|Just enter your Digistore24 id in the text field below."
+msgstr ""
+
+#: application/controller/admin/options.php:560
+msgid "Your Digistore24 id"
+msgstr ""
+
+#: application/controller/admin/options.php:562
+msgid ""
+"Enter your Digistore24 id (i.e. your Digistore24 login name). Not "
+"registered? <a>Click here!</a>"
+msgstr ""
+
+#: application/controller/admin/options.php:563
+msgid ""
+"Enter your Digistore24 id. It will be added to your affiliate link in the "
+"page footer. So you may receive a commission for each sale generated by your "
+"affiliate link."
+msgstr ""
+
+#: application/controller/admin/options.php:568
+msgid "Unlimited IPs"
+msgstr ""
+
+#: application/controller/admin/options.php:569
+msgid "Five IPs"
+msgstr ""
+
+#: application/controller/admin/options.php:570
+msgid "Ten IPs"
+msgstr ""
+
+#: application/controller/admin/options.php:571
+msgid "Enter value"
+msgstr ""
+
+#: application/controller/admin/options.php:580
+msgid "Daily access limit"
+msgstr ""
+
+#: application/controller/admin/options.php:582
+msgid ""
+"You can limit the number of IP addresses a user may access your site from. "
+"This is useful to prevent users from sharing their login data with other "
+"people.|Set this number to 10 to allow each user to access your content via "
+"ten IPs (e.g. pc, smartphone, tablet, ...).|IP addresses change from time to "
+"time (e.g. if the user disconnects from the internet and reconnects). The IP "
+"changes at least once per day, sometimes more often.|So don't make the "
+"number too low or legitimate users may be blocked.|We suggest a value of ten "
+"IPs."
+msgstr ""
+
+#: application/controller/admin/options.php:589
+msgid "IPs"
+msgstr ""
+
+#: application/controller/admin/options.php:602
+msgid "Limit login attempts"
+msgstr ""
+
+#: application/controller/admin/options.php:608
+msgid "Number of login tries"
+msgstr ""
+
+#: application/controller/admin/options.php:624
+msgid "Wait time"
+msgstr ""
+
+#: application/controller/admin/options.php:626
+#, php-format
+msgid "%s minute"
+msgstr ""
+
+#: application/controller/admin/options.php:627
+#: application/controller/admin/options.php:628
+#: application/controller/admin/options.php:629
+#: application/controller/admin/options.php:630
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: application/controller/admin/options.php:637
+msgid "<a target='_blank' href='http://www.cronjob.de'>cronjob.de</a>"
+msgstr ""
+
+#: application/controller/admin/options.php:645
+msgid "Cronjobs called externally"
+msgstr ""
+
+#: application/controller/admin/options.php:653
+msgid "Cronjob URL"
+msgstr ""
+
+#: application/controller/admin/options.php:654
+#, php-format
+msgid ""
+"Make sure, this URL is called every 5 minutes (better: every minute) - e.g. "
+"using a service like %s. This will speedup the payment process (if "
+"autoresponders are setup) and some page views (if pageview actions are "
+"enabled)."
+msgstr ""
+
+#: application/controller/admin/options.php:664
+#, php-format
+msgid "%s import"
+msgstr ""
+
+#: application/controller/admin/options.php:665
+#, php-format
+msgid "Import your %s products"
+msgstr ""
+
+#: application/controller/admin/options.php:674
+msgid ""
+"Your [DS24] products will be imported to [DM] from the account [USER].|If a "
+"[DS24] product is already assigned to a [DM] product (in the [DM] product "
+"editor in the tab [DS24]), it will not be imported again."
+msgstr ""
+
+#: application/controller/admin/options.php:682
+#, php-format
+msgid "Click on the button to start importing your %s products."
+msgstr ""
+
+#: application/controller/admin/options.php:696
+#, php-format
+msgid "To import your %s products, first establish a connection to %s."
+msgstr ""
+
+#: application/controller/admin/options.php:716
+msgid "Wordpress admin area"
+msgstr ""
+
+#: application/controller/admin/options.php:732
+msgid "IP access limit"
+msgstr ""
+
+#: application/controller/admin/options.php:736
+msgid "Facebook"
+msgstr ""
+
+#: application/controller/admin/options.php:740
+msgid "System"
+msgstr ""
+
+#: application/controller/admin/options.php:824
+#, php-format
+msgid "No new %s products found."
+msgstr ""
+
+#: application/controller/admin/options.php:825
+#, php-format
+msgid "One %s product has been imported."
+msgstr ""
+
+#: application/controller/admin/options.php:826
+#, php-format
+msgid "%s %s products have been imported."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:12
+msgid "Edit order"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:13
+msgid "Add new order"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:34
+#: application/controller/admin/order_edit.php:35
+#: application/model/data/user_product.php:343
+msgid "by admin"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:54
+#: application/library/payment_handler/payment_handler.php:297
+msgid "First name"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:55
+#: application/controller/admin/order_edit.php:66
+msgid "For new user accounts enter a first name and a last name."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:65
+#: application/library/payment_handler/payment_handler.php:298
+msgid "Last name"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:79
+#: application/controller/admin/payment_edit.php:109
+#: application/controller/admin/product_vault.php:47
+#: application/model/data/payment.php:98
+msgid "Active"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:85
+#: application/controller/admin/order_list.php:365
+msgid ""
+"The order cannot be activated, because it has been replaced by an upgrade or "
+"package change order."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:94
+#: application/controller/admin/order_list.php:144
+#: application/controller/admin/webhook_edit.php:139
+#: application/controller/shortcode.php:2188
+#: application/library/payment_handler/payment_handler.php:295
+msgid "Order id"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:104
+#: application/controller/admin/order_list.php:125
+#: application/controller/admin/order_masscreate.php:42
+#: application/controller/admin/signup_form_generator.php:31
+#: application/controller/shortcode.php:2181
+#: application/controller/shortcode.php:2203
+#: application/controller/shortcode.php:2431
+#: application/controller/shortcode.php:2560
+#: application/controller/shortcode.php:2612
+#: application/controller/shortcode.php:2680
+#: application/controller/shortcode.php:2764
+#: application/controller/shortcode.php:2941
+msgid "Product"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:107
+msgid "Here you may create orders for published membership products only."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:108
+#: application/controller/admin/signup_form_generator.php:35
+msgid "No products available"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:116
+#: application/controller/admin/order_list.php:136
+msgid "Quantity"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:138
+#: application/controller/admin/order_list.php:168
+msgid "Last payment was on"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:142
+#, php-format
+msgid "May not be earlier than %s."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:187
+msgid "On this page you are currently editing an order."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:188
+msgid "<a>Click here</a> to edit the users profile."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:195
+msgid "On this page you can add new orders."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:196
+msgid ""
+"If there is already a registered user for the entered email address, the "
+"order will be assigned to this user."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:197
+msgid ""
+"If there is no user for the email address, a new user account will be "
+"created."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:198
+msgid "<a>Click here</a> to create user accounts without creating orders."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:236
+msgid "User deleted!"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:337
+#, php-format
+msgid "Created new download: %s"
+msgstr ""
+
+#: application/controller/admin/order_edit.php:362
+#, php-format
+msgid "Created a new account for %s with password %s ."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:366
+#, php-format
+msgid "The user %s will receive his password via email."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:370
+#, php-format
+msgid "For email %s an account already existed with password %s ."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:375
+#, php-format
+msgid ""
+"An account for the user %s already exists. Email address, name and password "
+"of existing users will <u>not</u> be modified."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:380
+msgid "Changes to order saved."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:385
+#, php-format
+msgid "Created new order for user %s."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:396
+#: application/controller/user/signup_form.php:555
+#, php-format
+msgid ""
+"The email address %s belongs to an admin account. For testing purposes, "
+"please use a NON admin email address, because for admins wordpress looks and "
+"behaves different than for regular users."
+msgstr ""
+
+#: application/controller/admin/order_list.php:40
+msgid "Buyer"
+msgstr ""
+
+#: application/controller/admin/order_list.php:79
+#: application/controller/admin/order_list.php:226
+msgid "Resend welcome email"
+msgstr ""
+
+#: application/controller/admin/order_list.php:177
+msgid "Right of rescission waived"
+msgstr ""
+
+#: application/controller/admin/order_list.php:179
+msgid "Yes, on [DATE]: [REASON]"
+msgstr ""
+
+#: application/controller/admin/order_list.php:273
+msgid "No inactive memberships found."
+msgstr ""
+
+#: application/controller/admin/order_list.php:281
+msgid "The trash is empty."
+msgstr ""
+
+#: application/controller/admin/order_list.php:292
+msgid "You currently have no orders. It's time to start selling!"
+msgstr ""
+
+#: application/controller/admin/order_list.php:310
+msgid "Give to all"
+msgstr ""
+
+#: application/controller/admin/order_list.php:448
+msgid "Deleted one membership irrevocably."
+msgstr ""
+
+#: application/controller/admin/order_list.php:450
+#, php-format
+msgid "Deleted %s memberships irrevocably."
+msgstr ""
+
+#: application/controller/admin/order_list.php:454
+msgid "Moved one membership to trash."
+msgstr ""
+
+#: application/controller/admin/order_list.php:456
+#, php-format
+msgid "Moved %s memberships to trash."
+msgstr ""
+
+#: application/controller/admin/order_list.php:460
+msgid "Restored one membership from trash."
+msgstr ""
+
+#: application/controller/admin/order_list.php:462
+#, php-format
+msgid "Restored %s memberships from trash."
+msgstr ""
+
+#: application/controller/admin/order_list.php:466
+msgid "Activated one membership."
+msgstr ""
+
+#: application/controller/admin/order_list.php:468
+#, php-format
+msgid "Activated %s memberships."
+msgstr ""
+
+#: application/controller/admin/order_list.php:472
+msgid "Deactivated one membership."
+msgstr ""
+
+#: application/controller/admin/order_list.php:474
+#, php-format
+msgid "Deactivated %s memberships."
+msgstr ""
+
+#: application/controller/admin/order_list.php:478
+msgid "Welcome email sent."
+msgstr ""
+
+#: application/controller/admin/order_list.php:480
+#, php-format
+msgid "%s welcome emails sent."
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:13
+msgid "Give To All"
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:19
+msgid ""
+"Here you can give a single product to <strong>all</strong> registered users."
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:20
+msgid ""
+"For the time based unlocking of content, the date of user registration is "
+"considered the start date."
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:21
+msgid "If a user already has the product, he will not get it again."
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:22
+msgid ""
+"If you have setup autoresponders, they will be ignored when assigning the "
+"product."
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:59
+msgid "Give product to all users"
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:61
+msgid ""
+"The selected product will no given to all users.<p>This cannot be undone."
+"<p>Continue?"
+msgstr ""
+
+#: application/controller/admin/order_masscreate.php:115
+#, php-format
+msgid "Product \"%s\" has been given to %s users."
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:45
+#: application/controller/admin/payment_list.php:9
+msgid "Payment Provider"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:90
+#: application/library/payment_handler/payment_handler.php:885
+msgid "Payment provider"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:100
+#: application/controller/admin/product_vault.php:38
+msgid "Id"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:136
+#: application/controller/admin/payment_edit.php:149
+msgid "Notification URL"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:189
+msgid "Notify ShareIt support"
+msgstr ""
+
+#: application/controller/admin/payment_list.php:30
+#, php-format
+msgid "%s recommends to connect with %s."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:82
+msgid "Payment Provider Type"
+msgstr ""
+
+#: application/controller/admin/payment_list.php:169
+msgid "as set in PayPal"
+msgstr ""
+
+#: application/controller/admin/payment_list.php:170
+msgid "as set in 2CheckOut"
+msgstr ""
+
+#: application/controller/admin/payment_list.php:258
+msgid "No inactive payment providers found."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:267
+msgid "No payment providers found in trash."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:278
+msgid "Please add a new payment provider first."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:382
+msgid "Deleted one payment provider irrevocably."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:384
+#, php-format
+msgid "Deleted %s payment providers irrevocably."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:388
+msgid "Moved one payment provider to trash."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:390
+#, php-format
+msgid "Moved %s payment providers to trash."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:394
+msgid "Restored one payment provider from trash."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:396
+#, php-format
+msgid "Restored %s payment providers from trash."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:400
+msgid "Activated one payment provider."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:402
+#, php-format
+msgid "Activated %s payment providers."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:406
+msgid "Deactivated one payment provider."
+msgstr ""
+
+#: application/controller/admin/payment_list.php:408
+#, php-format
+msgid "Deactivated %s payment providers."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:33
+#, php-format
+msgid "In %s one product is included. The free product is already in use."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:34
+#, php-format
+msgid "In %s %s products are included. The free products are already in use."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:37
+#: application/controller/admin/product_list.php:545
+#, php-format
+msgid "Upgrade to %s for unlimited products."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:55
+msgid "New product"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:59
+#: application/model/data/product.php:597
+msgid "new product"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:118
+#, php-format
+msgid "Selling with %s"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:122
+#, php-format
+msgid "Synching this product with %s"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:127
+msgid "Protect content"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:137
+msgid "Login redirect URLs"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:218
+#: application/controller/admin/product_edit.php:364
+#: application/controller/admin/product_list.php:313
+#: application/model/data/product.php:29
+msgid "Membership"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:220
+#, php-format
+msgid ""
+"The product is not yet published and cannot be sold. In the tab \"%s\" set "
+"the option \"%s\" to YES."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:259
+msgid "Please upgrade for more product."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:366
+msgid "Digistore24"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:450
+#, php-format
+msgid "Matching %s Products"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:459
+#, php-format
+msgid "Sync with %s"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:464
+#, php-format
+msgid "If you selected yes, a matching product will be created in %s."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:477
+#, php-format
+msgid "in %1$s: <a>view order form</a> - <a>edit product</a>"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:491
+#, php-format
+msgid "Save to create a matching product in %s."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:495
+#, php-format
+msgid "%s product"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:503
+msgid "Sales text"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:508
+#, php-format
+msgid "Is shown on the %s order form"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:524
+#: application/controller/admin/product_edit.php:571
+msgid "Price"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:540
+msgid "once + (optionally) monthly"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:569
+#, php-format
+msgid "<a>Please edit in %s</a>"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:580
+#, php-format
+msgid "A change affects only new affiliates. <a>View affiliates in %s.</a>"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:582
+msgid "Affiliate commission"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:593
+msgid "Salespage URL"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:601
+msgid "Add these hints yo your thankyou page:"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:602
+msgid ""
+"In the next minutes, you will receive an email with your access data to the "
+"membership area."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:603
+#, php-format
+msgid "The payment will be processed by %s."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:609
+#, php-format
+msgid ""
+"On the thankyou page, use the shortcodes %s and %s to display the new users "
+"access data."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:612
+#: application/controller/admin/signup_form_generator.php:57
+msgid "Thankyou page URL"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:626
+msgid "Product image"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:635
+#, php-format
+msgid "%s approval status"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:652
+#, php-format
+msgid "%s product %s is not selected. Is this correct?"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:665
+#, php-format
+msgid ""
+"Select the %1$s products, that match this %2$s product. If a product is sold "
+"by %1$s, then the buyer gets this %2s-product (you currently edit)."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:678
+#, php-format
+msgid ""
+"Currently there is an error connecting to you %s account. Please try again "
+"later."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:682
+#, php-format
+msgid "You currently have no %s products."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:735
+#: application/controller/admin/product_edit.php:1080
+msgid "Product Id"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:744
+#: application/controller/admin/product_edit.php:1089
+msgid "Product Name"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:764
+msgid ""
+"The user is redirected to this page, when he logs in the first login after "
+"purchasing the product. You may want to add some information about the "
+"payment, a \"Thank You\" for his purchase or some hints on how to use your "
+"membership area and the download page."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:775
+msgid ""
+"The user is redirected to this page starting with the second login. This "
+"page may be identical to the first page."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:790
+#, php-format
+msgid ""
+"This link is used to generate links of the short code %s. If not given, page "
+"entered for %s above is used."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:799
+msgid "Start unlocking ..."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:802
+msgid ""
+"Content with Unlock Day 0 is always visible - even if this date is in the "
+"future."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:810
+msgid "Unlock start date"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:814
+#, php-format
+msgid "Current server time is: %s"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:814
+#, php-format
+msgid ""
+"You may adjust the timezone in the wordpress menu %ssettings - general%s."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:821
+msgid "Exclude ..."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:830
+#: application/controller/admin/product_edit.php:1157
+msgid "Error handling (access denied)"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:831
+#: application/controller/admin/product_edit.php:1158
+msgid ""
+"Select what DigiMember should do, if a logged out user tries to access a "
+"protected page."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:841
+#: application/controller/admin/product_edit.php:852
+#: application/controller/admin/product_edit.php:1015
+#: application/controller/admin/product_edit.php:1026
+msgid "Error redirect to"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:842
+#: application/controller/admin/product_edit.php:1016
+#: application/controller/admin/product_edit.php:1169
+msgid ""
+"If a logged out user tries to access a protected page, he is redirected to "
+"this URL."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:853
+#: application/controller/admin/product_edit.php:1027
+#: application/controller/admin/product_edit.php:1180
+msgid ""
+"If a logged out user tries to access a protected page, he is redirected to "
+"this page instead.<p>If the target page is also protected, a login form is "
+"displayed instead."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:870
+msgid "Error text"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:871
+#, php-format
+msgid ""
+"If a logged out user tries to access a protected page, this text is shown "
+"instead. Make sure, you use the short code %s in the text."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:883
+msgid "Lock user account, if payment cancelled"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:884
+msgid ""
+"Select what DigiMember should do, if the order is cancelled or a rebilling "
+"payment is missing.|By default (no), only access to the product is "
+"cancelled.|If you select to lock the account, the user cannot log into "
+"wordpress, if a payment is cancelled or a rebilling payment is missing.|The "
+"account is unlocked, when the next payment comes in.|For admins this setting "
+"has no effect."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:894
+#: application/controller/admin/product_edit.php:905
+msgid "Account lock redirect to"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:895
+msgid ""
+"If a user with a locked account tries to log in, he is redirected to this "
+"url instead."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:906
+msgid ""
+"If a user with a locked account tries to log in, he is redirected to this "
+"page instead."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:916
+msgid "Account lock message"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:917
+msgid ""
+"If a user with a locked account tries to log in, the login fails and this "
+"message is displayed."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:930
+msgid "Menu settings"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:940
+msgid "Protect comments"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:941
+msgid ""
+"If enabled, comments will only be visible to product owners (if the page/"
+"post is assigned to this product)"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:953
+#: application/controller/admin/product_edit.php:1126
+msgid "Days of access"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:955
+#, php-format
+msgid ""
+"The access will be granted for this number of days.|Leave blank for "
+"subscriptions, because for subscriptions the payment provider will cancel "
+"the access to the product, when a payment is missing. Otherwise the user may "
+"access the product this number of days after his last payment.|Use the "
+"shortcode %s to display the remaining days a user has access to the product."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:957
+msgid ""
+"Default is to leave this field empty. Then the payment provider handles the "
+"product access."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:981
+msgid "Sales letter"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:981
+#, php-format
+msgid "for %s only"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:982
+#, php-format
+msgid ""
+"Only used, if the shortcode %s is used inside a protected content.|This text "
+"is displayed after the preview content.|For more infos, see %s"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:991
+msgid "If page not yet available"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:992
+msgid ""
+"Select what DigiMember should do, if a user tries to access a protected "
+"page, which will be available to the user later."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1003
+msgid "Not yet available message"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1004
+#, php-format
+msgid ""
+"Will be shown, if the content of a product is not yet available and the user "
+"has to wait some days.|Use these shortcodes:|%s = number of days|%s = first "
+"date of acces|%s = text: in XX days"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1005
+#, php-format
+msgid "Shortcodes: %s"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1108
+msgid "DOWNLOAD_URL"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1109
+#: application/controller/shortcode.php:2840
+msgid "Download now"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1117
+msgid ""
+"After the purchase, the user is redirected to this page. On this page your "
+"provide the download links."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1119
+msgid "Shortcode for protected downloads:"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1128
+msgid ""
+"If given, the user may access the download page for this number of days. "
+"Leave blank for no limit."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1137
+#: application/controller/admin/product_vault.php:85
+msgid "Download limit"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1138
+msgid ""
+"The access will be granted for this number of days.|Leave blank for "
+"unlimited access."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1140
+msgid ""
+"If given, the user may access each download URL on the page this number of "
+"times. Leave blank for no limit."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1141
+#: application/controller/admin/product_vault.php:98
+msgid "times"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1168
+msgid "Error redirect to URL"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1179
+msgid "Error redirect to page"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1216
+msgid "Request waiver for right of rescission"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1221
+#, php-format
+msgid ""
+"If selected, then the buyer can only access paid content after the right of "
+"rescission has expired or after he willingly aggress to waive this right.|If "
+"he waives this right and if the order has been processed by %s, %s will be "
+"notified about this."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1222
+#, php-format
+msgid ""
+"This setting has no effect, if you have set a refund policy of %s or more "
+"days in %s."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1229
+#: application/model/data/product.php:59 application/model/data/product.php:68
+msgid "Page with Waiver Declaration"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1230
+msgid "Make sure, this page is NOT protected."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:1230
+msgid "Add this shortcode to the page:"
+msgstr ""
+
+#: application/controller/admin/product_list.php:27
+msgid "Create one or more products for your protected membership site."
+msgstr ""
+
+#: application/controller/admin/product_list.php:58
+msgid "Product name"
+msgstr ""
+
+#: application/controller/admin/product_list.php:171
+#: application/library/payment_handler/payment_handler.php:294
+msgid "Product id"
+msgstr ""
+
+#: application/controller/admin/product_list.php:181
+msgid "Product type"
+msgstr ""
+
+#: application/controller/admin/product_list.php:191
+msgid "Waiver for|right of rescission"
+msgstr ""
+
+#: application/controller/admin/product_list.php:198
+msgid "Days of|access"
+msgstr ""
+
+#: application/controller/admin/product_list.php:338
+#: application/controller/admin/product_list.php:346
+msgid "No products found."
+msgstr ""
+
+#: application/controller/admin/product_list.php:361
+#, php-format
+msgid ""
+"With %s you may protect different kinds of products, e.g. ebooks, posts, "
+"audio books or video lessons. Please create a product first. To do so, click "
+"on the button <em>Create</em> above. Later you can <a>add content</a> to the "
+"product."
+msgstr ""
+
+#: application/controller/admin/product_list.php:375
+msgid "Add membership product"
+msgstr ""
+
+#: application/controller/admin/product_list.php:376
+msgid "Add download product"
+msgstr ""
+
+#: application/controller/admin/product_list.php:494
+msgid "Deleted one product irrevocably."
+msgstr ""
+
+#: application/controller/admin/product_list.php:496
+#, php-format
+msgid "Deleted %s products irrevocably."
+msgstr ""
+
+#: application/controller/admin/product_list.php:500
+msgid "Moved one product to trash."
+msgstr ""
+
+#: application/controller/admin/product_list.php:502
+#, php-format
+msgid "Moved %s products to trash."
+msgstr ""
+
+#: application/controller/admin/product_list.php:506
+msgid "Restored one product from trash."
+msgstr ""
+
+#: application/controller/admin/product_list.php:508
+#, php-format
+msgid "Restored %s products from trash."
+msgstr ""
+
+#: application/controller/admin/product_list.php:512
+msgid "Published one product."
+msgstr ""
+
+#: application/controller/admin/product_list.php:514
+#, php-format
+msgid "Published %s products."
+msgstr ""
+
+#: application/controller/admin/product_list.php:518
+msgid "Unpublished one product."
+msgstr ""
+
+#: application/controller/admin/product_list.php:520
+#, php-format
+msgid "Unpublished %s products."
+msgstr ""
+
+#: application/controller/admin/product_list.php:541
+#, php-format
+msgid ""
+"In %s one product is included. To publish more than one product, please "
+"upgrade."
+msgstr ""
+
+#: application/controller/admin/product_list.php:542
+#, php-format
+msgid ""
+"In %s %s products are included. To publish more than %s products, please "
+"upgrade.."
+msgstr ""
+
+#: application/controller/admin/product_vault.php:9
+msgid "File vault"
+msgstr ""
+
+#: application/controller/admin/product_vault.php:29
+msgid "Name"
+msgstr ""
+
+#: application/controller/admin/product_vault.php:57
+#: application/controller/shortcode.php:2958
+msgid "File type"
+msgstr ""
+
+#: application/controller/admin/product_vault.php:67
+msgid "File URL"
+msgstr ""
+
+#: application/controller/admin/product_vault.php:68
+msgid "The file URL is kept secret from the user."
+msgstr ""
+
+#: application/controller/admin/product_vault.php:77
+msgid "Upload file"
+msgstr ""
+
+#: application/controller/admin/product_vault.php:86
+msgid "days"
+msgstr ""
+
+#: application/controller/admin/product_vault.php:86
+msgid "or"
+msgstr ""
+
+#: application/controller/admin/product_vault.php:89
+msgid "Leave blank for no limit."
+msgstr ""
+
+#: application/controller/admin/product_vault.php:109
+msgid "File name"
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:9
+msgid "Signup Form Generator"
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:34
+msgid "New users will get the selected product(s)."
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:44
+msgid "After sign up ..."
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:47
+msgid "... log in the user and redirect him to the product's start page"
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:48
+msgid "... redirect him to a thank you page"
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:108
+msgid "Generate form code"
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:114
+msgid "On this page you can create a simple sign up form."
+msgstr ""
+
+#: application/controller/admin/signup_form_generator.php:115
+msgid "You may use this form with the Optimize Press 2 Optin Box."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:16
+#: application/controller/admin/webhook_edit.php:20
+msgid "new webhook"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:51
+#: application/controller/admin/webhook_list.php:102
+msgid "Is active"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:59
+msgid "Email parameter"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:68
+msgid "First name parameter"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:77
+msgid "Last name parameter"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:85
+#, php-format
+msgid ""
+"The parameters above can be transferred as GET or POST parameters. %s "
+"accepts both types."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:92
+msgid "Assign products ...."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:95
+#: application/controller/admin/webhook_edit.php:130
+msgid "... here on this page"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:96
+#: application/controller/admin/webhook_edit.php:131
+#: application/controller/admin/webhook_edit.php:164
+msgid "... by GET or POST parameter"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:105
+msgid "Products for new members"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:108
+msgid "New users get these products."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:117
+msgid "Product parameter"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:127
+msgid "Assign order id ...."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:142
+msgid "For each user an order is created with this order id."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:150
+msgid "Order id parameter"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:160
+msgid "Assign password ...."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:163
+msgid "... by generating a random password"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:166
+msgid "Existing passwords are never changed."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:173
+msgid "Password parameter"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:193
+#: application/controller/admin/webhook_edit.php:206
+msgid "Action URL"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:209
+msgid "Click \"Save\" to display the action URL."
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:243
+msgid "Parameters"
+msgstr ""
+
+#: application/controller/admin/webhook_edit.php:247
+msgid "Intergration"
+msgstr ""
+
+#: application/controller/admin/webhook_list.php:161
+msgid "Please add a webhook first."
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:42
+msgid "Web push notification message"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:85
+#: application/controller/admin/webpush_message_edit.php:116
+#: application/controller/admin/webpush_message_list.php:147
+#: system/class/widget.php:206
+msgid "Title"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:94
+#: application/controller/admin/webpush_message_list.php:160
+#: application/controller/shortcode.php:2953
+msgid "Icon"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:96
+#: application/controller/admin/webpush_message_edit.php:136
+#: application/controller/admin/webpush_message_edit.php:145
+#, php-format
+msgid "Recommended size: %s x %s pixels."
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:125
+msgid "Target URL"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:126
+msgid ""
+"After the user clicks on the push notification, he is directed to this URL."
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:134
+msgid "Image below message"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:136
+msgid "use a 3:2 ratio for the image size"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:143
+msgid "Preview image"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:145
+msgid "Preview image for small display."
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:153
+msgid "Times sent"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:155
+#, php-format
+msgid "started on %s"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:161
+msgid "Times shown"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:169
+msgid "Times clicked"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:177
+msgid "Total conversion"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:195
+msgid "Send to"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:197
+msgid "Single user"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:198
+msgid "All subscribers"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:199
+msgid "Users of one of these products"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:200
+msgid "Users without any of these products"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:226
+#: application/model/queue/webpush.php:36
+msgid "Recipient user"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:237
+msgid ""
+"The push notification is now sent to ALL subscripers.|This cannot be stopped "
+"or undone.|Continue?"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:255
+msgid "Send now"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:263
+msgid "Reset statistic"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:265
+msgid "The numbers are resetted to 0.|Continue?"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:303
+#, php-format
+msgid "For %s only"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:371
+msgid "The statistics have been reset."
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:385
+#, php-format
+msgid "Push notification sent to %s user."
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:386
+#, php-format
+msgid "Push notification sent to %s users."
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:449
+#: application/controller/admin/webpush_message_list.php:339
+#: application/controller/admin/webpush_settings.php:459
+#: application/controller/admin/webpush_subscription_list.php:255
+msgid "Subscriptions"
+msgstr ""
+
+#: application/controller/admin/webpush_message_list.php:19
+msgid "Web push notification messages"
+msgstr ""
+
+#: application/controller/admin/webpush_message_list.php:41
+#: application/controller/admin/webpush_subscription_list.php:38
+msgid "Web push notifications are NOT included in your subscription."
+msgstr ""
+
+#: application/controller/admin/webpush_message_list.php:50
+msgid "Web push notifications work with Firefox and Chrome."
+msgstr ""
+
+#: application/controller/admin/webpush_message_list.php:174
+msgid "Messages sent"
+msgstr ""
+
+#: application/controller/admin/webpush_message_list.php:181
+msgid "Show quota"
+msgstr ""
+
+#: application/controller/admin/webpush_message_list.php:189
+msgid "Click quota"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:35
+msgid "Web push settings"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:60
+msgid "Optin method"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:106
+#: application/controller/admin/webpush_settings.php:163
+msgid "Label"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:154
+msgid "Optout method"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:200
+msgid "Optout button image"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:219
+msgid "Use confirm dialog"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:222
+msgid "Is shown before the user is asked for permission for notifications."
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:229
+#: application/controller/admin/webpush_settings.php:280
+msgid "Dialog Title"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:239
+#: application/controller/admin/webpush_settings.php:290
+msgid "Dialog Message"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:250
+#: application/controller/admin/webpush_settings.php:301
+msgid "Ok button label"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:260
+#: application/controller/admin/webpush_settings.php:311
+msgid "Cancel button label"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:270
+msgid "Show exit popup"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:273
+msgid "Only shown, if the user has <em>not</em> subscribed."
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:319
+msgid "1 view"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:324
+#, php-format
+msgid "%s views"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:327
+msgid "unlimited views"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:330
+msgid "per day"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:334
+#, php-format
+msgid "in %s days"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:336
+msgid "per week"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:337
+msgid "in 2 weeks"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:344
+msgid "Limit views to"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:373
+msgid "Confirmation dialog"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:377
+msgid "Exit popup"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:486
+msgid "Optout button hidden"
+msgstr ""
+
+#: application/controller/admin/webpush_settings.php:487
+msgid "Optout button shown"
+msgstr ""
+
+#: application/controller/admin/webpush_subscription_list.php:19
+msgid "Web push subscriptions"
+msgstr ""
+
+#: application/controller/admin/webpush_subscription_list.php:65
+msgid "Subscription id"
+msgstr ""
+
+#: application/controller/admin/webpush_subscription_list.php:117
+msgid "Last result"
+msgstr ""
+
+#: application/controller/admin/webpush_subscription_list.php:125
+msgid "Deliveries"
+msgstr ""
+
+#: application/controller/ajax/unsubscribe.php:46
+msgid ""
+"This link is not valid. Please use the link from the email to unsubscribe."
+msgstr ""
+
+#: application/controller/ajax/unsubscribe.php:98
+#: application/library/form_renderer/input/exam_questions.php:86
+msgid "Question"
+msgstr ""
+
+#: application/controller/ajax/unsubscribe.php:99
+msgid "Yes"
+msgstr ""
+
+#: application/controller/ajax/unsubscribe.php:100
+msgid "No"
+msgstr ""
+
+#: application/controller/ajax/unsubscribe.php:121
+msgid "Success"
+msgstr ""
+
+#: application/controller/post/tinymce.php:109
+msgid "For more infos <a>click here</a>."
+msgstr ""
+
+#: application/controller/post/tinymce.php:117
+msgid "DigiMember Shortcode"
+msgstr ""
+
+#: application/controller/public_api.php:99
+#: application/controller/public_api.php:145
+msgid "User not found"
+msgstr ""
+
+#: application/controller/public_api.php:110
+#: application/controller/public_api.php:512
+#: application/controller/public_api.php:560
+msgid "Invalid e-mail address"
+msgstr ""
+
+#: application/controller/public_api.php:125
+#: application/controller/public_api.php:522
+#: application/controller/public_api.php:577
+msgid "User creation failed due to an unknown error"
+msgstr ""
+
+#: application/controller/public_api.php:149
+msgid "User password incorrect"
+msgstr ""
+
+#: application/controller/public_api.php:189
+#: application/controller/public_api.php:205
+msgid "Product id missing"
+msgstr ""
+
+#: application/controller/public_api.php:264
+#: application/controller/public_api.php:280
+#: application/controller/public_api.php:308
+#: application/controller/public_api.php:365
+#: application/controller/public_api.php:424
+#: application/controller/public_api.php:481
+#: application/controller/public_api.php:546
+msgid "Permission needs to be Zapier"
+msgstr ""
+
+#: application/controller/public_api.php:270
+#: application/controller/public_api.php:286
+#: application/controller/public_api.php:314
+#: application/controller/public_api.php:371
+#: application/controller/public_api.php:430
+#: application/controller/public_api.php:487
+#: application/controller/public_api.php:552
+msgid "Wrong Zapier Version"
+msgstr ""
+
+#: application/controller/public_api.php:320
+#: application/controller/public_api.php:377
+msgid "Something went wrong, no web hook URL received"
+msgstr ""
+
+#: application/controller/public_api.php:405
+msgid ""
+"Something went wrong, no web hook configured for this product combination"
+msgstr ""
+
+#: application/controller/public_api.php:610
+#: application/controller/public_api.php:621
+#: application/controller/public_api.php:625
+#: application/controller/public_api.php:629
+#: application/controller/public_api.php:647
+msgid "Invalid API key"
+msgstr ""
+
+#: application/controller/public_api.php:610
+#: application/controller/public_api.php:647
+msgid "API key missing or has invalid format"
+msgstr ""
+
+#: application/controller/public_api.php:657
+#: application/controller/public_api.php:662
+msgid "Permission denied"
+msgstr ""
+
+#: application/controller/public_api.php:657
+#: application/controller/public_api.php:662
+msgid "You cannot access this resource"
+msgstr ""
+
+#: application/controller/public_api.php:687
+msgid "Resource not found"
+msgstr ""
+
+#: application/controller/public_api.php:687
+msgid "Requested API resource was not found"
+msgstr ""
+
+#: application/controller/shortcode.php:27
+msgid "Course Navigation Buttons"
+msgstr ""
+
+#: application/controller/shortcode.php:28
+msgid "Course Progress Bar"
+msgstr ""
+
+#: application/controller/shortcode.php:29
+msgid "Optin to web push notifications"
+msgstr ""
+
+#: application/controller/shortcode.php:96
+#: application/controller/shortcode.php:114
+#, php-format
+msgid "Invalid value for parameter \"%s\". Allowed values: %s"
+msgstr ""
+
+#: application/controller/shortcode.php:202
+#, php-format
+msgid "Your %s invoices"
+msgstr ""
+
+#: application/controller/shortcode.php:233
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: application/controller/shortcode.php:381
+msgid ""
+"Your download limits are exceeded.|The files cannot be downloaded any more."
+msgstr ""
+
+#: application/controller/shortcode.php:382
+msgid "The order is not paid completely, so the download is not possible."
+msgstr ""
+
+#: application/controller/shortcode.php:390
+#, php-format
+msgid "available until %s"
+msgstr ""
+
+#: application/controller/shortcode.php:396
+#, php-format
+msgid "%s of %s downloads left"
+msgstr ""
+
+#: application/controller/shortcode.php:432
+msgid "unlimited"
+msgstr ""
+
+#: application/controller/shortcode.php:771
+#: application/controller/shortcode.php:798
+#: application/controller/shortcode.php:2119
+msgid "Hidden for security reasons"
+msgstr ""
+
+#: application/controller/shortcode.php:865
+#, php-format
+msgid ""
+"To automatically add new autoresponder contacts to your site, upgrade to %s."
+msgstr ""
+
+#: application/controller/shortcode.php:867
+#: application/controller/shortcode.php:2458
+#: application/model/logic/link.php:75
+msgid "Upgrade now!"
+msgstr ""
+
+#: application/controller/shortcode.php:1002
+#, php-format
+msgid "%s of %s lecture of this module completed"
+msgstr ""
+
+#: application/controller/shortcode.php:1003
+#, php-format
+msgid "%s of %s lectures of this module completed"
+msgstr ""
+
+#: application/controller/shortcode.php:1005
+#, php-format
+msgid "%s lecture of %s completed"
+msgstr ""
+
+#: application/controller/shortcode.php:1006
+#, php-format
+msgid "%s lectures of %s completed"
+msgstr ""
+
+#: application/controller/shortcode.php:1166
+#, php-format
+msgid "Parameter %s is required"
+msgstr ""
+
+#: application/controller/shortcode.php:1191
+#, php-format
+msgid "Invalid %s product id: #%s"
+msgstr ""
+
+#: application/controller/shortcode.php:1197
+#, php-format
+msgid "Product id #%s \"<em>%s</em>\" is not published."
+msgstr ""
+
+#: application/controller/shortcode.php:1282
+msgid "URL required."
+msgstr ""
+
+#: application/controller/shortcode.php:1341
+#, php-format
+msgid "Parameter %s is required, if option %s is used."
+msgstr ""
+
+#: application/controller/shortcode.php:1418
+#, php-format
+msgid ""
+"The %s shortcode may not be used in widgets, because widgets are shown on "
+"every page."
+msgstr ""
+
+#: application/controller/shortcode.php:1481
+#: application/controller/shortcode.php:2192
+msgid "by shortcode"
+msgstr ""
+
+#: application/controller/shortcode.php:1668
+msgid "Some product"
+msgstr ""
+
+#: application/controller/shortcode.php:1672
+msgid "Another product"
+msgstr ""
+
+#: application/controller/shortcode.php:1676
+msgid "A third product"
+msgstr ""
+
+#: application/controller/shortcode.php:1689
+msgid "Account"
+msgstr ""
+
+#: application/controller/shortcode.php:1693
+msgid "User data"
+msgstr ""
+
+#: application/controller/shortcode.php:1697
+msgid "Course"
+msgstr ""
+
+#: application/controller/shortcode.php:1705
+msgid "Sales"
+msgstr ""
+
+#: application/controller/shortcode.php:1709
+msgid "Protect"
+msgstr ""
+
+#: application/controller/shortcode.php:1774
+msgid "Stay on same page"
+msgstr ""
+
+#: application/controller/shortcode.php:1775
+msgid "Redirect if logged in"
+msgstr ""
+
+#: application/controller/shortcode.php:1798
+#: application/controller/shortcode.php:1806
+#: application/controller/shortcode.php:1818
+#: application/controller/shortcode.php:1846
+msgid "Facebook login"
+msgstr ""
+
+#: application/controller/shortcode.php:1811
+#: application/controller/shortcode.php:1823
+msgid "No, hide Facebook login"
+msgstr ""
+
+#: application/controller/shortcode.php:1812
+#: application/controller/shortcode.php:1824
+msgid "Show Facebook login ALSO"
+msgstr ""
+
+#: application/controller/shortcode.php:1813
+#: application/controller/shortcode.php:1825
+msgid "Show ONLY Facebook login"
+msgstr ""
+
+#: application/controller/shortcode.php:1830
+msgid "Products for new Facebook users"
+msgstr ""
+
+#: application/controller/shortcode.php:1860
+msgid "Loginbox, where the user can enter his username and password."
+msgstr ""
+
+#: application/controller/shortcode.php:1865
+#: application/controller/shortcode.php:2044
+msgid "Type"
+msgstr ""
+
+#: application/controller/shortcode.php:1868
+#: application/controller/shortcode.php:2047
+msgid "Widget (form is shown on the page)"
+msgstr ""
+
+#: application/controller/shortcode.php:1868
+#: application/controller/shortcode.php:2047
+msgid "Button (form is shown in a popup window)"
+msgstr ""
+
+#: application/controller/shortcode.php:1876
+msgid "Hidden if logged in"
+msgstr ""
+
+#: application/controller/shortcode.php:1888
+#: application/controller/shortcode.php:1971
+msgid "Redirect URL"
+msgstr ""
+
+#: application/controller/shortcode.php:1904
+msgid "Classic"
+msgstr ""
+
+#: application/controller/shortcode.php:1904
+msgid "Modern"
+msgstr ""
+
+#: application/controller/shortcode.php:1928
+msgid "Signup URL"
+msgstr ""
+
+#: application/controller/shortcode.php:1933
+msgid "Signup text"
+msgstr ""
+
+#: application/controller/shortcode.php:1936
+#, php-format
+msgid ""
+"Use %s to mark the sign up link. E.g.: No account? %sClick here to sign up%s"
+msgstr ""
+
+#: application/controller/shortcode.php:1939
+msgid "Button text"
+msgstr ""
+
+#: application/controller/shortcode.php:1942
+#: application/controller/shortcode.php:1948
+msgid "Login"
+msgstr ""
+
+#: application/controller/shortcode.php:1945
+msgid "Window headline"
+msgstr ""
+
+#: application/controller/shortcode.php:1957
+msgid "Perform a logout."
+msgstr ""
+
+#: application/controller/shortcode.php:1961
+msgid "Redirect to Page"
+msgstr ""
+
+#: application/controller/shortcode.php:1968
+msgid "Or"
+msgstr ""
+
+#: application/controller/shortcode.php:1980 system/class/widget.php:47
+msgid "Allows a user to edit his display name and his password."
+msgstr ""
+
+#: application/controller/shortcode.php:1984
+msgid "Hide display name"
+msgstr ""
+
+#: application/controller/shortcode.php:1989
+msgid "Show account deletion button"
+msgstr ""
+
+#: application/controller/shortcode.php:1994
+msgid "Show personal data export button"
+msgstr ""
+
+#: application/controller/shortcode.php:2003 system/class/widget.php:51
+msgid "Signup form - new users get a product."
+msgstr ""
+
+#: application/controller/shortcode.php:2016
+msgid "With first name inputs"
+msgstr ""
+
+#: application/controller/shortcode.php:2021
+msgid "With last name inputs"
+msgstr ""
+
+#: application/controller/shortcode.php:2026
+msgid "Confirmation checkbox"
+msgstr ""
+
+#: application/controller/shortcode.php:2030
+msgid "/terms"
+msgstr ""
+
+#: application/controller/shortcode.php:2030
+#, php-format
+msgid "E.g.: I accept the %sterms and conditions%s"
+msgstr ""
+
+#: application/controller/shortcode.php:2033
+msgid "Autologin after signup"
+msgstr ""
+
+#: application/controller/shortcode.php:2038
+msgid "Hide form after signup"
+msgstr ""
+
+#: application/controller/shortcode.php:2041
+msgid ""
+"If selected, after signup only the success message is shown, but not anymore "
+"the registration form."
+msgstr ""
+
+#: application/controller/shortcode.php:2072
+msgid "Button label"
+msgstr ""
+
+#: application/controller/shortcode.php:2081
+msgid "Add reCAPTCHA"
+msgstr ""
+
+#: application/controller/shortcode.php:2084
+msgid ""
+"If you want add a Google reCAPTCHA to the form, <a target=\"_blank\" href="
+"\"https://www.google.com/recaptcha/\">register your domain at google</a> and "
+"enter the site key and the secret key here."
+msgstr ""
+
+#: application/controller/shortcode.php:2088
+msgid "reCAPTCHA key"
+msgstr ""
+
+#: application/controller/shortcode.php:2094
+msgid "reCAPTCHA secret"
+msgstr ""
+
+#: application/controller/shortcode.php:2106
+msgid "Show the current user's login name."
+msgstr ""
+
+#: application/controller/shortcode.php:2112
+#, php-format
+msgid ""
+"Show the current user's password, if the password was generated by %s and "
+"the user did not change it."
+msgstr ""
+
+#: application/controller/shortcode.php:2116
+msgid "Fallback"
+msgstr ""
+
+#: application/controller/shortcode.php:2120
+msgid "This text is shown, if the user has changed his password"
+msgstr ""
+
+#: application/controller/shortcode.php:2127
+#, php-format
+msgid ""
+"Show the current user's email address. For accounts created by %s, this is "
+"usually, but not always the same as the user's login name."
+msgstr ""
+
+#: application/controller/shortcode.php:2134
+msgid "Show the current user's first name."
+msgstr ""
+
+#: application/controller/shortcode.php:2138
+#: application/controller/shortcode.php:2153
+msgid "Space"
+msgstr ""
+
+#: application/controller/shortcode.php:2142
+msgid ""
+"Puts a space before/after the name. If no name is shown, no space is shown."
+msgstr ""
+
+#: application/controller/shortcode.php:2149
+msgid "Show the current user's last name."
+msgstr ""
+
+#: application/controller/shortcode.php:2157
+msgid ""
+"Puts a space before/after the name. If no name is shown, no space is shown"
+msgstr ""
+
+#: application/controller/shortcode.php:2164
+#, php-format
+msgid ""
+"Show the current user's login key. Add this add GET-Parameter %s to a url to "
+"enable auto login."
+msgstr ""
+
+#: application/controller/shortcode.php:2171
+msgid "List products the user has purchased."
+msgstr ""
+
+#: application/controller/shortcode.php:2177
+#, php-format
+msgid ""
+"Give a product to a logged in user. If a text should be shown after the "
+"product has been assigned, put it between the two shortcode tags %s and %s."
+msgstr ""
+
+#: application/controller/shortcode.php:2199
+msgid ""
+"Displays the number of days, the user has access to the product (if the "
+"access is limited)."
+msgstr ""
+
+#: application/controller/shortcode.php:2214
+msgid ""
+"For use with OptimizePress2 and the live editor: Use this short code to "
+"display the message, if the content is locked."
+msgstr ""
+
+#: application/controller/shortcode.php:2220
+#: application/view/admin/shortcode.php:441
+msgid ""
+"For use with OptimizePress2 and the live editor: Use this short code to "
+"display the content even if the page is locked. This is useful for headlines."
+msgstr ""
+
+#: application/controller/shortcode.php:2227 system/class/widget.php:52
+msgid "Push Notifications"
+msgstr ""
+
+#: application/controller/shortcode.php:2227 system/class/widget.php:52
+#, php-format
+msgid "Allows the user to optin to notifications - see %s, Tab %s"
+msgstr ""
+
+#: application/controller/shortcode.php:2230
+msgid "Show optout button"
+msgstr ""
+
+#: application/controller/shortcode.php:2233
+msgid "If enabled, an optout button is shown, if the user has subscribed."
+msgstr ""
+
+#: application/controller/shortcode.php:2241
+msgid ""
+"Shows checkboxes to allow the user to manage his subscriptions for web push "
+"notifications or action emails."
+msgstr ""
+
+#: application/controller/shortcode.php:2245
+msgid "Show ..."
+msgstr ""
+
+#: application/controller/shortcode.php:2259 system/class/widget.php:50
+msgid "Shows a menu inside the content area."
+msgstr ""
+
+#: application/controller/shortcode.php:2263
+msgid "Menu"
+msgstr ""
+
+#: application/controller/shortcode.php:2270
+msgid "Depth"
+msgstr ""
+
+#: application/controller/shortcode.php:2274
+msgid "Show all menu levels"
+msgstr ""
+
+#: application/controller/shortcode.php:2275
+msgid "Show only the top menu level"
+msgstr ""
+
+#: application/controller/shortcode.php:2276
+msgid "Show top and sub menu levels"
+msgstr ""
+
+#: application/controller/shortcode.php:2277
+msgid "Show three menu levels"
+msgstr ""
+
+#: application/controller/shortcode.php:2286 system/class/widget.php:48
+msgid ""
+"Create a navigation bar to move between the lectures of the current course."
+msgstr ""
+
+#: application/controller/shortcode.php:2290
+msgid "Add buttons for 2nd level lectures"
+msgstr ""
+
+#: application/controller/shortcode.php:2295
+msgid "Icon color"
+msgstr ""
+
+#: application/controller/shortcode.php:2316
+msgid "Alignment"
+msgstr ""
+
+#: application/controller/shortcode.php:2320
+msgid "left"
+msgstr ""
+
+#: application/controller/shortcode.php:2321
+msgid "right"
+msgstr ""
+
+#: application/controller/shortcode.php:2322
+msgid "center"
+msgstr ""
+
+#: application/controller/shortcode.php:2326
+#: application/controller/shortcode.php:2381
+msgid "For product"
+msgstr ""
+
+#: application/controller/shortcode.php:2330
+#: application/controller/shortcode.php:2385
+msgid "Current product"
+msgstr ""
+
+#: application/controller/shortcode.php:2337 system/class/widget.php:49
+msgid "Display a progress bar to show the completed percentage of a course."
+msgstr ""
+
+#: application/controller/shortcode.php:2341
+msgid "Show progress of ..."
+msgstr ""
+
+#: application/controller/shortcode.php:2348
+msgid "... the complete course"
+msgstr ""
+
+#: application/controller/shortcode.php:2349
+msgid "... the current module"
+msgstr ""
+
+#: application/controller/shortcode.php:2353
+msgid "Bar color"
+msgstr ""
+
+#: application/controller/shortcode.php:2371 system/helper/html_input.php:365
+#: system/helper/user/html_input.php:365
+msgid "none - sharp corners"
+msgstr ""
+
+#: application/controller/shortcode.php:2372 system/helper/html_input.php:366
+#: system/helper/user/html_input.php:366
+msgid "small"
+msgstr ""
+
+#: application/controller/shortcode.php:2377 system/helper/html_input.php:371
+#: system/helper/user/html_input.php:371
+msgid "full"
+msgstr ""
+
+#: application/controller/shortcode.php:2393
+msgid "Show the exam."
+msgstr ""
+
+#: application/controller/shortcode.php:2408
+msgid "Show the download area for the exam certificate."
+msgstr ""
+
+#: application/controller/shortcode.php:2427
+msgid "Social proof counter - display the number of sales."
+msgstr ""
+
+#: application/controller/shortcode.php:2437
+msgid "Start value"
+msgstr ""
+
+#: application/controller/shortcode.php:2457
+#, php-format
+msgid "%s required."
+msgstr ""
+
+#: application/controller/shortcode.php:2466
+msgid ""
+"Put this on the autoresponders thankyou page to automatically create an "
+"account for the new subscriber."
+msgstr ""
+
+#: application/controller/shortcode.php:2477
+msgid "Give product"
+msgstr ""
+
+#: application/controller/shortcode.php:2484
+msgid "Show text"
+msgstr ""
+
+#: application/controller/shortcode.php:2489
+#, php-format
+msgid ""
+"Select Yes to display text, if a new account has been created. Use the "
+"shortcodes %s and %s for the credentials of the new account."
+msgstr ""
+
+#: application/controller/shortcode.php:2492
+msgid "Login new users"
+msgstr ""
+
+#: application/controller/shortcode.php:2495
+msgid ""
+"If enabled, new users will be automatically logged in, when an account is "
+"created on this page. For security reasons, existing users will not be "
+"logged in automatically."
+msgstr ""
+
+#: application/controller/shortcode.php:2498
+msgid "Show error messages"
+msgstr ""
+
+#: application/controller/shortcode.php:2507
+#, php-format
+msgid ""
+"Display an upgrade URL for Digistore24. You need to setup the upgrade "
+"process in Digistore24. There you'll get an upgrade id like: %s"
+msgstr ""
+
+#: application/controller/shortcode.php:2511
+msgid "Upgrade id"
+msgstr ""
+
+#: application/controller/shortcode.php:2516
+#: application/controller/shortcode.php:2568
+#: application/controller/shortcode.php:2620
+#: application/controller/shortcode.php:2688
+#: application/controller/shortcode.php:2772
+#: application/controller/shortcode.php:2837
+msgid "Link text"
+msgstr ""
+
+#: application/controller/shortcode.php:2521
+#: application/controller/shortcode.php:2573
+#: application/controller/shortcode.php:2625
+#: application/controller/shortcode.php:2693
+#: application/controller/shortcode.php:2777
+#: application/controller/shortcode.php:2843
+msgid "Image URL"
+msgstr ""
+
+#: application/controller/shortcode.php:2546
+#: application/controller/shortcode.php:2598
+#: application/controller/shortcode.php:2650
+#: application/controller/shortcode.php:2718
+#: application/controller/shortcode.php:2802
+msgid "Confirm message"
+msgstr ""
+
+#: application/controller/shortcode.php:2549
+#: application/controller/shortcode.php:2601
+#: application/controller/shortcode.php:2653
+#: application/controller/shortcode.php:2721
+#: application/controller/shortcode.php:2805
+#, php-format
+msgid "Use %s for line breaks."
+msgstr ""
+
+#: application/controller/shortcode.php:2556
+msgid ""
+"Display a renew URL for Digistore24. The user may change his payment details "
+"using this URL."
+msgstr ""
+
+#: application/controller/shortcode.php:2608
+msgid ""
+"Display a receipt URL for Digistore24. The user may download his invoices "
+"using this URL."
+msgstr ""
+
+#: application/controller/shortcode.php:2662
+msgid ""
+"Display a list of Digistore24 invoices to the user. Or nothing, if the user "
+"has no Digistore24 orders."
+msgstr ""
+
+#: application/controller/shortcode.php:2668
+msgid ""
+"Test payments always have a invoice number of 1. They don't have a real "
+"invoice number."
+msgstr ""
+
+#: application/controller/shortcode.php:2676
+msgid ""
+"Display a sales URL for Digistore24, where the user may manage packages (if "
+"in Digistore the product's or its addons' quantity are setup to be changed "
+"after the sales)."
+msgstr ""
+
+#: application/controller/shortcode.php:2728
+msgid "Display an signup form for a <a>Webinaris webinar</a>."
+msgstr ""
+
+#: application/controller/shortcode.php:2732
+msgid "HTML link"
+msgstr ""
+
+#: application/controller/shortcode.php:2737
+msgid "Width"
+msgstr ""
+
+#: application/controller/shortcode.php:2740
+#: application/controller/shortcode.php:2748
+msgid "pixels"
+msgstr ""
+
+#: application/controller/shortcode.php:2745
+msgid "Height"
+msgstr ""
+
+#: application/controller/shortcode.php:2760
+msgid ""
+"Shows a link for your members to become an affiliate in Digistore24. "
+"Remember to setup a <a>customer to affiliates programm</a> in Digistore24. "
+"If the user has no appropiate Digistore24 order, this shortcode is hidden."
+msgstr ""
+
+#: application/controller/shortcode.php:2806
+msgid ""
+"You will now be redirected to Digistore24. There an Digistore24 account will "
+"be setup automatically for your.|Continue?"
+msgstr ""
+
+#: application/controller/shortcode.php:2813
+msgid ""
+"Shows the Digistore24 affiliate name the current user has or will get (if he "
+"joins your Digistore24 buyer to affiliate programm). This works with "
+"wordpress accounts created by Digistore24 either because of an order or an "
+"affiliation."
+msgstr ""
+
+#: application/controller/shortcode.php:2821
+msgid ""
+"For protected content: Marks the end of the free preview. Protected content "
+"after this shortcode stays protected."
+msgstr ""
+
+#: application/controller/shortcode.php:2828
+msgid ""
+"Add a secured download link to your page. The URL is kept secret from the "
+"user."
+msgstr ""
+
+#: application/controller/shortcode.php:2832
+#: application/controller/shortcode.php:2876
+msgid "Source URL"
+msgstr ""
+
+#: application/controller/shortcode.php:2872
+msgid "Display the number times the user may download the URL."
+msgstr ""
+
+#: application/controller/shortcode.php:2890
+msgid "Displays text depending on a condition."
+msgstr ""
+
+#: application/controller/shortcode.php:2894
+msgid "has product"
+msgstr ""
+
+#: application/controller/shortcode.php:2899
+msgid ""
+"If multiple products selected: The text is shown, if the user has any them."
+msgstr ""
+
+#: application/controller/shortcode.php:2902
+msgid "has not product"
+msgstr ""
+
+#: application/controller/shortcode.php:2907
+msgid ""
+"If multiple products selected: The text is shown, if the user has neither of "
+"them."
+msgstr ""
+
+#: application/controller/shortcode.php:2910
+msgid "is logged in"
+msgstr ""
+
+#: application/controller/shortcode.php:2915
+msgid "yes"
+msgstr ""
+
+#: application/controller/shortcode.php:2916 application/model/data/exam.php:39
+msgid "no"
+msgstr ""
+
+#: application/controller/shortcode.php:2920
+msgid "only if"
+msgstr ""
+
+#: application/controller/shortcode.php:2925
+msgid "the previous condition did not match"
+msgstr ""
+
+#: application/controller/shortcode.php:2926
+msgid "any condition so far did not match"
+msgstr ""
+
+#: application/controller/shortcode.php:2937
+msgid ""
+"For protected content hosted by Digistore24: Add download links for these "
+"files."
+msgstr ""
+
+#: application/controller/shortcode.php:2948
+msgid "Show texts of Digistore24"
+msgstr ""
+
+#: application/controller/shortcode.php:2959
+msgid "None"
+msgstr ""
+
+#: application/controller/shortcode.php:2969
+msgid "Ask the user to waive his right of revocation."
+msgstr ""
+
+#: application/controller/shortcode.php:3146
+#, php-format
+msgid "Howdy, %1$s"
+msgstr ""
+
+#: application/controller/shortcode.php:3504
+msgid "Logged in and logged out users"
+msgstr ""
+
+#: application/controller/shortcode.php:3505
+msgid "Logged in users"
+msgstr ""
+
+#: application/controller/shortcode.php:3506
+msgid "Logged out users"
+msgstr ""
+
+#: application/controller/shortcode.php:3514
+msgid "Visible for"
+msgstr ""
+
+#: application/controller/shortcode.php:3525
+msgid "Any product"
+msgstr ""
+
+#: application/controller/shortcode.php:3532
+msgid "Only visible if product owned"
+msgstr ""
+
+#: application/controller/shortcode.php:3544
+msgid "Only visible on pages of product"
+msgstr ""
+
+#: application/controller/user/account_editor.php:102
+msgid "Current password"
+msgstr ""
+
+#: application/controller/user/account_editor.php:207
+msgid "Personal data report"
+msgstr ""
+
+#: application/controller/user/account_editor.php:218
+#: application/controller/user/account_editor.php:228
+msgid "Delete account"
+msgstr ""
+
+#: application/controller/user/account_editor.php:220
+msgid "Important"
+msgstr ""
+
+#: application/controller/user/account_editor.php:237
+msgid "This is the last warning."
+msgstr ""
+
+#: application/controller/user/account_editor.php:237
+msgid "This cannot be undone - by nobody, not even by our support team."
+msgstr ""
+
+#: application/controller/user/account_editor.php:288
+msgid "The confirmation text was not correct."
+msgstr ""
+
+#: application/controller/user/account_editor.php:311
+msgid "The report has been created:"
+msgstr ""
+
+#: application/controller/user/account_editor.php:312
+msgid "Download TEXT file"
+msgstr ""
+
+#: application/controller/user/account_editor.php:312
+msgid "easy to read"
+msgstr ""
+
+#: application/controller/user/account_editor.php:312
+msgid "Download XML file"
+msgstr ""
+
+#: application/controller/user/account_editor.php:312
+msgid "for data transfer"
+msgstr ""
+
+#: application/controller/user/account_editor.php:314
+msgid ""
+"<strong>Note:</strong> For technical reasons it is not possible to import "
+"data <strong>into</strong> this membership site."
+msgstr ""
+
+#: application/controller/user/account_editor.php:340
+msgid "error.txt"
+msgstr ""
+
+#: application/controller/user/account_editor.php:341
+msgid "ERROR: Link is expired - please try again!"
+msgstr ""
+
+#: application/controller/user/account_editor.php:477
+msgid "DELETE ACCOUNT"
+msgstr ""
+
+#: application/controller/user/exam.php:98
+msgid "Retry exam"
+msgstr ""
+
+#: application/controller/user/signup_form.php:122
+msgid "Sign up"
+msgstr ""
+
+#: application/controller/user/signup_form.php:481
+#, php-format
+msgid "User %s with IP %s has accepted our text: %s"
+msgstr ""
+
+#: application/controller/user/waiver_declaration.php:62
+#, php-format
+msgid "You already agreed on %s!"
+msgstr ""
+
+#: application/controller/user/waiver_declaration.php:63
+msgid ""
+"You cannot waive your right now - please open this page by accessing "
+"protected content."
+msgstr ""
+
+#: application/controller/user/waiver_declaration.php:186
+#: application/controller/user/waiver_declaration.php:198
+msgid "I agree"
+msgstr ""
+
+#: application/controller/user/waiver_declaration.php:196
+msgid "Waiver Declaration"
+msgstr ""
+
+#: application/controller/user/waiver_declaration.php:197
+msgid ""
+"<p>I agree and expressly request that the execution of the commissioned "
+"service be commenced before the end of the revocation period.</p><p>I am "
+"aware that gaining access terminates my right of cancellation, by reason of "
+"the agreed obligations being fulfilled and the contract completed.</p>"
+msgstr ""
+
+#: application/controller/user/waiver_declaration.php:235
+msgid "of"
+msgstr ""
+
+#: application/controller/user/waiver_declaration.php:253
+msgid "Your order id"
+msgstr ""
+
+#: application/controller/user/webpush.php:126
+msgid "Receive news via desktop notifications"
+msgstr ""
+
+#: application/controller/user/webpush.php:137
+msgid "Receive news via email"
+msgstr ""
+
+#: application/core/init.php:342
+msgid "if logged in"
+msgstr ""
+
+#: application/core/init.php:552
+#, php-format
+msgid "Powered by <a>%s</a>"
+msgstr ""
+
+#: application/core/init.php:554
+#, php-format
+msgid "Learn how to monetize your knowledge with %s for Wordpress."
+msgstr ""
+
+#: application/core/init.php:589
+#, php-format
+msgid "%s Lecture Menu"
+msgstr ""
+
+#: application/core/init.php:601
+msgid ""
+"With the [MENU] you can show the user the lectures of his current course in "
+"any theme. The menu is filled automatically with the lectures of the user's "
+"current course. However if no course is active, a default menu is shown. You "
+"can edit this default menu in the wordpress admin area under Design - Menus "
+"(Menu \"[MENU]\"). There you can also remove this dummy menu entry.)"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:159
+#: application/library/autoresponder_handler/plugin/active_campaign.php:442
+#, php-format
+msgid "%s API credentials missing"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:145
+msgid "E.g. 1235ca3b97b2ac44b795d871825e4f8d"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:131
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:139
+#: application/library/autoresponder_handler/plugin/mailjet.php:45
+#: application/library/autoresponder_handler/plugin/mailjet.php:55
+#, php-format
+msgid "E.g. %s"
+msgstr ""
+
+#: application/library/facebook_connector/facebook_connector.php:21
+#, php-format
+msgid "Setup your Facebook app on %s."
+msgstr ""
+
+#: application/library/facebook_connector/facebook_connector.php:77
+#, php-format
+msgid "Go to %s (section Facebook) to setup your facebook app."
+msgstr ""
+
+#: application/library/facebook_connector/facebook_connector.php:100
+msgid "Error logging in via Facebook"
+msgstr ""
+
+#: application/library/facebook_connector/facebook_connector.php:132
+msgid ""
+"Your account has been blocked, because there have been logins from too many "
+"devices (IPs). Please try again tomorrow."
+msgstr ""
+
+#: application/library/facebook_connector/helper.php:27
+#: application/library/facebook_connector/helper.php:75
+msgid "Facebook error:"
+msgstr ""
+
+#: application/library/facebook_connector/module/login_button.php:79
+#, php-format
+msgid "Failed to login via Facebook: %s"
+msgstr ""
+
+#: application/library/facebook_connector/module/login_button.php:91
+msgid ""
+"There was an error with our cross site request forgery protection. Please "
+"reload this page and try again."
+msgstr ""
+
+#: application/library/facebook_connector/module/login_button.php:186
+msgid "Sign in with Facebook"
+msgstr ""
+
+#: application/library/form_renderer/input/display_ipn_url.php:19
+#: application/library/form_renderer/input/display_ipn_url_per_product.php:18
+msgid "Hit <em>Save changes</em> to create the notification URL."
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:26
+#, php-format
+msgid "Request approval by %s"
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:27
+msgid "Cancel request"
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:42
+#, php-format
+msgid ""
+"To speed up the approval process, make sure, that you have:|(1) added and "
+"proofread the product name and the product description|(2)added a note to "
+"the THANK YOU page on how the buyer receives his password.|(3) added a "
+"second note to the THANK YOU page stating that the payment is processed by "
+"%s|(4) created an imprint page and a link to it on every page|Have you "
+"completed ALL of the steps before? If not, please cancel."
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:128
+#, php-format
+msgid "Waiting for %s..."
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:129
+msgid "Not yet requested"
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:133
+#, php-format
+msgid "%s has approved your product. Start selling now."
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:134
+#, php-format
+msgid "Please wait until %s has approved your product."
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:135
+msgid "First setup your product here. Then mark the checkbox above."
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:136
+#, php-format
+msgid ""
+"%1$s has rejected your product. Check your mailbox for a email from the %1$s "
+"support."
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:147
+#, php-format
+msgid "Not connected to %s"
+msgstr ""
+
+#: application/library/form_renderer/input/ds24_approval_status.php:171
+#, php-format
+msgid "View %s approval policy"
+msgstr ""
+
+#: application/library/form_renderer/input/exam_questions.php:80
+msgid "wrong"
+msgstr ""
+
+#: application/library/form_renderer/input/exam_questions.php:81
+msgid "correct"
+msgstr ""
+
+#: application/library/form_renderer/input/exam_questions.php:83
+msgid "Remove question"
+msgstr ""
+
+#: application/library/form_renderer/input/exam_questions.php:84
+msgid "Add answer"
+msgstr ""
+
+#: application/library/form_renderer/input/exam_questions.php:85
+msgid "remove"
+msgstr ""
+
+#: application/library/form_renderer/input/exam_questions.php:87
+msgid "Explanation"
+msgstr ""
+
+#: application/library/form_renderer/input/exam_questions.php:88
+#, php-format
+msgid "Answer %s"
+msgstr ""
+
+#: application/library/form_renderer/input/product_content.php:71
+msgid "There are no items to display"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:23
+msgid "... web push and email subscription"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:24
+msgid "... email subscription only"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:25
+msgid "... web push subscription only"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:35
+msgid "Lectures of product"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:38
+msgid "Product of current course"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:45
+msgid "Wordpress menu"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:56
+msgid "white thin"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:57
+msgid "white bold"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:58
+msgid "grey thin"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:59
+msgid "grey bold"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:60
+msgid "black thin"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:61
+msgid "black bold"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:62
+msgid "blue thin"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:63
+msgid "blue bold"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:64
+msgid "red thin"
+msgstr ""
+
+#: application/library/form_renderer/input/select.php:65
+msgid "red bold"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:47
+#, php-format
+msgid "Invalid order id: %s"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:55
+#, php-format
+msgid "The user of order %s was previously deleted. No e-mail could be send."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:63
+#, php-format
+msgid "The product of order %s has been deleted."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:68
+#, php-format
+msgid ""
+"The user %s of order %s has changed his password, so it is encrypted and "
+"cannot be sent anymore."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:195
+#, php-format
+msgid "has send invalid event_type sent: \"%s\""
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:217
+msgid "generic"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:292
+msgid "Event"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:306
+msgid "Connection test"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:307
+msgid "Sale"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:308
+msgid "Refund"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:309
+msgid "Missed payment"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:352
+msgid "Instructions"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:382
+#, php-format
+msgid "Email is missing for the new order with id '%s'."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:515
+msgid ""
+"has send a purchase notification with a NON PUBLISHED product id "
+"([PRODUCT_ID]) to [PLUGIN]. Order id: [ORDER_ID]. Buyer: [EMAIL]. In the "
+"product list please make sure, that the product is published."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:516
+msgid ""
+"has send a purchase notification with invalid product id ([PRODUCT_ID]) to "
+"[PLUGIN]. Order id: [ORDER_ID]. Buyer: [EMAIL]. Did you enter "
+"[PAY_PROVIDER]'s product ids under [PLUGIN] - payment provider?"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:557
+#, php-format
+msgid "Payment cancelled for order %s - product access revoked."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:564
+#, php-format
+msgid "Subscription cancelled for order %s - product access revoked."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:715
+#, php-format
+msgid "Register new user %s."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:749
+#, php-format
+msgid "Create user %s without product."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:948
+#, php-format
+msgid "Invalid payment provider id: \"%s\""
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:955
+msgid "Payment provider not active"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:978
+#, php-format
+msgid ""
+"has sent order notification (product %s) with no valid email address and no "
+"valid order id."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1130
+#, php-format
+msgid ""
+"has send purchase notification (product %s) with an invalid order id: '%s'"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1137
+#: application/library/payment_handler/payment_handler.php:1138
+#, php-format
+msgid "%s gets access to %s by a manual order."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1144
+#: application/library/payment_handler/payment_handler.php:1145
+#, php-format
+msgid "%s signs up and gets product %s."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1148
+#: application/library/payment_handler/payment_handler.php:1149
+#, php-format
+msgid "%s signs up, but already has access to product %s."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1157
+#, php-format
+msgid "%s: purchases %s"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1158
+#, php-format
+msgid "%s: subsequent payment for %s"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1164
+#, php-format
+msgid "Product id %s, order id %s, payment provider id %s"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1165
+#, php-format
+msgid "Product id %s, order id %s, no payment provider"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1168
+#, php-format
+msgid "#%s"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:1169
+msgid "Unknown user"
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:64
+msgid ""
+"No valid item ids found. Make sure, you have the same item ids in 2CheckOut "
+"and DigiMember."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:56
+#: application/library/payment_handler/plugin/cleverbrigde.php:21
+#: application/library/payment_handler/plugin/clickbank.php:21
+#: application/library/payment_handler/plugin/digibank.php:38
+#: application/library/payment_handler/plugin/generic.php:44
+#: application/library/payment_handler/plugin/shareit.php:101
+msgid "Seperate multiple product ids by commas."
+msgstr ""
+
+#: application/library/payment_handler/plugin/base.php:265
+#, php-format
+msgid "Parameter \"%s\" is required for current type of event"
+msgstr ""
+
+#: application/library/payment_handler/plugin/base.php:479
+#, php-format
+msgid ""
+"The payment provider used an invalid notification URL. Please check the IPN "
+"URL in the payment provider settings in the %s admin area. Adjust the URL in "
+"your payment providers back office."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:84
+#: application/library/payment_handler/plugin/digistore_api.php:85
+msgid "You already had the account [USERNAME] for [DOMAIN]."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:85
+#: application/library/payment_handler/plugin/digistore_api.php:86
+msgid "You already had an account for [DOMAIN]."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digistore_api.php:291
+msgid ""
+"The connection between [PLUGIN] and [DS24] is outdated. In your wordpress "
+"site go to [PLUGIN] - Settings, disconnect from [DS24] and connect again."
+msgstr ""
+
+#: application/library/payment_handler/plugin/generic.php:49
+msgid "Parameter names"
+msgstr ""
+
+#: application/library/payment_handler/plugin/generic.php:51
+#: application/library/payment_handler/plugin/generic.php:61
+msgid "Seperate multiple entries by commas."
+msgstr ""
+
+#: application/library/payment_handler/plugin/generic.php:58
+msgid "Event names"
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:106
+msgid "ShareIt customer id"
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:108
+msgid "Your ShareIt customer id."
+msgstr ""
+
+#: application/library/table_renderer/type/upgrade_info.php:17
+#, php-format
+msgid "Access granted after: %s"
+msgstr ""
+
+#: application/library/table_renderer/type/upgrade_info.php:25
+#, php-format
+msgid "Access only until: %s"
+msgstr ""
+
+#: application/model/data/exam.php:23
+msgid "One"
+msgstr ""
+
+#: application/model/data/exam.php:24
+msgid "Many"
+msgstr ""
+
+#: application/model/data/exam.php:30
+msgid "One answer is correct"
+msgstr ""
+
+#: application/model/data/exam.php:31
+msgid "Many answers may be correct"
+msgstr ""
+
+#: application/model/data/exam.php:40
+msgid "once"
+msgstr ""
+
+#: application/model/data/exam.php:41
+msgid "twice"
+msgstr ""
+
+#: application/model/data/exam.php:42
+msgid "three times"
+msgstr ""
+
+#: application/model/data/exam.php:43
+msgid "four times"
+msgstr ""
+
+#: application/model/data/exam.php:44
+msgid "five times"
+msgstr ""
+
+#: application/model/data/exam.php:45
+msgid "unlimited times"
+msgstr ""
+
+#: application/model/data/exam.php:143
+msgid "Retry exam button"
+msgstr ""
+
+#: application/model/data/exam.php:147 application/model/data/exam.php:155
+#, php-format
+msgid "%s%%"
+msgstr ""
+
+#: application/model/data/exam.php:291
+msgid ""
+"Congratulations! You passed the exam with [CORRECT_COUNT] corrected answers "
+"of [QUESTION_COUNT] questions."
+msgstr ""
+
+#: application/model/data/exam.php:293
+msgid ""
+"I am sorry, but you failed the exam. You had [CORRECT_COUNT] corrected "
+"answers of [QUESTION_COUNT], but you needed [REQUIRED_COUNT] (or "
+"[REQUIRED_RATE])."
+msgstr ""
+
+#: application/model/data/exam.php:294
+msgid "You may retry the exam [TRIES_LEFT] more times."
+msgstr ""
+
+#: application/model/data/exam_certificate.php:349
+msgid ""
+"Your certificate will now be generated.|This will take a couple of seconds.|"
+"Please be patient."
+msgstr ""
+
+#: application/model/data/exam_certificate.php:361
+msgid "Sorry - you failed at least one exam required for this certificate."
+msgstr ""
+
+#: application/model/data/exam_certificate.php:362
+msgid "You have not yet passed all exams required for this certificate."
+msgstr ""
+
+#: application/model/data/exam_certificate.php:384
+#, php-format
+msgid "You passed this exam on %s."
+msgstr ""
+
+#: application/model/data/exam_certificate.php:389
+#, php-format
+msgid "You failed this exam on %s."
+msgstr ""
+
+#: application/model/data/exam_certificate.php:394
+#, php-format
+msgid "You have tried this first exam on %s, but did not yet succeed."
+msgstr ""
+
+#: application/model/data/exam_certificate.php:399
+msgid "You have not yet passed this exam"
+msgstr ""
+
+#: application/model/data/exam_certificate.php:498
+msgid "New certificate"
+msgstr ""
+
+#: application/model/data/exam_certificate.php:503
+#: application/model/data/exam_certificate.php:554
+#: application/model/data/exam_certificate.php:560
+msgid "Download exam certificate"
+msgstr ""
+
+#: application/model/data/page_product.php:459
+msgid "Pages"
+msgstr ""
+
+#: application/model/data/page_product.php:460
+msgid "Posts"
+msgstr ""
+
+#: application/model/data/payment.php:99
+msgid "Not active"
+msgstr ""
+
+#: application/model/data/product.php:21
+msgid "... with order date"
+msgstr ""
+
+#: application/model/data/product.php:21
+msgid "default"
+msgstr ""
+
+#: application/model/data/product.php:22
+msgid "... with the date entered below"
+msgstr ""
+
+#: application/model/data/product.php:30
+msgid "download"
+msgstr ""
+
+#: application/model/data/product.php:37
+msgid ".. no content"
+msgstr ""
+
+#: application/model/data/product.php:38
+msgid "... all content created before the day of purchase"
+msgstr ""
+
+#: application/model/data/product.php:39
+msgid "... all content created before the 1st of the month of purchase"
+msgstr ""
+
+#: application/model/data/product.php:59
+#, php-format
+msgid "Please select a page for %s."
+msgstr ""
+
+#: application/model/data/product.php:68
+#, php-format
+msgid ""
+"The page selected for %s is protected and may not be accessible by the user."
+msgstr ""
+
+#: application/model/data/product.php:90
+msgid "Url"
+msgstr ""
+
+#: application/model/data/product.php:91
+msgid "Upload"
+msgstr ""
+
+#: application/model/data/product.php:232
+msgid "Show page in menu, if user is not logged in."
+msgstr ""
+
+#: application/model/data/product.php:233
+msgid "Show page in menu, if user is logged in and has not bought the product."
+msgstr ""
+
+#: application/model/data/product.php:234
+msgid ""
+"Show page in menu, if user has bought the product, but the page is not yet "
+"unlocked."
+msgstr ""
+
+#: application/model/data/product.php:243
+msgid "In menu if logged out"
+msgstr ""
+
+#: application/model/data/product.php:244
+msgid "In menu if not bought"
+msgstr ""
+
+#: application/model/data/product.php:245
+msgid "In menu if not unlocked"
+msgstr ""
+
+#: application/model/data/product.php:286
+msgid "published"
+msgstr ""
+
+#: application/model/data/product.php:287
+msgid "draft"
+msgstr ""
+
+#: application/model/data/product.php:317
+msgid "Display login form"
+msgstr ""
+
+#: application/model/data/product.php:318
+#: application/model/data/product.php:337
+msgid "Redirect to Wordpress page"
+msgstr ""
+
+#: application/model/data/product.php:319
+#: application/model/data/product.php:338
+msgid "Redirect to external URL"
+msgstr ""
+
+#: application/model/data/product.php:320
+#: application/model/data/product.php:339
+msgid "Display a text"
+msgstr ""
+
+#: application/model/data/product.php:327
+msgid "No (this is the default)"
+msgstr ""
+
+#: application/model/data/product.php:328
+msgid "Yes, lock Wordpress account and redirect to page"
+msgstr ""
+
+#: application/model/data/product.php:329
+msgid "Yes, lock Wordpress account and redirect to URL"
+msgstr ""
+
+#: application/model/data/product.php:330
+msgid "Yes, lock Wordpress account and display message"
+msgstr ""
+
+#: application/model/data/product.php:346
+msgid "Your account has been locked, because a payment was cancelled."
+msgstr ""
+
+#: application/model/data/product.php:607
+#, php-format
+msgid "This content will be unlocked %s on %s."
+msgstr ""
+
+#: application/model/data/product.php:647
+msgid "This is protected content. Please login to view it."
+msgstr ""
+
+#: application/model/data/user_product.php:526
+msgid "a guarantee exceeding the legal right was given."
+msgstr ""
+
+#: application/model/data/user_product.php:527
+#, php-format
+msgid "expired after %s days"
+msgstr ""
+
+#: application/model/data/user_product.php:528
+msgid "by the user"
+msgstr ""
+
+#: application/model/data/webhook.php:69
+msgid "Webhook"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:13
+msgid "Display optin text button"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:14
+msgid "Display optin image button"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:15
+msgid "Request without prior information"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:22
+msgid "Display optout text button"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:23
+msgid "Display optout image button"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:24
+msgid "None - the user cannot optout"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:116
+msgid "Default settings"
+msgstr ""
+
+#: application/model/data/webpush_subscription.php:16
+msgid "success"
+msgstr ""
+
+#: application/model/data/webpush_subscription.php:17
+msgid "error"
+msgstr ""
+
+#: application/model/data/webpush_subscription.php:18
+msgid "inactive"
+msgstr ""
+
+#: application/model/logic/access.php:1164
+msgid "Sorry! You don't have access to this page."
+msgstr ""
+
+#: application/model/logic/access.php:1355
+#: application/model/logic/access.php:1360
+#, php-format
+msgid "This content will be unlocked today at %s."
+msgstr ""
+
+#: application/model/logic/access.php:1365
+#, php-format
+msgid "This content will be unlocked on %s at %s."
+msgstr ""
+
+#: application/model/logic/access.php:1378
+msgid "This content will be unlocked tomorrow."
+msgstr ""
+
+#: application/model/logic/access.php:1383
+#, php-format
+msgid "This content will be unlocked in %s days."
+msgstr ""
+
+#: application/model/logic/course.php:102
+#: application/model/logic/course.php:103
+msgid "First lecture"
+msgstr ""
+
+#: application/model/logic/course.php:126
+#: application/model/logic/course.php:127
+msgid "Last lecture"
+msgstr ""
+
+#: application/model/logic/course.php:144
+#: application/model/logic/course.php:145
+#: application/model/logic/course.php:328
+#: application/model/logic/course.php:330
+#: application/model/logic/course.php:336
+msgid "Next lecture"
+msgstr ""
+
+#: application/model/logic/course.php:154
+msgid "Start of this module"
+msgstr ""
+
+#: application/model/logic/course.php:156
+#: application/model/logic/course.php:157
+msgid "Previous module"
+msgstr ""
+
+#: application/model/logic/course.php:160
+#: application/model/logic/course.php:161
+msgid "Next module"
+msgstr ""
+
+#: application/model/logic/course.php:378
+#: application/model/logic/course.php:379
+#: application/model/logic/course.php:394
+msgid "Previous lecture"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:21
+#, php-format
+msgid "Please establish a connection to %s first."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:58
+#: application/model/logic/digistore_sync.php:134
+#, php-format
+msgid "The product has been deleted in %s."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:62
+#: application/model/logic/digistore_sync.php:135
+#, php-format
+msgid "This %s product cannot be synchronized with %s any more."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:423
+msgid "[PLUGIN] is connected to [DS24] account [USER]."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:428
+msgid "[PLUGIN] is NOT connected to [DS24]."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:492
+#, php-format
+msgid "The connection to %s has been cut."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:574
+msgid "The connection attempt took too much time. Please try again."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:581
+#, php-format
+msgid "The connection attempt to %s was cancelled. You may try again."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:601
+#, php-format
+msgid "The connection to %s failed."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:604
+#, php-format
+msgid "%s reported this error: %s"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:606
+msgid "Please try again."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:612
+#, php-format
+msgid "The connection to %s account %s has been established."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:700
+#, php-format
+msgid ""
+"The connection request to %s failed (due to an internal error). Please try "
+"again."
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:732
+msgid "[PLUGIN] on [SITE]"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:742
+#, php-format
+msgid "Error when updating the %s IPN connection: %s"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:753
+msgid "Connect [DS24] now"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:763
+msgid ""
+"You will now be redirected to [DS24].|If you do not have a [DS24] account "
+"yet, you will have the option to create one.|Continue?"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:770
+msgid "Disconnect"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:779
+msgid ""
+"The connection to [DS24] will now be cut.|Do not continue unless you want to "
+"establish a connection to another [DS24] account.|Continue?"
+msgstr ""
+
+#: application/model/logic/digistore_connector.php:927
+msgid ""
+"[PLUGIN] requested a new API key from [DS24], because the blog URL changed."
+msgstr ""
+
+#: application/model/logic/download.php:173
+msgid ""
+"The protected URL is not valid. The URL must start with http://or https://."
+msgstr ""
+
+#: application/model/logic/download.php:232
+#, php-format
+msgid ""
+"Wordpress could not download the URL %s. Please validate, that the URL in "
+"the shortcode is correct. Server response: %s"
+msgstr ""
+
+#: application/model/logic/download.php:233
+msgid "Wordpress could not download the protected content from the given URL."
+msgstr ""
+
+#: application/model/logic/features.php:84
+#, php-format
+msgid ""
+"Member registration is not possible, because the member limit of %s has been "
+"reached. Please upgrade %s."
+msgstr ""
+
+#: application/model/logic/features.php:171
+#, php-format
+msgid ""
+"Registering new members is disabled. You currently have %s of %s members. "
+"New member registration has stopped on %s."
+msgstr ""
+
+#: application/model/logic/features.php:172
+#, php-format
+msgid ""
+"Registering new members will be disabled soon. You currently have %s of %s "
+"members. New member registration will stop on %s."
+msgstr ""
+
+#: application/model/logic/features.php:173
+#, php-format
+msgid ""
+"Registering new members will be disabled, when you reach %s members. You "
+"currently have %s members."
+msgstr ""
+
+#: application/model/logic/features.php:176
+msgid "Upgrade to [PRO] to unlock more members."
+msgstr ""
+
+#: application/model/logic/features.php:177
+msgid "Click here to upgrade you member package."
+msgstr ""
+
+#: application/model/logic/gdpr.php:20
+msgid "personal_data"
+msgstr ""
+
+#: application/model/logic/gdpr.php:179
+#, php-format
+msgid "%s. entry"
+msgstr ""
+
+#: application/model/logic/link.php:74
+#, php-format
+msgid "Upgrade to %s!"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:11
+#: application/model/logic/mail_hook.php:18
+msgid "... always - for every order"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:12
+msgid "... only if this is the first order EVER for the given email address"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:13
+msgid ""
+"... only if this is the first order within 24 hours for the given email "
+"address"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:14
+#: application/model/logic/mail_hook.php:19
+msgid "... never - do not send this email at all"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:159
+msgid "Login name of the user. Usually his email address."
+msgstr ""
+
+#: application/model/logic/mail_hook.php:160
+#: application/model/logic/mail_hook.php:186
+msgid "The first name of the user."
+msgstr ""
+
+#: application/model/logic/mail_hook.php:161
+#: application/model/logic/mail_hook.php:187
+msgid "The last name of the user."
+msgstr ""
+
+#: application/model/logic/mail_hook.php:162
+#, php-format
+msgid ""
+"Either the user's password (if a new account is created) or the text "
+"'%s' (if the user already has an account)"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:163
+#: application/model/logic/mail_hook.php:188
+msgid "Name of the product"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:164
+#: application/model/logic/mail_hook.php:189
+msgid "Id of the product"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:165
+msgid "URL to the web site"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:166
+#, php-format
+msgid "URL to login into the web site (as given in the %s settings)"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:174
+msgid "Welcome Email"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:175
+msgid ""
+"The welcome email is sent every time a user buys this membership product."
+msgstr ""
+
+#: application/model/logic/mail_hook.php:190
+msgid "URL to the download page"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:195
+msgid "Download Email"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:196
+msgid ""
+"The download email is sent every time a user buys this download product."
+msgstr ""
+
+#: application/model/logic/mail_hook.php:224
+#, php-format
+msgid "Your download link for %s"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:226
+#: application/model/logic/mail_hook.php:258
+msgid "Hey there!"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:227
+#: application/model/logic/mail_hook.php:259
+#, php-format
+msgid "Thank you for purchasing %s!"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:228
+msgid "To access your product, please visit this URL:"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:232
+#: application/model/logic/mail_hook.php:267
+#, php-format
+msgid "Enjoy %s and best regards!"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:256
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: application/model/logic/mail_hook.php:260
+#, php-format
+msgid "To access your product, please visit %s and log in."
+msgstr ""
+
+#: application/model/logic/webhook.php:36
+msgid ""
+"The webhook is not active. Edit the webhook and set the input field "
+"is_active to YES."
+msgstr ""
+
+#: application/model/logic/webhook.php:44
+#, php-format
+msgid "The email was not given as GET or POST parameter %s."
+msgstr ""
+
+#: application/model/logic/webhook.php:52
+#, php-format
+msgid "No product ids were given as GET or POST parameter %s."
+msgstr ""
+
+#: application/model/logic/webhook.php:104
+msgid "webhook"
+msgstr ""
+
+#: application/model/logic/webpush.php:14
+msgid "The webpush message has been deleted."
+msgstr ""
+
+#: application/model/logic/webpush.php:24
+#, php-format
+msgid ""
+"The user %s does not have an active subscription to web push notifications."
+msgstr ""
+
+#: application/model/logic/webpush.php:63
+msgid "The subscription has been cancelled by the subscriber."
+msgstr ""
+
+#: application/model/logic/webpush.php:115
+msgid "Error when sending web push notification"
+msgstr ""
+
+#: application/model/logic/webpush.php:121
+msgid "Subscription cancelled by user."
+msgstr ""
+
+#: application/model/logic/webpush.php:192
+msgid ""
+"To send web push notifications, you need to enable SSL. That means, that "
+"your url must start with https://... instead of http://... ."
+msgstr ""
+
+#: application/model/queue/ipn_out.php:52
+#, php-format
+msgid "Failed to subscribe %s to newsletter: %s"
+msgstr ""
+
+#: application/model/queue/ipn_out.php:84
+#, php-format
+msgid "Gave up subscribing to newsletter for %s after %s tries."
+msgstr ""
+
+#: application/model/queue/ipn_out.php:93
+#, php-format
+msgid "Could not subscribe to newsletter for %s."
+msgstr ""
+
+#: application/model/queue/ipn_out.php:99
+#: application/model/queue/webpush.php:221
+msgid "1 try so far."
+msgstr ""
+
+#: application/model/queue/ipn_out.php:103
+#: application/model/queue/webpush.php:225
+#, php-format
+msgid "%s tries so far."
+msgstr ""
+
+#: application/model/queue/ipn_out.php:110
+#: application/model/queue/webpush.php:232
+msgid "1 try left."
+msgstr ""
+
+#: application/model/queue/ipn_out.php:114
+#: application/model/queue/webpush.php:236
+#, php-format
+msgid "%s tries left."
+msgstr ""
+
+#: application/model/queue/webpush.php:23
+msgid "Flash message has been deleted."
+msgstr ""
+
+#: application/model/queue/webpush.php:176
+#, php-format
+msgid "Failed to send email to subscription #%s: %s"
+msgstr ""
+
+#: application/model/queue/webpush.php:206
+#, php-format
+msgid "Gave up web push notification for subscrption id #%safter %s tries."
+msgstr ""
+
+#: application/model/queue/webpush.php:215
+#, php-format
+msgid "Could not send web push notification for subscription #%s."
+msgstr ""
+
+#: application/view/admin/certificate_select.php:17
+msgid "Select"
+msgstr ""
+
+#: application/view/admin/shortcode.php:28
+msgid "Usage"
+msgstr ""
+
+#: application/view/admin/shortcode.php:117
+msgid "To the top of the page"
+msgstr ""
+
+#: application/view/admin/shortcode.php:134
+#, php-format
+msgid ""
+"The %s Plugin provides these shortcodes. You can use the shortcodes in any "
+"blog page text, post text or widget text. Just add the code to the text. It "
+"will be replaced by its content. Example: %s will be replaced by the number "
+"of sales."
+msgstr ""
+
+#: application/view/admin/shortcode.php:137
+#, php-format
+msgid ""
+"You can also add and configure all shortcodes on any particlar page (or "
+"post) through the editor. Just click the %s icon in any editor instance to "
+"add a shortcode."
+msgstr ""
+
+#: application/view/admin/shortcode.php:154
+#, php-format
+msgid "Go to description of %s."
+msgstr ""
+
+#: application/view/admin/shortcode.php:180
+msgid "Add a list of the user's DigiMember license keys to the page."
+msgstr ""
+
+#: application/view/admin/shortcode.php:196
+msgid "Is replaced by the download URL for the DigiMember package:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:199
+msgid "The <a>download URL</a> for the stable package."
+msgstr ""
+
+#: application/view/admin/shortcode.php:200
+msgid ""
+"The <a>download URL</a> for the test package. This package may not be stable "
+"and is not suited for production environments. Make this URL only available "
+"to special testers."
+msgstr ""
+
+#: application/view/admin/shortcode.php:217
+msgid "Is replaced by the version for the downloadable DigiMember package."
+msgstr ""
+
+#: application/view/admin/shortcode.php:220
+msgid "Version of the stable package."
+msgstr ""
+
+#: application/view/admin/shortcode.php:221
+msgid "Version of the test package."
+msgstr ""
+
+#: application/view/admin/shortcode.php:240
+msgid "Is replaced by the changelog for the downloadable DigiMember package."
+msgstr ""
+
+#: application/view/admin/shortcode.php:243
+msgid "Changelog of the stable package."
+msgstr ""
+
+#: application/view/admin/shortcode.php:244
+msgid "Changelog of the test package."
+msgstr ""
+
+#: application/view/admin/shortcode.php:260
+msgid ""
+"If the user is logged out, this shortcode shows a login form box. If he is "
+"logged in, it shows an info box with the users avatar and name."
+msgstr ""
+
+#: application/view/admin/shortcode.php:263
+msgid "After login the user is redirected to his product's start page."
+msgstr ""
+
+#: application/view/admin/shortcode.php:264
+msgid "After login the user stays on the same page."
+msgstr ""
+
+#: application/view/admin/shortcode.php:265
+msgid ""
+"If a logged in user visits the page, he is directed as if a has just logged "
+"in."
+msgstr ""
+
+#: application/view/admin/shortcode.php:266
+msgid "If the user is logged in, nothing is displayed."
+msgstr ""
+
+#: application/view/admin/shortcode.php:267
+#, php-format
+msgid "After login the user is redirected to the URL %s."
+msgstr ""
+
+#: application/view/admin/shortcode.php:268
+#, php-format
+msgid ""
+"Use image button as form submit button. Please mind the double quotes (%s) "
+"before and after the URL."
+msgstr ""
+
+#: application/view/admin/shortcode.php:271
+msgid "If the user is logged out:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:272
+msgid "If the user is logged in:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:287
+msgid "Use this e.g. to create a menu entry <em>logout</em>:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:289
+msgid "Create a page with title <em>logout</em>."
+msgstr ""
+
+#: application/view/admin/shortcode.php:290
+#, php-format
+msgid "Add the short code %s to the page."
+msgstr ""
+
+#: application/view/admin/shortcode.php:291
+msgid "Add the page to every product."
+msgstr ""
+
+#: application/view/admin/shortcode.php:295
+#, php-format
+msgid ""
+"After logout the user stays on the same page. This means, you can put "
+"content on a page containing the %s shortcode. If the user is already logged "
+"out, the %s shortcode is removed and the content is displayed."
+msgstr ""
+
+#: application/view/admin/shortcode.php:296
+msgid ""
+"After logout the user is redirected to Wordpress page with the given id, e."
+"g. 123."
+msgstr ""
+
+#: application/view/admin/shortcode.php:297
+#, php-format
+msgid ""
+"After logout the user is redirected to the given url, e.g. %s. This "
+"parameter is ignored, if the parameter <em>page</em> is given."
+msgstr ""
+
+#: application/view/admin/shortcode.php:313
+msgid ""
+"Creates an edit form for the user's login name, email and password. If "
+"logged out, it shows nothing."
+msgstr ""
+
+#: application/view/admin/shortcode.php:317
+msgid "Example edit form:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:334
+msgid ""
+"Use this short code to automatically create accounts for new autoresponder "
+"contacts."
+msgstr ""
+
+#: application/view/admin/shortcode.php:337
+#, php-format
+msgid "On page %s setup an autoresponder connection of type %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:338
+#, php-format
+msgid ""
+"Go to the autoresponder's home page and log in. Setup the optin process, so "
+"that the thank you page is a page of this Wordpress site (%s)"
+msgstr ""
+
+#: application/view/admin/shortcode.php:339
+#, php-format
+msgid ""
+"On the thank you page, use the shortcode %s. The shortcode will create the "
+"account and optionally display the login information."
+msgstr ""
+
+#: application/view/admin/shortcode.php:340
+#, php-format
+msgid ""
+"Text enclosed between %s and %s is only displayed, if an account was created."
+msgstr ""
+
+#: application/view/admin/shortcode.php:341
+#, php-format
+msgid ""
+"You can use the shortcodes %s and %s to display username and password of the "
+"new account."
+msgstr ""
+
+#: application/view/admin/shortcode.php:342
+#, php-format
+msgid ""
+"If you want to new user to automatically login, provide a link to your page "
+"with the GET-Parameter %s, e.g.: %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:343
+#, php-format
+msgid ""
+"If your autoresponder stores the contact's first and last names, you may use "
+"the short codes %s and %s."
+msgstr ""
+
+#: application/view/admin/shortcode.php:347
+#: application/view/admin/shortcode.php:366
+msgid ""
+"New users get both the products with ids 123 and 456. You may add any number "
+"of product ids seperated by commas."
+msgstr ""
+
+#: application/view/admin/shortcode.php:348
+msgid ""
+"If the account creation fails, an error message describing the reason is "
+"displayed. Don't use this unless you want to investigate any problems."
+msgstr ""
+
+#: application/view/admin/shortcode.php:362
+msgid ""
+"Display a sign up form. New users automatically get a product. This is "
+"handled exactly like a purchase, i.e. the user will be signed up in the "
+"autoresponder if set up."
+msgstr ""
+
+#: application/view/admin/shortcode.php:365
+msgid "Display a signup form. New users get the product with id 123."
+msgstr ""
+
+#: application/view/admin/shortcode.php:367
+msgid "Display a signup form with inputs for first name."
+msgstr ""
+
+#: application/view/admin/shortcode.php:368
+msgid "Display a signup form with inputs for first and last name."
+msgstr ""
+
+#: application/view/admin/shortcode.php:369
+msgid ""
+"After submitting the form, the user is automatically logged in. Is is then "
+"redirected to the produt's first login page."
+msgstr ""
+
+#: application/view/admin/shortcode.php:370
+msgid ""
+"Signup form with inputs for first and last name. User will be automatically "
+"logged in after signing up."
+msgstr ""
+
+#: application/view/admin/shortcode.php:371
+#, php-format
+msgid ""
+"Use image button as form submit button. Please mind the double quotes (%s) "
+"before and after the url."
+msgstr ""
+
+#: application/view/admin/shortcode.php:374
+msgid "Without name fields:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:375
+msgid "With name fields:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:391
+msgid "List all products, the user has purchased."
+msgstr ""
+
+#: application/view/admin/shortcode.php:394
+msgid "Example product list:"
+msgstr ""
+
+#: application/view/admin/shortcode.php:409
+msgid ""
+"List the number of remaining days, the user may access the selected product."
+msgstr ""
+
+#: application/view/admin/shortcode.php:412
+msgid ""
+"Display the number of remaining days, the user may access the product with "
+"id 123."
+msgstr ""
+
+#: application/view/admin/shortcode.php:426
+msgid ""
+"Only needed for the live editor of OptimizePress2. Use this shortcode to "
+"display the hint, if the content is currently locked."
+msgstr ""
+
+#: application/view/admin/shortcode.php:456
+msgid ""
+"Used for a free preview of the protected content. Everything before the "
+"short code is free to access. Everything after the short code is protected."
+msgstr ""
+
+#: application/view/admin/shortcode.php:457
+msgid "Example post"
+msgstr ""
+
+#: application/view/admin/shortcode.php:459
+msgid ""
+"The beginning of your post is free content. Write some lines to raise the "
+"readers interest."
+msgstr ""
+
+#: application/view/admin/shortcode.php:463
+msgid ""
+"Everything after the short code is protected. If the user is not logged in "
+"or has no access to the product, this text is hidden. Instead the sales text "
+"entered in the product details is displayed."
+msgstr ""
+
+#: application/view/admin/shortcode.php:479
+msgid "Provides a social proof counter for your sales."
+msgstr ""
+
+#: application/view/admin/shortcode.php:480
+#, php-format
+msgid ""
+"Add e.g. this text to your sales page: \"Already %s buyers trust in our "
+"product\""
+msgstr ""
+
+#: application/view/admin/shortcode.php:481
+#, php-format
+msgid "This creates: \"Already %s buyers trust in our product\""
+msgstr ""
+
+#: application/view/admin/shortcode.php:483
+#, php-format
+msgid ""
+"When you get more sales, the number is increased automatically. E.g. after "
+"%s additional sales, you get: "
+msgstr ""
+
+#: application/view/admin/shortcode.php:484
+#, php-format
+msgid "\"Already %s buyers trust in our product\""
+msgstr ""
+
+#: application/view/admin/shortcode.php:487
+#, php-format
+msgid ""
+"Show the total number of product sales (all products together) This "
+"shortcode creates now: %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:488
+#, php-format
+msgid ""
+"If you have previous sales, you can add them by using the <em>start</em> "
+"parameter. This creates now: %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:489
+#, php-format
+msgid ""
+"To just count sales of a certain product, add the parameter <em>product</em> "
+"and set it to the product id (e.g. %s). This creates now: %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:490
+#, php-format
+msgid "You may also add a start value for the product. This creates now: %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:507
+msgid "Displays the shortcode open resp. close braket."
+msgstr ""
+
+#: application/view/admin/shortcode.php:508
+msgid "some_short_code"
+msgstr ""
+
+#: application/view/admin/shortcode.php:525
+msgid "Displays the api reference."
+msgstr ""
+
+#: application/view/admin/shortcode.php:542
+msgid "Displays the API version."
+msgstr ""
+
+#: application/view/admin/shortcode.php:576
+msgid "Shows the URL for the Digistore24 upgrade order page."
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:22
+msgid "Sign up form code"
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:29
+msgid "Use this code for signup form generators - e.g. by Optimize Press 2."
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:30
+#, php-format
+msgid ""
+"To create signup forms directly in Wordpress Pages and Posts, use the %s "
+"shortcode."
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:51
+msgid "Please select at least one Product."
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:76
+msgid "Email:"
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:78
+msgid "First name:"
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:80
+msgid "Last name:"
+msgstr ""
+
+#: application/view/admin/signup_form_generator.php:82
+msgid "Signup"
+msgstr ""
+
+#: application/view/post/products.php:8
+msgid "Please setup your products first."
+msgstr ""
+
+#: application/view/post/products.php:29
+msgid "Member product"
+msgstr ""
+
+#: application/view/post/products.php:31
+msgid "Day"
+msgstr ""
+
+#: application/view/post/products.php:36
+msgid ""
+"A user may view this page, if he has purchased any of the selected products.|"
+"If no product is checked, everyone may view this page.|Admins always may "
+"view every page."
+msgstr ""
+
+#: application/view/post/products.php:38
+#, php-format
+msgid ""
+"The day after purchase the page is unlocked to the buyer. This setting "
+"applies only, if the product is checked.|For step by step unlocking enter a "
+"number for %s. Enter e.g. 7 to unlock this page on the 7th day. Enter "
+"nothing or 0 to unlock when the user purchases the product."
+msgstr ""
+
+#: application/view/post/products.php:41
+msgid "Edit other content of this product."
+msgstr ""
+
+#: application/view/post/products.php:84
+msgid "Edit other content"
+msgstr ""
+
+#: application/view/post/products.php:97
+msgid "Download products"
+msgstr ""
+
+#: application/view/user/account_editor.php:7
+msgid "Your DigiMember Account"
+msgstr ""
+
+#: application/view/user/exam_questions.php:32
+msgid "Your answers will now be submitted.\\n\\nContinue?"
+msgstr ""
+
+#: application/view/user/exam_questions.php:126
+msgid "Submit your answers"
+msgstr ""
+
+#: digimember.php:334
+msgid "No preview available"
+msgstr ""
+
+#: inc/filters.php:18
+msgid "Number of logins"
+msgstr ""
+
+#: inc/filters.php:19
+msgid "Last login"
+msgstr ""
+
+#: inc/filters.php:20
+msgid "Registered"
+msgstr ""
+
+#: inc/filters.php:21
+msgid "Can autologin"
+msgstr ""
+
+#: inc/filters.php:51
+msgid ""
+"Autologin is enabled, because the user still has is auto generated password."
+msgstr ""
+
+#: inc/filters.php:52
+msgid "Autologin is disabled, because the user changed his password."
+msgstr ""
+
+#: system/class/widget.php:47 system/class/widget.php:48
+#: system/class/widget.php:49 system/class/widget.php:50
+#: system/class/widget.php:51 system/class/widget.php:52
+#, php-format
+msgid "(like the %s %s shortcode)"
+msgstr ""
+
+#: system/model/data/user.php:112
+msgid ""
+"The user account cannot be deleted, since special permissions are assigned "
+"to it. For account deletion please contact our support."
+msgstr ""
+
+#: system/model/logic/action.php:76
+msgid "if user has access to new content"
+msgstr ""
+
+#: system/model/logic/action.php:199
+msgid "Sent"
+msgstr ""
+
+#: system/model/logic/action.php:201 system/model/logic/action.php:202
+#: system/model/logic/action.php:204
+msgid "(Not a subscriber)"
+msgstr ""
+
+#: system/model/logic/action.php:203
+msgid "(No push notification setup)"
+msgstr ""
+
+#: system/model/logic/action.php:419
+#, php-format
+msgid "Error sending web push message to %s: %s"
+msgstr ""

@@ -1,0 +1,315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DigiMember User-Anrede\n"
+"POT-Creation-Date: 2019-03-13 11:38+0100\n"
+"PO-Revision-Date: 2019-03-13 11:40+0100\n"
+"Last-Translator: Digistore24 Team <support@digistore24.com>\n"
+"Language-Team: DigiMember <support@digimember.de>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _dgyou\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../application/controller/admin/action_settings.php:81
+#: ../system/model/logic/action.php:288
+msgid "<a>Click here</a> to unsubscribe."
+msgstr ""
+
+#: ../application/controller/ajax/unsubscribe.php:35
+msgid "You have been unsubscribed."
+msgstr ""
+
+#: ../application/controller/ajax/unsubscribe.php:86
+msgid "Do you want to unsubscribe from these email messages?"
+msgstr ""
+
+#: ../application/controller/ajax/unsubscribe.php:108
+msgid "You have already been unsubscribed from these email messages."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:33
+#, php-format
+msgid "Your %s Account"
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:38
+msgid "Your changes have been saved."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:43
+msgid "Save Changes"
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:93
+#: ../application/controller/user/login_form.php:229
+msgid "Username"
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:95
+msgid "You use your username and your password to sign in."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:109
+msgid ""
+"Please enter your current password.|This is required for security reasons "
+"for any change you make here."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:117
+msgid "New password"
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:119
+msgid "Leave it blank to keep your password.<p>Or enter your new password."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:129
+msgid "Retype password"
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:130
+msgid "Repeat your new password."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:155
+msgid "Display name"
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:157
+msgid "This name is displayed, when you write comments or posts."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:209
+#, php-format
+msgid ""
+"All your personal data stored on %s will be exported and copied to your "
+"local computer."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:210
+msgid "You will find the data in your local download folder on your computer."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:228
+msgid "Your account and your data will be irrecoverably erased."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:229
+msgid "You will NOT be able to access any content of this site any more."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:230
+msgid "You renounce on all claims the site owner."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:231
+#, php-format
+msgid "If you want to continue, enter the text %s below and click on %s."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:243
+msgid "Delete your account"
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:245
+msgid "Your account and your data will be irrecoverably deleted."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:245
+msgid "You will not be able to access this site any more."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:322
+msgid ""
+"After download the report is in your local download folder on your computer."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:398
+msgid "Your password has been changed."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:413
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../application/controller/user/account_editor.php:430
+msgid "Unfortunately the display name is already taken."
+msgstr ""
+
+#: ../application/controller/user/exam.php:85
+msgid "You may retry this exam as often as you like."
+msgstr ""
+
+#: ../application/controller/user/exam.php:87
+#, php-format
+msgid "You may retry this exam %s more times."
+msgstr ""
+
+#: ../application/controller/user/exam.php:88
+msgid "You have used all your tries for this exam. You cannot retry it."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:73
+msgid "We have sent you an email with your new password."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:77
+msgid ""
+"Maybe the link is too old or you started two requests at the same time. "
+"Please try again."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:78
+msgid "Your password request could not be processed."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:171
+msgid "Login"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:210
+#: ../application/controller/user/signup_form.php:198
+msgid "or"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:238
+msgid "Password"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:247
+msgid "Remember me"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:291
+msgid "Log In"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:361
+#: ../application/controller/user/login_form.php:609
+msgid "Please enter a username and a password."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:426
+msgid "Lost your password?"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:436
+msgid "You are logged in now."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:558
+#: ../application/controller/user/login_form.php:683
+msgid "Email"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:570
+#, php-format
+msgid "We have sent you the password confirmation link via email to %s."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:572
+msgid ""
+"After you clicked on the link, we will send your password to you via email."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:578
+#, php-format
+msgid "We have no user account for email %s."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:622
+msgid ""
+"Your account has been blocked, because there have been logins from too many "
+"devices (IPs). Please try again tomorrow."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:623
+#, php-format
+msgid "Error code: %s"
+msgstr ""
+
+#: ../application/controller/user/login_form.php:675
+msgid ""
+"Enter your email address. Only after you clicked the link in the "
+"confirmation email, we will create a new password for you."
+msgstr ""
+
+#: ../application/controller/user/login_form.php:676
+msgid "Set new password"
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:174
+#: ../application/controller/user/signup_form.php:361
+msgid "Sign up"
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:217
+msgid "Email address"
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:238
+msgid "First name"
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:250
+msgid "Last name"
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:347
+#: ../application/controller/user/signup_form.php:447
+msgid "Please accept our terms and check the checkbox."
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:470
+msgid "Please prove that you are human and not a bot."
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:519
+msgid "Sorry, you have created too many accounts already."
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:555
+#, php-format
+msgid "There is already an account for the email address %s."
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:558
+msgid "<a>Click here to login.</a>"
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:564
+#, php-format
+msgid ""
+"There is already an account for the email address %s. We have re-sent the "
+"confirmation email to this email address."
+msgstr ""
+
+#: ../application/controller/user/signup_form.php:568
+#, php-format
+msgid ""
+"Your account has been created. We have send your password to %s. If you "
+"don't receive the email within 10 minutes, please check your spam folder."
+msgstr ""
+
+#: ../application/core/init.php:224
+#, php-format
+msgid "You have too many failed login attempts. Please wait for %s."
+msgstr ""
+
+#: ../application/model/logic/course.php:98
+msgid "You are at the beginning of the course."
+msgstr ""
+
+#: ../application/model/logic/course.php:122
+msgid "You are at the end of the course."
+msgstr ""
+
+#: ../application/model/logic/course.php:140
+msgid "The course has only one module."
+msgstr ""

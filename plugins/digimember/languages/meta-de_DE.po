@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DigiMember\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-17 00:11+0100\n"
+"PO-Revision-Date: 2022-10-12 19:44+0200\n"
+"Last-Translator: Digistore24 Team <support@digistore24.com>\n"
+"Language-Team: DigiMember Translation Team <support@digimember.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#: digimember.php:8
+msgid ""
+"With DigiMember and wordpress you build a profitable membership site within "
+"minutes."
+msgstr ""
+"Mit DigiMember für Wordpress baust du innerhalb von wenigen Minuten eine "
+"mächtige Mitglieder-Seite auf, die dir ein dauerhaftes Einkommen ermöglicht."
+
+#: digimember.php:8
+msgid "Commercial - goto http://www.digimember.com for details"
+msgstr "Kommerziell - besuche http://digimember.de für Details"
+
+#: digimember.php:8
+msgid "https://digimember.com"
+msgstr "https://digimember.de"
+
+#: digimember.php:8
+msgid "https://www.digimember.com"
+msgstr "https://digimember.de"

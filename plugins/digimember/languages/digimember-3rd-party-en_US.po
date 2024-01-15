@@ -1,0 +1,1685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DigiMember\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-13 15:07+0100\n"
+"PO-Revision-Date: 2019-03-13 15:07+0100\n"
+"Last-Translator: Digistore24 Team <support@digistore24.com>\n"
+"Language-Team: DigiMember Translation Team <support@digimember.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _digi3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: application/controller/admin/action_edit.php:423
+#: application/library/autoresponder_handler/plugin/active_campaign.php:326
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:220
+#: application/library/autoresponder_handler/plugin/maropost.php:97
+msgid "Add tags"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:424
+#: application/controller/admin/action_edit.php:436
+#: system/library/form_renderer/input/autoresponder_tag_list.php:12
+#, php-format
+msgid "Invalid tag id #%s"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:435
+#: application/library/autoresponder_handler/plugin/active_campaign.php:334
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:230
+#: application/library/autoresponder_handler/plugin/maropost.php:106
+msgid "Remove tags"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:60
+msgid ""
+"To connect ShareIt to DigiMember, please send a mail to the ShareIt support. "
+"This is required to use ShareIt with DigiMember.<p> ShareIt will set the "
+"correct notification URL for you ShareIt account.<p>Please not, that ShareIt "
+"only support one notification URL per ShareIt account.<p>ShareIt will need "
+"2-3 workdays to update your configuration."
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:66
+msgid "Please <a>create a product first</a>."
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:188
+msgid "Send email to ShareIt"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:189
+msgid "Send configuration update email to ShareIt support."
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:193
+msgid ""
+"The email to ShareIt's customer support is sent now.<p>Please note that this "
+"changes the notification url for your ShareIt-account, not just for the "
+"selected products, since ShareIt does not support different notification "
+"URLs for different products.<p>You will receive a copy of the email."
+"<p>Continue?"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:439
+#, php-format
+msgid ""
+"An email with your request has been sent to the ShareIt support (%s). You "
+"will receive a copy of this email to %s. Please give the ShareIt support 2-3 "
+"workdays to handle your request."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:241
+msgid "KlickTipp (full integration / requires KlickTipp Premium)"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:242
+msgid "KlickTipp (email integration / for all KlickTipp versions)"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:767
+#: application/library/autoresponder_handler/autoresponder_handler.php:812
+#, php-format
+msgid "Go to %s and set up an autosreponder of type %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:870
+msgid "Important note!"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:85
+#, php-format
+msgid "Error when settings tags for contact %s of %s: %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:163
+#, php-format
+msgid "No %s List selected."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:257
+msgid "API URL"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:266
+msgid "API key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:268
+#: application/library/autoresponder_handler/plugin/getresponse.php:98
+#, php-format
+msgid "E.g. %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:283
+msgid "List"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:296
+#, php-format
+msgid "Enter your %1$s API key, save and then pick a %1$s list here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:304
+#, php-format
+msgid "Please log into your %s account and create a list."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:314
+#: application/library/autoresponder_handler/plugin/cleverreach.php:182
+#: application/library/autoresponder_handler/plugin/getresponse.php:145
+#: application/library/autoresponder_handler/plugin/mailchimp.php:104
+#: application/library/autoresponder_handler/plugin/mailjet.php:87
+msgid "The API key is invalid."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:318
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:330
+#: application/library/autoresponder_handler/plugin/active_campaign.php:338
+msgid "Seperate multiple tags by commas"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:350
+msgid "Add automation"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:358
+msgid "Remove automation"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:375
+#, php-format
+msgid "You don't have any automations in %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:380
+#, php-format
+msgid "%s automation"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:403
+msgid ""
+"In [ARNAME] you need to append the get parameter [GETARGS] to the thankyou "
+"url, e.g. [EXAMPLE_URL]."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:429
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:371
+#, php-format
+msgid ""
+"GET parameters on thankyou page are missing. This is not a visit of a new "
+"contact. The required GET parameters are: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:434
+#, php-format
+msgid "Invalid email %s for GET parameter %s given."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:478
+msgid "invalid GET params on thankyou page - invalid email or contact too old."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:487
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:389
+msgid ""
+"invalid GET params on thankyou page - email does not match SubscriberID. "
+"Someone has probably manipulated the GET params."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:513
+msgid ""
+"In <strong>ActiveCampaign</strong> in the top menu click on <em>Lists</em>. "
+"Then click on the button <strong>Manage Fields</strong>. Add new fields of "
+"type <em>Hidden field</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:526
+msgid ""
+"In <strong>ActiveCampaign</strong>, at the bottom left, click on "
+"<em>Settings</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:527
+msgid "On the left menu click on <em>Developer</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:528
+msgid "Locate the headline <em>API Access</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:529
+msgid "Copy and paste the URL and the Key here into this form."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:530
+#: application/library/autoresponder_handler/plugin/aweber.php:180
+#: application/library/autoresponder_handler/plugin/cleverreach.php:272
+#: application/library/autoresponder_handler/plugin/cleverreach.php:275
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:70
+#: application/library/autoresponder_handler/plugin/getresponse.php:185
+#: application/library/autoresponder_handler/plugin/iContact.php:176
+#: application/library/autoresponder_handler/plugin/mailchimp.php:135
+#: application/library/payment_handler/plugin/cleverbrigde.php:101
+#: application/library/payment_handler/plugin/clickbank.php:95
+#: application/library/payment_handler/plugin/clickbank.php:98
+msgid "Save your changes."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:531
+#, php-format
+msgid "Select the %s list from the dropdown list and save again."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:558
+#, php-format
+msgid "%s (%s subscriber)"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:559
+#, php-format
+msgid "%s (%s subscribers)"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/active_campaign.php:605
+#, php-format
+msgid "Missing API credentials for %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:90
+#: application/library/autoresponder_handler/plugin/iContact.php:85
+msgid ""
+"The AWeber API needs the php extension \"curl\" activated for your "
+"webaccount. Without \"curl\", a connection to AWeber is not possible. Please "
+"ask your webhoster to activate \"curl\"."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:98
+#: application/library/autoresponder_handler/plugin/iContact.php:93
+msgid "To get an authorization code from AWeber, <a>click here</a>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:100
+msgid ""
+"To authenticate with AWeber, you need an authoriation code. Click on the "
+"link below the input area to visit the AWeber web site and get one."
+"<p><strong>Important:</strong> If you have more than one AWeber "
+"autoresponder setting, you need to enter a new authorization code for each "
+"each of these settings - even if you use the same AWeber account."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:114
+#: application/library/autoresponder_handler/plugin/iContact.php:109
+msgid "AWeber Authorization Code"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:131
+#: application/library/autoresponder_handler/plugin/aweber.php:156
+#: application/library/autoresponder_handler/plugin/iContact.php:127
+#: application/library/autoresponder_handler/plugin/iContact.php:152
+msgid "AWeber list"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:142
+#: application/library/autoresponder_handler/plugin/iContact.php:138
+msgid ""
+"Enter a valid authorization code above, save and then pick a AWeber list "
+"here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:143
+#: application/library/autoresponder_handler/plugin/iContact.php:139
+msgid "Please log into your AWeber account and create an email list."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:152
+#: application/library/autoresponder_handler/plugin/iContact.php:148
+msgid "The authorization code is invalid."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:171
+#: application/library/autoresponder_handler/plugin/iContact.php:167
+msgid ""
+"<a>Click here</a> to log into AWeber and retrieve an authorization code. "
+"Copy the code to the clipboard."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:178
+#: application/library/autoresponder_handler/plugin/iContact.php:174
+msgid ""
+"<strong>Here in DigiMember</strong> paste the code into the <em>AWeber "
+"Authorization Code</em> text input."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:182
+#: application/library/autoresponder_handler/plugin/iContact.php:178
+msgid ""
+"Select the correct list from the <em>AWeber list</em> dropdown list above."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:184
+#: application/library/autoresponder_handler/plugin/iContact.php:180
+msgid "Save your changes again and you are done."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:328
+#: application/library/autoresponder_handler/plugin/iContact.php:324
+msgid ""
+"The AWeber Authoration is invalid. Please get an new AWeber authorization "
+"code."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:102
+msgid ""
+"This autoresponder type is inactive, because the web server does not meet "
+"the technical requirements."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:282
+#: application/library/autoresponder_handler/plugin/maropost.php:430
+msgid "Member auto join"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:283
+msgid ""
+"After signing up in [ARNAME], new contacts may automatically get an account "
+"in [PLUGIN]. To do so, use the shortcode [SHORTCODE] on the opt in processes "
+"thank you page."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:284
+msgid "[ARNAME] thank you pages"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:305
+msgid "[ARNAME] custom field names"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:310
+msgid ""
+"In [ARNAME], you may extend your contacts by custom fields. Check the "
+"documention of [ARNAME] on how to do this. Below you find a list of fields "
+"[PLUGIN] can send to [ARNAME]. In [ARNAME] you may add these fields as a "
+"placeholder to the emails [ARNAME] sends."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:339
+msgid "First name"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:347
+msgid "Last name"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:355
+msgid "Order date"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:363
+msgid "Order id"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:371
+msgid "Username"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:373
+msgid "The user's login name for your site. Default is his email address."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:379
+#: application/library/autoresponder_handler/plugin/base.php:414
+msgid "Password"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:386
+msgid "Login URL"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:388
+msgid ""
+"The URL to the web page the user visits to log into your site. This is the "
+"page containing the login form."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:395
+msgid "Login key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:396
+#, php-format
+msgid ""
+"You may use the login key for auto login links in your email.|Add a GET "
+"parameter %s to your blogs URL int the email and set it to the value of the "
+"login key custom field."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:410
+msgid "FirstName"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:411
+msgid "LastName"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:412
+msgid "OrderDate"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:413
+msgid "Login"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:415
+msgid "LoginUrl"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:416
+msgid "LoginKey"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:462
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:278
+#: application/library/autoresponder_handler/plugin/maropost.php:338
+#, php-format
+msgid "Placeholder in %s mails: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:476
+#, php-format
+msgid "Default is: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:505
+msgid "Home page"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:524
+#, php-format
+msgid "Placeholder for login URL to page %s: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:37
+#, php-format
+msgid ""
+"No valid form for %s Group '%s'. Please update the Autoresponder's (id %s) "
+"settings."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:66
+#, php-format
+msgid "%s Custom field names"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:67
+msgid ""
+"In [ARNAME] you may add custom fields (select <em>Contacts</em>, then select "
+"a group and select the tabs <em>Settings</em> and then <em>fields</em>. "
+"Below you find a list of fields [PLUGIN] can send to [ARNAME]. Add the "
+"fields in [ARNAME] and make sure the names in [PLUGIN] and in [ARNAME] match."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:143
+#, php-format
+msgid "%s API Key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:159
+#: application/library/autoresponder_handler/plugin/cleverreach.php:186
+#, php-format
+msgid "%s Recipient Group"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:171
+#, php-format
+msgid "Enter your %1$s API key, save and then pick a %1$s group here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:172
+#, php-format
+msgid "Please log into your %s account and create a recpient group."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:200
+#: application/library/autoresponder_handler/plugin/mailchimp.php:65
+msgid "Use double-opt-in"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:202
+#: application/library/autoresponder_handler/plugin/mailchimp.php:67
+#, php-format
+msgid ""
+"This option applies only to sales (where the customer pays money).|For free "
+"sign ups (using the shortcode %s), a double-opt-in is always used."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:219
+#: application/library/autoresponder_handler/plugin/cleverreach.php:232
+#: application/library/autoresponder_handler/plugin/cleverreach.php:247
+msgid "Form ID"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:221
+#, php-format
+msgid ""
+"If you change the %s group above, please save and pick another form here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:234
+#, php-format
+msgid ""
+"<strong>In %s</strong> please create a form for the selected recipient "
+"group. Then here in %s click <em>Save changes</em> and select the form here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:249
+#, php-format
+msgid ""
+"Select the %s group above and save your changes. Then select the form here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:268
+#, php-format
+msgid "<strong>In %s</strong> click on Account - API."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:269
+msgid "Click on <em>Create new API key</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:270
+#, php-format
+msgid "Optional: enter \"%s\" (or any other name) as a name for the API key."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:271
+msgid "Make sure, the <em>permissions</em> are set to <em>read/write</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:273
+#: application/library/autoresponder_handler/plugin/getresponse.php:183
+msgid "Copy the API key to the clipboard."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:274
+#, php-format
+msgid ""
+"<strong>Here in %s</strong> paste the API key into the <em>%s API key</em> "
+"text field."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:276
+#, php-format
+msgid "Select the %s group from the dropdown list and save again."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:296
+#, php-format
+msgid ""
+"The %s API needs the php extension \"soap\" activated for your webaccount. "
+"Without, a connection to %s is not possible. Please ask your webhoster to "
+"install and activate \"soap\" for php."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:52
+msgid "Signup Form Html"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:54
+msgid "E.g. "
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:66
+msgid ""
+"<strong>In the FlateRateNewsletter Controll Center</strong> select "
+"<em>Integration - Signup Forms</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:67
+msgid ""
+"Create a new simple signup form with the default settings - for one list "
+"only and <strong>without</strong> CAPTCHA."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:68
+msgid "Copy the html code to the clipboard."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:69
+msgid ""
+"<strong>Here in DigiMember</strong> paste the html code into the <em>Signup "
+"Form Html</em> field."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:71
+msgid "Click on the test settings button to validate your settings."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:105
+#: application/library/autoresponder_handler/plugin/generic.php:111
+#: application/library/autoresponder_handler/plugin/generic.php:117
+#, php-format
+msgid "E.g.: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:158
+msgid ""
+"<strong>Either</strong> you <a>download</a> the example script and adjust it "
+"to your needs."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:185
+msgid "In your signup form you may find a hidden inputs like [HTML]."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:187
+msgid ""
+"If so, enter for [PARAMNAME] below [INPUTNAME] and as [PARAMVAL] [INPUTVAL]."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:198
+msgid ""
+"<strong>Important:</strong> This is a flexible, but adavanced integration "
+"method. Warning: Programming skills are required."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:199
+msgid "You have two options:"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:201
+#, php-format
+msgid ""
+"Then upload it to you server, rename it to a non guessable name and enter "
+"the URL to the script as %s below."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:202
+msgid "<strong>Or</strong> you analyze the signup form of you autoresponder."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:203
+#, php-format
+msgid "Enter the action URL as %s below."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:204
+msgid ""
+"Find out, what input names are used for the email and name input. Enter the "
+"input names below."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:205
+#, php-format
+msgid ""
+"If you only have <strong>a single input field for the fullname</strong> (and "
+"not two input fields - one for first and one for last name), enter the name "
+"of the input field as %s. Clear the value for %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:21
+msgid "No GetResponse Campaign selected."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:96
+msgid "GetResponse API key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:114
+#: application/library/autoresponder_handler/plugin/getresponse.php:149
+msgid "GetResponse campaign"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:127
+msgid ""
+"Enter your GetResponse API key, save and then pick a GetResponse campaign "
+"here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:135
+msgid "Please log into your GetResponse account and create a campaign."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:169
+msgid ""
+"In GetResponse, you may add custom fields (in GetResponse select "
+"<em>Contacts - Custom Fields</em>). Important: choose field type "
+"<strong>text</strong>. Below you find a list of fields [PLUGIN] can send to "
+"GetResponse. Add the fields in GetResponse and make sure the names in "
+"[PLUGIN] and in GetResponse match. Later, if you create an email in "
+"GetResponse, you may add these fields by putting their names in double "
+"square brakets, e.g. [[Firstname]]."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:181
+msgid ""
+"<strong>In GetResponse</strong> in the upper right corner click on My "
+"Account - Account Details."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:182
+msgid "Click on <em>API & OAuth</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:184
+msgid ""
+"<strong>Here in DigiMember</strong> paste the API key into the "
+"<em>GetResponse API key</em> text field."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:186
+msgid "Select the GetResponse campaign from the dropdown list and save again."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/getresponse.php:208
+msgid ""
+"The GetResponse API needs the php extensions \"curl\" and \"json\" both "
+"activated for your webaccount. Without, a connection to GetResponse is not "
+"possible. Please ask your webhoster to install and activate \"curl\" and "
+"\"json\"."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/iContact.php:95
+msgid ""
+"To authenticate with AWeber, you need an authoriation code. Click on the "
+"link below the input area to visit the AWeber web site and get one."
+"<p><strong>Important:</strong> If you have more than one AWeber "
+"autoresponder setting, you need to enter a new authorization code for each "
+"of these settings - even if you use the same AWeber account."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:131
+msgid "KlickTipp (full integration)"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:131
+#, php-format
+msgid "You need KlickTipp Premium or higher for %s (Technical info: %s)."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:188
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:250
+#: application/library/autoresponder_handler/plugin/maropost.php:59
+#: application/library/autoresponder_handler/plugin/maropost.php:307
+#, php-format
+msgid "Enter your %s credentials and save."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:195
+msgid "KlickTipp username"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:202
+msgid "KlickTipp password"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:213
+msgid "KlickTipp double-opt-in process"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:251
+msgid ""
+"In KlickTipp, select <strong>ContactCloud - New Field</strong> and create "
+"custom fields."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:285
+#: application/library/autoresponder_handler/plugin/maropost.php:343
+#, php-format
+msgid "Invalid field name: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:322
+#, php-format
+msgid "<a>KlickTipp</a> provides the best integration with %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:323
+msgid "To get your KlickTipp-Account <a>click here</a>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:324
+msgid ""
+"You need access to the KlickTipp API. This is provided with <a>KlickTipp "
+"Premium</a> and above."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:325
+msgid "Enter your <a>KlickTipp</a> credentials below. Then save."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:326
+#: application/library/autoresponder_handler/plugin/maropost.php:49
+msgid "Select which tags to add or remove below."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:327
+#: application/library/autoresponder_handler/plugin/maropost.php:50
+msgid "Optional: Select custom field names at the bottom."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:338
+#: application/library/autoresponder_handler/plugin/maropost.php:385
+#, php-format
+msgid "%s custom field names"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:353
+msgid ""
+"In KlickTipp, you may extend your address book and add additional fields "
+"(in KlickTipp select <em>ConctactCloud - New address field</em>). Below you "
+"find a list of fields [PLUGIN] can send to KlickTipp. Later, if you create "
+"an email with KlickTipp, you may select these fields from the dropdown list "
+"<em>placeholders</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:381
+msgid ""
+"invalid GET params on thankyou page - invalid SubscriberID. Someone has "
+"probably manipulated the GET params."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:485
+#, php-format
+msgid ""
+"Failed to connect to KlickTipp account %s. Are the KlickTipp username and "
+"password correct?"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:93
+#, php-format
+msgid ""
+"Could not send the email to %s. Set option %s to <em>YES</em> and follow "
+"instructions step %s to %s. Then try again."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:119
+msgid "Firstname"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:120
+msgid "Lastname"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:121
+msgid "Orderdate"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:122
+msgid "Productid"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:123
+msgid "Productname"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:147
+#, php-format
+msgid ""
+"Default is <em>No</em>. Set this to <em>Yes</em>, if you get an error when "
+"testing your settings. If so, you need to create a user defined field in "
+"KlickTipp. See the instructions (Steps %d to %d) above."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:149
+msgid "Default is <em>No</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:219
+msgid ""
+"<strong>In <a>KlickTipp</a></strong> select <em>Automation - Tags - Create "
+"Tag</em>. Enter a name for the tag (e.g. \"bought product xy\") and click on "
+"<em>Save</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:220
+msgid ""
+"In the menu select <em>List building - Subscription via email</em>. Enter a "
+"name and a unique email address."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:221
+#, php-format
+msgid ""
+"Also enter a subject for joining the autoresponder (e.g. %s) and for leaving "
+"(e.g. %s). Click on <em>Save</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:222
+msgid ""
+"In the menu select <em>List building - Overview</em> and open the "
+"subscription source from step 2+3 again. Add the tag created in step 1."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:223
+#, php-format
+msgid ""
+"<strong>Here in DigiMember</strong> enter the complete autoreponder's email "
+"(including the @%s)."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:224
+msgid ""
+"Enter also the subject for <strong>joining</strong> the autoreponders. The "
+"subject for leaving is not used."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:225
+#, php-format
+msgid ""
+"Click <em>Save</em>. Then click <em>Test settings</em>. For the test use an "
+"email address <strong>not</strong> from %s. Pick an email address of another "
+"domain (e.g. your.name@gmail.com)."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:226
+msgid "<strong>If you get a success message, you are done.</strong>"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:227
+msgid ""
+"If you get an error message, you may need to perform these additional steps:"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:228
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:272
+msgid "Use email field"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:228
+#, php-format
+msgid "Enable the option <em>%s</em> below and save your changes."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:229
+#, php-format
+msgid ""
+"<strong>In <a>KlickTipp</a></strong> select <em>ContactCloud - New field</"
+"em>. Enter these values:<br />&nbsp;Name: %s<br />&nbsp;Type: email "
+"address<br />&nbsp;Parameter for subscription by email: %s<br />"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:233
+msgid "Then click on <em>Save</em> and test your settings again."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:54
+msgid "MailChimp API key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:81
+#: application/library/autoresponder_handler/plugin/mailchimp.php:108
+msgid "MailChimp list"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:93
+msgid "Enter a valid API key above, save and then pick a MailChimp list here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:94
+msgid "Please log into your MailChimp account and create an email list."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:123
+msgid ""
+"<strong>In MailChimp</strong> click on your name on the top right of the "
+"screen."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:123
+#: application/library/autoresponder_handler/plugin/mailchimp.php:125
+#, php-format
+msgid "Select %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:127
+#, php-format
+msgid "Click on %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:129
+#, php-format
+msgid "In the column %s click on the API key and copy it to the clipboard."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:131
+#, php-format
+msgid "Optional: In the column %s click on %s and enter %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:133
+#, php-format
+msgid ""
+"<strong>In DigiMember</strong> paste the API key into the text input %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:167
+msgid "You need to enter a valid MailChimp API key."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailchimp.php:244
+msgid "The MailChimp API key is invalid. Please enter a valid API key."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:43
+msgid "MailJet API key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:53
+msgid "MailJet Secret Key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:68
+#: application/library/autoresponder_handler/plugin/mailjet.php:91
+msgid "MailJet list"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:78
+msgid ""
+"Enter your MailJet API and secret key, save and then pick a MailJet list "
+"here."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:79
+msgid "Please log into your MailJet account and create a list."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:106
+msgid "<strong>In MailJet</strong> click on <em>My Account</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:107
+msgid ""
+"Locate the headline <em>REST API</em>. Click on <em>Master API Key</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:108
+msgid ""
+"Copy the <em>API key</em> to the clipboard and paste it in "
+"<strong>DigiMember</strong> into the input field <em>MailJet API Key</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:109
+msgid ""
+"Then copy the <em>secret key</em> to the clipboard and paste it in "
+"DigiMember into the input field <em>MailJet Secret Key</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:110
+msgid "<strong>Here in DigiMember</strong> save your changes."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:111
+msgid "Select the MailJet list from the dropdown list and save again."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:125
+msgid ""
+"The MailJet api needs the php extension \"curl\" and \"json\" activated for "
+"your webaccount. Without, a connection to MailJet is not possible. Please "
+"ask your webhoster to install and activate \"curl\" and \"json\" for php."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/mailjet.php:174
+msgid ""
+"Mailjet API key and API secret not entered. Please check MailJet API access "
+"credentials."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:45
+#, php-format
+msgid "<a>Maropost</a> provides the best integration with %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:46
+msgid "To get your Maropost account, <a>click here</a>!"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:47
+msgid "You need access to the Maropost api."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:48
+msgid "Enter your <a>Maropost</a> credentials below. Then save."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:66
+msgid "Maropost API Key"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:73
+msgid "Maropost Account-Id"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:83
+#: application/library/autoresponder_handler/plugin/maropost.php:89
+msgid "Maropost List"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:308
+msgid ""
+"In Maropost, select <strong>Contacts - Fields</strong> and create custom "
+"fields."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:410
+msgid ""
+"In Maropost, you may extend your address book and add additional fields (in "
+"Maropost select <em>Contacts - Fields</em>). Below you find a list of fields "
+"[PLUGIN] can send to Maropost. Later, if you create an email with Maropost, "
+"you may select these fields from the dropdown list <em>placeholders</em>."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:431
+#, php-format
+msgid ""
+"After signing up in Maropost, new contacts may automatically get an account "
+"in DigiMember. In order to enable this, use the shortcode %s on a "
+"preferrably secret page."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:433
+msgid ""
+"Use the URL of that page within the \"HTTP Post\" item in Maroposts journey "
+"builder. Make sure to select the \"JSON\" format."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:435
+msgid ""
+"Important: The user will not be able to receive his password in any way "
+"other than by email. Please make sure that your email settings are "
+"configured and set up correctly."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/maropost.php:457
+#: application/library/autoresponder_handler/plugin/maropost.php:478
+msgid ""
+"Invalid POST parameters for Maropost auto join. Please ensure that you "
+"followed the instructions carefully."
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:199
+#, php-format
+msgid "IPN error with %s (#%s): %s"
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:9
+#: application/library/payment_handler/plugin/digibank.php:9
+msgid ""
+"<strong>Here in DigiMember</strong> click on <em>Save changes</em> below to "
+"create a notification URL."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:10
+#: application/library/payment_handler/plugin/clickbank.php:80
+#: application/library/payment_handler/plugin/digibank.php:10
+msgid "Copy the notification URL below to the clipboard."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:11
+msgid ""
+"Open <em>DigiMember - Products</em> to view the product list. Write down the "
+"product ids of the products you want to sell via 2CheckOut."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:12
+msgid "<strong>In 2CheckOut</strong> go to <em>Nofitication - Settings</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:13
+msgid "Paste the notification URL in the field <em>Global URL<em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:14
+msgid ""
+"Click on <em>Apply</em>, then on <em>Enable All Notification</em>, then on "
+"<em>Save Settings</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:15
+msgid "In the menu click on <em>products</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:16
+msgid ""
+"Edit your products. For each DigiMember product enter the DigiMember product "
+"id in the field product id."
+msgstr ""
+
+#: application/library/payment_handler/plugin/2checkout.php:17
+msgid "That's it. You're done."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:54
+#: application/library/payment_handler/plugin/cleverbrigde.php:19
+#: application/library/payment_handler/plugin/stripe.php:113
+#, php-format
+msgid "%s product ids"
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:104
+#: application/library/payment_handler/plugin/cleverbrigde.php:78
+msgid "Locate the notification URL below and copy it to the clipboard."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:109
+msgid ""
+"Please note: If DigiMember does not react on Affilicon sales, try to replace "
+"https:// by http:// in the notification URL, because Affilicon does not "
+"accept self signed SSL certificates."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:111
+msgid "<strong>In Affilicon </strong> select the <em>My products</em> tab."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:112
+msgid ""
+"Perform the following steps for each product you want to sell with "
+"DigiMember:"
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:113
+msgid ""
+"Locate a product in the Affilicon product table. If you don't have one, "
+"create one."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:114
+msgid "Click on the <em>Edit</em> button of the product."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:115
+msgid "Select the tab <em>Connections</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:116
+msgid "As connection type select <em>DigiMember</em>"
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:117
+msgid "Paste the notification URL into the field <em>notification URL</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/affilibank.php:118
+msgid ""
+"<strong>Here in DigiMember</strong> enter the affilibank item number for the "
+"appropriate products."
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:79
+#, php-format
+msgid "Open the Cleverbrigde's %s."
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:80
+#, php-format
+msgid "In the left column, the box %s click on %s."
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:81
+#, php-format
+msgid ""
+"Create a new product list (type: %s) and add all products %s will handle."
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:82
+#, php-format
+msgid "In the main menu, select %s. Then open the tab %s."
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:83
+#, php-format
+msgid "Click on %s and enter these settings:"
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:86
+#, php-format
+msgid "Select the list you created in step %s"
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:87
+#, php-format
+msgid "The notification URL from step %s"
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:91
+msgid "Select the following entries"
+msgstr ""
+
+#: application/library/payment_handler/plugin/cleverbrigde.php:102
+#, php-format
+msgid ""
+"<strong>Here in DigiMember</strong> enter the %s product id for the "
+"appropriate products."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:19
+msgid "Clickbank product nos"
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:79
+#: application/library/payment_handler/plugin/paypal.php:23
+msgid "Click on <em>Save changes</em> below to create a notification URL."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:82
+msgid ""
+"<strong>In Clickbank</strong> go to <em>Account Settings - My site</em>. "
+"There select <em>Advanced Tools - Edit</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:85
+msgid ""
+"If you have a new Clickbank acount, you need to perform these steps "
+"<em>once</em>:"
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:87
+msgid ""
+"Right of <em>Instant Notification URL</em> click on <em>Request access</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:88
+msgid "Review the instructions and select <em>Yes</em> in all dropdown lists."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:89
+msgid ""
+"Scroll to the bottom of the <em>Terms of Use</em> and check the checkbox."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:90
+msgid "Hit <em>Save Changes & Request API Access</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:91
+msgid "Right of <em>Advanced Tools</em> click again on <em>Edit</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:93
+msgid ""
+"Paste the notification URL from DigiMember into one of the two inputs "
+"<em>Instant notification URL</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:94
+msgid "As <em>version</em> select 2.1."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:96
+msgid ""
+"On <em>Account Settings - My Products</em> note column <em>Item</em>. Write "
+"down the item number for each product you want to sell with DigiMember."
+msgstr ""
+
+#: application/library/payment_handler/plugin/clickbank.php:97
+msgid ""
+"<strong>In Digimeber</em> locate the <em>Product Ids</em> input. Enter the "
+"Clickbank itemnumber for each product you want to sell with DigiMember."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:14
+msgid ""
+"<strong><a1>In Digistore</a></strong> make sure <a2>you have setup a "
+"Digistore product</a> and know the Digistore product id."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:19
+msgid ""
+"Got to <a>settings - IPN</a> and edit or add an ipn setting. Select as type "
+"DigiMember."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:22
+msgid "Paste the notification URL in the appropriate text field."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:23
+msgid ""
+"Locate the Digistore24 product names below the notification URL. Check all "
+"products you want DigiMember to handle. Or just check <em>all</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:24
+msgid "Note the Digistore24 product ids right of the product names."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:25
+msgid ""
+"<strong>In DigiMember</strong> enter the Digistore24 product ids so that "
+"they match your DigiMember products."
+msgstr ""
+
+#: application/library/payment_handler/plugin/digibank.php:36
+msgid "Digistore24 product ids"
+msgstr ""
+
+#: application/library/payment_handler/plugin/generic.php:42
+msgid "Extern product ids"
+msgstr ""
+
+#: application/library/payment_handler/plugin/generic.php:72
+msgid ""
+"You may <a>download an example php script</a>, which explains how to "
+"integrate a payment provider into DigiMember."
+msgstr ""
+
+#: application/library/payment_handler/plugin/generic.php:81
+msgid "This payment provider is for advanced users only."
+msgstr ""
+
+#: application/library/payment_handler/plugin/generic.php:82
+msgid ""
+"It allows you to attach any system to DigiMember. Warning: Programming "
+"skills required."
+msgstr ""
+
+#: application/library/payment_handler/plugin/helper/StripeResponseParser.php:62
+#: application/library/payment_handler/plugin/helper/StripeResponseParser.php:68
+#, php-format
+msgid "%s could not be determined for this API response"
+msgstr ""
+
+#: application/library/payment_handler/plugin/paypal.php:24
+msgid "Log into PayPal and goto Tools &rarr; PayPal buttons."
+msgstr ""
+
+#: application/library/payment_handler/plugin/paypal.php:25
+msgid "For each product create a PayPal payment button."
+msgstr ""
+
+#: application/library/payment_handler/plugin/paypal.php:26
+msgid ""
+"Under <em>Step 3: Customize advanced features (optional)</em> add an "
+"<em>advanced variable</em> named <strong>notify_url</strong>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/paypal.php:27
+#, php-format
+msgid ""
+"Set <strong>notify_url</strong> to the product's url (shown here below the "
+"product). E.g. notify_url=%s"
+msgstr ""
+
+#: application/library/payment_handler/plugin/paypal.php:28
+msgid "Add the PayPal button to your sales page and you are done."
+msgstr ""
+
+#: application/library/payment_handler/plugin/paypal.php:29
+msgid ""
+"Note: If your site URL starts with http<strong>s</strong>://... (instead of "
+"http://...) AND you did not buy a SSL certificate, PayPal may report an "
+"error. Then try using http://... in your notification URL."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:55
+msgid ""
+"<strong>In ShareIt</strong> create a product for each product you want to "
+"sell with DigiMember. Write down the ShareIt product number for each product."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:56
+msgid ""
+"Also visit <em>Administration -Additional Options</em>. Locate the headline "
+"<em>Order Information</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:57
+msgid "There set <em>Notification frequency</em> to <em>for every order</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:58
+msgid "Set <em>Notification type</em> to <em>XML format only</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:59
+#, php-format
+msgid "Set <em>Format</em> to <em>XML schema (%s)</em>."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:60
+msgid ""
+"<strong>In DigiMember</strong> enter the ShareIt product number in the field "
+"<em>Product ids</em>. Do this for each product you want to sell with "
+"ShareIt. Leave the other input fiels empty."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:61
+msgid "Enter your ShareIt Customer id in the appropriate input field above."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:62
+msgid ""
+"Click on <em>Send email to ShareIt</em> to automatically send an email to "
+"the Shareit customer support. This is required to set the notification URL "
+"in your ShareIt account."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:63
+msgid ""
+"Please give the ShareIt customer support three workdays to respond to your "
+"request. Then you're done."
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:90
+msgid "Allow multiple purchases of same product"
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:91
+msgid ""
+"Multiple payments for the same product are treated as subscription payments"
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:99
+msgid "ShareIt product ids"
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:116
+msgid "Duplicate payments policy"
+msgstr ""
+
+#: application/library/payment_handler/plugin/shareit.php:118
+msgid ""
+"ShareIt does not handle subscriptions very well.|You need to decide, if you "
+"want to either allow a buyer to buy the same product twice or more often, or "
+"if you want to have subscriptions."
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:81
+msgid "Product identification method"
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:84
+msgid "Order / Product"
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:85
+msgid "Metadata"
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:86
+msgid "Manual"
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:93
+msgid "Metadata key"
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:104
+msgid "Assign product to any charge"
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:125
+msgid "Stripe secret key"
+msgstr ""
+
+#: application/library/payment_handler/plugin/stripe.php:126
+msgid ""
+"Depending on your usage of Stripe, you should provide your API key, so "
+"DigiMember can acquire your customers data for a wider variety of cases"
+msgstr ""
+
+#: application/view/admin/payment_list.php:3
+#, php-format
+msgid "To connect %s to you Digistore24-Account perform these steps:"
+msgstr ""
+
+#: application/view/admin/payment_list.php:11
+#, php-format
+msgid "Copy the following pay code to the clipboard: %s"
+msgstr ""
+
+#: application/view/admin/payment_list.php:12
+msgid "If you have no Digistore24-Account, <a>signup with Digistore24</a> now."
+msgstr ""
+
+#: application/view/admin/payment_list.php:13
+msgid "In Digistore24, goto <a>Settings -> IPN</a>."
+msgstr ""
+
+#: application/view/admin/payment_list.php:14
+msgid "Click on <em>Add new connection</em>."
+msgstr ""
+
+#: application/view/admin/payment_list.php:15
+#, php-format
+msgid "For <em>Type</em>, select %s."
+msgstr ""
+
+#: application/view/admin/payment_list.php:16
+msgid "Follow the instructions there."
+msgstr ""
+
+#: application/view/admin/shortcode.php:257
+msgid ""
+"Use this short code to automatically create accounts for new autoresponder "
+"contacts."
+msgstr ""
+
+#: application/view/admin/shortcode.php:258
+msgid "Step by step instructions"
+msgstr ""
+
+#: application/view/admin/shortcode.php:261
+#, php-format
+msgid "On page %s setup an autoresponder connection of type %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:262
+#, php-format
+msgid ""
+"Got to the autoresponder's home page and log in. Setup the optin process, so "
+"that the thank you page is a page of this Wordpress site (%s)"
+msgstr ""
+
+#: application/view/admin/shortcode.php:263
+#, php-format
+msgid ""
+"On the thank you page, use the shortcode %s. The shortcode will create the "
+"account and (optionally) display the login information."
+msgstr ""
+
+#: application/view/admin/shortcode.php:264
+#, php-format
+msgid ""
+"Text enclosed between %s and %s is only displayed, if an account was created."
+msgstr ""
+
+#: application/view/admin/shortcode.php:265
+#, php-format
+msgid ""
+"You can use the shortcodes %s and %s to display username and password of the "
+"new account."
+msgstr ""
+
+#: application/view/admin/shortcode.php:266
+#, php-format
+msgid ""
+"If you want to new user to login automatically, provide a link to your page "
+"with the GET-Parameter %s, e.g.: %s"
+msgstr ""
+
+#: application/view/admin/shortcode.php:267
+#, php-format
+msgid ""
+"If your autoresponder stores the contact's first and last names, you may use "
+"the short codes %s and %s."
+msgstr ""
+
+#: application/view/admin/shortcode.php:278
+msgid ""
+"If the account creation fails, an error message describing the reason is "
+"displayed. Don't use this unless you want to investigate any problems."
+msgstr ""

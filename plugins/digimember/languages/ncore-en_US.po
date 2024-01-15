@@ -1,0 +1,2560 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DigiMember\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-14 14:06+0100\n"
+"PO-Revision-Date: 2019-03-14 14:06+0100\n"
+"Last-Translator: Digistore24 Team <support@digistore24.com>\n"
+"Language-Team: DigiMember Translation Team <support@digimember.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _ncore\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/config/menu.php:22
+msgid "[PLUGIN] Settings"
+msgstr ""
+
+#: application/config/menu.php:23
+#: application/controller/admin/action_edit.php:52
+#: application/controller/admin/action_edit.php:494
+#: application/controller/admin/action_list.php:49
+#: application/controller/admin/action_settings.php:31
+#: application/controller/admin/action_settings.php:109
+#: application/controller/admin/certificate_edit.php:337
+#: application/controller/admin/exam_edit.php:416
+#: application/controller/admin/newsletter_edit.php:195
+#: application/controller/admin/options.php:24
+#: application/controller/admin/options.php:694
+#: application/controller/admin/order_edit.php:203
+#: application/controller/admin/payment_edit.php:220
+#: application/controller/admin/product_vault.php:138
+#: application/controller/admin/signup_form_generator.php:113
+#: application/controller/admin/webhook_edit.php:239
+#: application/controller/admin/webpush_message_edit.php:444
+#: application/controller/admin/webpush_message_list.php:339
+#: application/controller/admin/webpush_settings.php:366
+#: application/controller/admin/webpush_settings.php:460
+#: application/controller/admin/webpush_subscription_list.php:260
+#: application/controller/shortcode.php:2141
+#: system/controller/widget/base_edit.php:96 system/core/init.php:532
+msgid "Settings"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:31
+#: application/controller/admin/action_list.php:9
+#: application/controller/admin/action_log.php:9
+msgid "Actions"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:42
+#: application/controller/admin/action_list.php:40
+#: application/controller/admin/action_list.php:94
+#: application/controller/admin/action_log.php:25
+#: application/controller/admin/action_settings.php:21
+#: application/controller/admin/certificate_list.php:94
+#: application/controller/admin/exam_list.php:70
+#: application/controller/admin/newsletter_list.php:54
+#: application/controller/admin/order_list.php:47
+#: application/controller/admin/payment_list.php:81
+#: application/controller/admin/product_list.php:64
+#: application/controller/admin/webhook_list.php:50
+#: application/controller/admin/webpush_message_list.php:82
+#: system/library/form_renderer/input/dynamic_object_list.php:173
+#: system/library/table_renderer/type/button.php:17
+msgid "Edit"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:47
+#: application/controller/admin/action_list.php:44
+#: application/controller/admin/action_log.php:28
+#: application/controller/admin/action_settings.php:26
+#: system/controller/admin/log.php:9
+msgid "Log"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:109
+#: application/controller/admin/action_list.php:88
+#: application/controller/admin/certificate_edit.php:75
+#: application/controller/admin/certificate_list.php:88
+#: application/controller/admin/exam_edit.php:137
+#: application/controller/admin/exam_edit.php:216
+#: application/controller/admin/exam_edit.php:342
+#: application/controller/admin/exam_list.php:64
+#: application/controller/admin/webhook_edit.php:42
+#: application/controller/admin/webhook_list.php:44
+#: application/controller/admin/webpush_message_edit.php:72
+#: application/controller/admin/webpush_message_list.php:76
+msgid "Name"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:118
+#: application/controller/admin/action_list.php:187
+#: application/controller/admin/certificate_list.php:191
+#: application/controller/admin/exam_list.php:157
+#: application/controller/admin/newsletter_edit.php:50
+#: application/controller/admin/newsletter_list.php:112
+#: application/controller/admin/payment_list.php:147
+#: application/controller/admin/webhook_list.php:120
+#: application/controller/admin/webpush_message_list.php:193
+msgid "Id"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:127
+#: application/controller/admin/action_list.php:212
+#: application/controller/admin/action_list.php:287
+#: application/controller/admin/certificate_edit.php:84
+#: application/controller/admin/certificate_list.php:185
+#: application/controller/admin/newsletter_edit.php:59
+#: application/controller/admin/newsletter_list.php:202
+#: application/controller/admin/order_list.php:153
+#: application/controller/admin/order_list.php:265
+#: application/controller/admin/payment_list.php:244
+#: system/model/data/autoresponder.php:89
+msgid "Active"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:137
+#: application/controller/admin/action_list.php:195
+msgid "Action will be triggered"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:144
+msgid "if logging in for the [N]. time"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:155
+msgid "Enter 1 to trigger the action when the user does his first login."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:157
+msgid "Logins only will be counted (roughly) once a day."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:160
+msgid "if logging in after [N] days"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:171
+msgid ""
+"Enter 14 to trigger the action, if the user has paused using your site for "
+"14 (or more) days."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:174
+msgid "if not logged in for [N] days"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:186
+msgid ""
+"Enter 7 to trigger the action, after the user has not logged in for a week."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:189
+msgid "if never was online within [N] days after account creation"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:201
+msgid ""
+"Enter 21 to trigger the action, after the user has not logged in within "
+"three weeks after account creation."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:209
+msgid "Page"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:220
+msgid "after viewing the page for"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:223
+msgid "seconds"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:232
+msgid "when the product access"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:235
+msgid "will expire in"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:235
+msgid "is expired for"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:237
+msgid "Days of access"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:237
+#, php-format
+msgid "Only for products, where %s is 1 day or longer."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:247
+msgid "days."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:257
+msgid "For owner of these products only"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:261
+msgid "Any product"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:291
+msgid "Note"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:325
+#: application/controller/admin/action_edit.php:456
+msgid "Add/Remove tag"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:401
+#: application/controller/admin/action_log.php:106
+#: application/controller/admin/action_log.php:134
+#: application/controller/admin/newsletter_edit.php:9
+#: application/controller/admin/newsletter_edit.php:40
+#: application/controller/admin/newsletter_edit.php:203
+#: application/controller/admin/newsletter_list.php:9
+#: system/controller/admin/log.php:80
+msgid "Autoresponder"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:408
+msgid "Autoresponder connection"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:413
+#, php-format
+msgid "Important: Click on %s below to reload the %s tags."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:450
+#, php-format
+msgid "Please <a>setup an autoresponder</a> of type %s first."
+msgstr ""
+
+#: application/controller/admin/action_edit.php:483
+#: application/controller/admin/certificate_edit.php:326
+#: application/controller/admin/exam_edit.php:401
+#: application/controller/admin/newsletter_edit.php:184
+#: application/controller/admin/order_edit.php:155
+#: application/controller/admin/order_masscreate.php:68
+#: application/controller/admin/payment_edit.php:209
+#: application/controller/admin/product_edit.php:173
+#: application/controller/admin/product_vault.php:127
+#: application/controller/admin/webhook_edit.php:228
+#: application/controller/admin/webpush_message_edit.php:267
+#: system/helper/html_input_date.php:21
+#: system/library/form_renderer/button/link.php:6
+msgid "Back"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:498
+msgid "Condition"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:502
+msgid "Autoresponder action"
+msgstr ""
+
+#: application/controller/admin/action_edit.php:536
+#: application/controller/admin/certificate_edit.php:385
+#: application/controller/admin/exam_edit.php:459
+#: application/controller/admin/newsletter_edit.php:234
+#: application/controller/admin/payment_edit.php:251
+#: application/controller/admin/product_edit.php:200
+#: application/controller/admin/product_vault.php:170
+#: application/controller/admin/webhook_edit.php:284
+#: application/controller/admin/webpush_message_edit.php:328
+#: application/controller/admin/webpush_settings.php:413
+msgid "The element has been deleted."
+msgstr ""
+
+#: application/controller/admin/action_list.php:107
+#: application/controller/admin/certificate_list.php:121
+#: application/controller/admin/exam_list.php:83
+#: application/controller/admin/product_list.php:104
+#: application/controller/admin/product_list.php:255
+#: application/controller/admin/webhook_list.php:55
+#: application/controller/admin/webpush_message_list.php:95
+msgid "Copy"
+msgstr ""
+
+#: application/controller/admin/action_list.php:122
+#: application/controller/admin/action_list.php:241
+#: application/controller/admin/newsletter_list.php:61
+#: application/controller/admin/newsletter_list.php:156
+#: application/controller/admin/order_list.php:54
+#: application/controller/admin/order_list.php:212
+#: application/controller/admin/payment_list.php:94
+#: application/controller/admin/payment_list.php:195
+msgid "Activate"
+msgstr ""
+
+#: application/controller/admin/action_list.php:138
+#: application/controller/admin/action_list.php:248
+#: application/controller/admin/newsletter_list.php:71
+#: application/controller/admin/newsletter_list.php:163
+#: application/controller/admin/order_list.php:64
+#: application/controller/admin/order_list.php:219
+#: application/controller/admin/payment_list.php:104
+#: application/controller/admin/payment_list.php:202
+msgid "Deactivate"
+msgstr ""
+
+#: application/controller/admin/action_list.php:155
+#: application/controller/admin/action_list.php:255
+#: application/controller/admin/certificate_list.php:137
+#: application/controller/admin/certificate_list.php:333
+#: application/controller/admin/exam_list.php:99
+#: application/controller/admin/exam_list.php:299
+#: application/controller/admin/newsletter_list.php:82
+#: application/controller/admin/newsletter_list.php:170
+#: application/controller/admin/order_list.php:94
+#: application/controller/admin/order_list.php:233
+#: application/controller/admin/payment_list.php:115
+#: application/controller/admin/payment_list.php:209
+#: application/controller/admin/product_list.php:137
+#: application/controller/admin/product_list.php:276
+#: application/controller/admin/webhook_list.php:71
+#: application/controller/admin/webhook_list.php:256
+#: application/controller/admin/webpush_message_list.php:111
+#: application/controller/admin/webpush_message_list.php:359
+#: application/controller/admin/webpush_subscription_list.php:73
+#: application/controller/admin/webpush_subscription_list.php:279
+msgid "Move to trash"
+msgstr ""
+
+#: application/controller/admin/action_list.php:166
+#: application/controller/admin/action_list.php:261
+#: application/controller/admin/certificate_list.php:148
+#: application/controller/admin/certificate_list.php:339
+#: application/controller/admin/exam_list.php:110
+#: application/controller/admin/exam_list.php:305
+#: application/controller/admin/newsletter_list.php:93
+#: application/controller/admin/newsletter_list.php:176
+#: application/controller/admin/order_list.php:105
+#: application/controller/admin/order_list.php:239
+#: application/controller/admin/payment_list.php:126
+#: application/controller/admin/payment_list.php:215
+#: application/controller/admin/product_list.php:148
+#: application/controller/admin/product_list.php:282
+#: application/controller/admin/webhook_list.php:82
+#: application/controller/admin/webhook_list.php:262
+#: application/controller/admin/webpush_message_list.php:122
+#: application/controller/admin/webpush_message_list.php:365
+#: application/controller/admin/webpush_subscription_list.php:84
+#: application/controller/admin/webpush_subscription_list.php:285
+msgid "Restore"
+msgstr ""
+
+#: application/controller/admin/action_list.php:175
+#: application/controller/admin/action_list.php:268
+#: application/controller/admin/certificate_list.php:157
+#: application/controller/admin/certificate_list.php:346
+#: application/controller/admin/exam_list.php:119
+#: application/controller/admin/exam_list.php:312
+#: application/controller/admin/newsletter_list.php:102
+#: application/controller/admin/newsletter_list.php:183
+#: application/controller/admin/order_list.php:114
+#: application/controller/admin/order_list.php:246
+#: application/controller/admin/payment_list.php:135
+#: application/controller/admin/payment_list.php:222
+#: application/controller/admin/product_list.php:157
+#: application/controller/admin/product_list.php:289
+#: application/controller/admin/webhook_list.php:91
+#: application/controller/admin/webhook_list.php:269
+#: application/controller/admin/webpush_message_list.php:131
+#: application/controller/admin/webpush_message_list.php:372
+#: application/controller/admin/webpush_subscription_list.php:93
+#: application/controller/admin/webpush_subscription_list.php:292
+msgid "Delete irrevocably"
+msgstr ""
+
+#: application/controller/admin/action_list.php:201
+#: application/controller/admin/newsletter_edit.php:68
+#: application/controller/admin/newsletter_list.php:120
+#: application/controller/admin/webhook_list.php:109
+#: application/controller/admin/webpush_message_edit.php:209
+msgid "Products"
+msgstr ""
+
+#: application/controller/admin/action_list.php:206
+#: application/controller/admin/newsletter_list.php:126
+#: application/controller/admin/webhook_list.php:114
+msgid "none"
+msgstr ""
+
+#: application/controller/admin/action_list.php:218
+#: application/controller/admin/certificate_list.php:198
+#: application/controller/admin/exam_list.php:164
+#: application/controller/admin/log.php:71
+#: application/controller/admin/newsletter_list.php:133
+#: application/controller/admin/payment_list.php:172
+#: application/controller/admin/product_list.php:220
+#: application/controller/admin/webhook_list.php:127
+#: application/controller/admin/webpush_message_list.php:200
+#: system/controller/admin/log.php:23
+msgid "Date"
+msgstr ""
+
+#: application/controller/admin/action_list.php:280
+#: application/controller/admin/certificate_list.php:213
+#: application/controller/admin/exam_list.php:179
+#: application/controller/admin/newsletter_list.php:195
+#: application/controller/admin/order_list.php:258
+#: application/controller/admin/payment_list.php:236
+#: application/controller/admin/product_list.php:303
+#: application/controller/admin/webhook_list.php:142
+#: application/controller/admin/webpush_message_list.php:215
+#: application/controller/admin/webpush_subscription_list.php:145
+msgid "All"
+msgstr ""
+
+#: application/controller/admin/action_list.php:294
+#: application/controller/admin/newsletter_list.php:209
+#: application/controller/admin/order_list.php:272
+#: application/controller/admin/payment_list.php:252
+msgid "Inactive"
+msgstr ""
+
+#: application/controller/admin/action_list.php:295
+msgid "No inactive actions found."
+msgstr ""
+
+#: application/controller/admin/action_list.php:302
+#: application/controller/admin/certificate_list.php:220
+#: application/controller/admin/exam_list.php:186
+#: application/controller/admin/newsletter_list.php:217
+#: application/controller/admin/order_list.php:280
+#: application/controller/admin/payment_list.php:261
+#: application/controller/admin/product_list.php:346
+#: application/controller/admin/webhook_list.php:149
+#: application/controller/admin/webpush_message_list.php:222
+#: application/controller/admin/webpush_subscription_list.php:152
+msgid "Trash"
+msgstr ""
+
+#: application/controller/admin/action_list.php:303
+#: application/controller/admin/certificate_list.php:221
+#: application/controller/admin/exam_list.php:187
+#: application/controller/admin/webhook_list.php:150
+#: application/controller/admin/webpush_message_list.php:223
+#: application/controller/admin/webpush_subscription_list.php:153
+msgid "The trash is empty."
+msgstr ""
+
+#: application/controller/admin/action_log.php:43
+#: application/controller/admin/webpush_subscription_list.php:110
+msgid "User"
+msgstr ""
+
+#: application/controller/admin/action_log.php:51
+msgid "Action id"
+msgstr ""
+
+#: application/controller/admin/action_log.php:57
+msgid "Action name"
+msgstr ""
+
+#: application/controller/admin/action_log.php:66
+msgid "Created"
+msgstr ""
+
+#: application/controller/admin/action_log.php:73
+msgid "Processed"
+msgstr ""
+
+#: application/controller/admin/action_log.php:98
+#: application/controller/admin/mail_text.php:394
+#: application/controller/admin/newsletter_edit.php:160
+#: application/controller/admin/newsletter_edit.php:328
+#: application/controller/admin/options.php:754
+#: application/controller/admin/options.php:889
+msgid "Email"
+msgstr ""
+
+#: application/controller/admin/action_log.php:126
+#: system/controller/admin/log.php:71
+msgid "Info"
+msgstr ""
+
+#: application/controller/admin/action_log.php:127
+#: system/controller/admin/log.php:73 system/model/logic/action.php:194
+msgid "Error"
+msgstr ""
+
+#: application/controller/admin/action_log.php:135
+#: system/controller/admin/log.php:81
+msgid "Api"
+msgstr ""
+
+#: application/controller/admin/action_log.php:136
+#: system/controller/admin/log.php:82
+msgid "Mail"
+msgstr ""
+
+#: application/controller/admin/action_log.php:137
+#: system/controller/admin/log.php:83
+msgid "Payment"
+msgstr ""
+
+#: application/controller/admin/action_log.php:138
+#: system/controller/admin/log.php:84
+msgid "Plugin"
+msgstr ""
+
+#: application/controller/admin/certificate_edit.php:144
+#, php-format
+msgid "Default is: %s"
+msgstr ""
+
+#: application/controller/admin/certificate_list.php:107
+msgid "Preview"
+msgstr ""
+
+#: application/controller/admin/content.php:163
+#: system/helper/html_input.php:669
+#: system/library/form_renderer/input/page.php:36
+msgid "View page"
+msgstr ""
+
+#: application/controller/admin/exam_edit.php:145
+#: application/controller/admin/exam_edit.php:224
+#: application/controller/admin/exam_edit.php:350
+#: application/controller/post/tinymce.php:57
+msgid "Shortcode"
+msgstr ""
+
+#: application/controller/admin/log.php:78 system/controller/admin/log.php:30
+msgid "Type"
+msgstr ""
+
+#: application/controller/admin/log.php:89 system/controller/admin/log.php:41
+msgid "Section"
+msgstr ""
+
+#: application/controller/admin/log.php:99
+#: application/controller/admin/webpush_message_edit.php:283
+#: system/controller/admin/log.php:51
+msgid "Message"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:216
+#: application/controller/admin/options.php:742
+#: application/controller/admin/options.php:747
+msgid "Send test email"
+msgstr ""
+
+#: application/controller/admin/mail_text.php:458
+#: application/controller/admin/options.php:902
+#, php-format
+msgid "A test email has been sent to %s."
+msgstr ""
+
+#: application/controller/admin/mail_text.php:464
+#: application/controller/admin/options.php:906
+#, php-format
+msgid ""
+"The email to %s could not be send. Please validate the email address and "
+"your email settings."
+msgstr ""
+
+#: application/controller/admin/mail_text.php:469
+#, php-format
+msgid "The email to %s has not been send, because the message is left blank."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:79
+msgid "Optout on account deletion"
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:80
+msgid ""
+"If yes, the user will be deleted from the auto responder, if his is account "
+"is deleted in WordPress."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:89
+msgid "Allow export of personal data"
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:90
+#, php-format
+msgid ""
+"If yes, and if the user exports his data via the %s shortcode, his data "
+"stored in the autoresponder's database will be exported."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:100
+msgid "For this autoresponder no data privacy settings are available."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:148
+msgid "Test settings"
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:153
+msgid "Test autoresponder"
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:167
+msgid "First name"
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:174
+msgid "Last name"
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:199
+msgid "GDPR"
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:356
+#, php-format
+msgid "The email %s was added to the autoresponder."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:357
+msgid ""
+"Please check your mailbox for a subscription confirmation email (if "
+"applicable)."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:358
+#, php-format
+msgid ""
+"You also might want to check your autoresponder's website and validate that "
+"%s is subscribed."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:359
+msgid ""
+"If the subscription is NOT successful, please try a different email address, "
+"because the used email address may already be subscribed."
+msgstr ""
+
+#: application/controller/admin/newsletter_edit.php:364
+#, php-format
+msgid "Error when adding %s to the autoresponder: %s"
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:15
+msgid ""
+"Here you can have your customers automatically added to an email software "
+"(autoresponder), that will sent follow up emails. This setting is optional."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:48
+msgid "Autoresponder Type"
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:210
+msgid "No inactive autoresponders found."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:218
+msgid "No autoresponders found in trash."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:229
+msgid "Please add a new autoresponder first."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:333
+msgid "Deleted one autoresponder irrevocably."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:335
+#, php-format
+msgid "Deleted %s autoresponders irrevocably."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:339
+msgid "Moved one autoresponder to trash."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:341
+#, php-format
+msgid "Moved %s autoresponders to trash."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:345
+msgid "Restored one autoresponder from trash."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:347
+#, php-format
+msgid "Restored %s autoresponders from trash."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:351
+msgid "Activated one autoresponder."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:353
+#, php-format
+msgid "Activated %s autoresponders."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:357
+msgid "Deactivated one autoresponder."
+msgstr ""
+
+#: application/controller/admin/newsletter_list.php:359
+#, php-format
+msgid "Deactivated %s autoresponders."
+msgstr ""
+
+#: application/controller/admin/options.php:72
+msgid ""
+"Click on this button to clear the license key.<p>You then may use the "
+"license key for another domain."
+msgstr ""
+
+#: application/controller/admin/options.php:73
+msgid ""
+"Enter your license key we have sent you by email after purchasing the "
+"product."
+msgstr ""
+
+#: application/controller/admin/options.php:99
+msgid ""
+"The license will now be reset.|You then may use the license key for a new "
+"domain.|Continue?"
+msgstr ""
+
+#: application/controller/admin/options.php:101
+msgid "Reset license key"
+msgstr ""
+
+#: application/controller/admin/options.php:105
+#: application/model/data/webpush_settings.php:133
+#: application/model/data/webpush_settings.php:136
+#: system/helper/html_input_date.php:20 system/library/ajax/dialog/alert.php:7
+#: system/library/ajax/dialog/confirm.php:7
+#: system/library/ajax/dialog/form.php:45
+msgid "Ok"
+msgstr ""
+
+#: application/controller/admin/options.php:113
+msgid "License Code"
+msgstr ""
+
+#: application/controller/admin/options.php:145
+msgid "Important"
+msgstr ""
+
+#: application/controller/admin/options.php:146
+#, php-format
+msgid "This is the test version of the %s plugin!"
+msgstr ""
+
+#: application/controller/admin/options.php:147
+msgid ""
+"This test version receives updates earlier then the productive version. "
+"These update may not be stable and are not suited for productive "
+"environments."
+msgstr ""
+
+#: application/controller/admin/options.php:690
+msgid "Setup"
+msgstr ""
+
+#: application/controller/admin/options.php:702
+msgid "Email communication"
+msgstr ""
+
+#: application/controller/admin/options.php:706
+msgid "Recommend"
+msgstr ""
+
+#: application/controller/admin/options.php:710
+msgid "Support"
+msgstr ""
+
+#: application/controller/admin/options.php:746
+msgid "Enter an email address:"
+msgstr ""
+
+#: application/controller/admin/options.php:932
+msgid "The license is valid and activated."
+msgstr ""
+
+#: application/controller/admin/options.php:964
+msgid ""
+"The license key has been resetted. You may now use the license for another "
+"domain."
+msgstr ""
+
+#: application/controller/admin/order_edit.php:124
+#: application/controller/admin/order_edit.php:139
+#: application/controller/admin/order_list.php:160
+msgid "Order date"
+msgstr ""
+
+#: application/controller/admin/order_list.php:180
+#: application/library/autoresponder_handler/plugin/cleverreach.php:199
+#: application/library/autoresponder_handler/plugin/mailchimp.php:64
+msgid "No"
+msgstr ""
+
+#: application/controller/admin/payment_edit.php:443
+#, php-format
+msgid "Sending email to %s and %s failed."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:226
+#: application/controller/admin/product_edit.php:738
+#: application/controller/admin/product_edit.php:1086
+msgid "Is published"
+msgstr ""
+
+#: application/controller/admin/product_edit.php:337
+#: system/controller/admin/form.php:109 system/controller/user/form.php:100
+msgid "Your changes have been saved."
+msgstr ""
+
+#: application/controller/admin/product_edit.php:944
+#: application/controller/admin/product_edit.php:1115
+msgid "days"
+msgstr ""
+
+#: application/controller/admin/product_list.php:119
+#: application/controller/admin/product_list.php:262
+msgid "Publish"
+msgstr ""
+
+#: application/controller/admin/product_list.php:128
+#: application/controller/admin/product_list.php:269
+msgid "Unpublish"
+msgstr ""
+
+#: application/controller/admin/product_list.php:330
+msgid "Published"
+msgstr ""
+
+#: application/controller/admin/product_list.php:338
+msgid "Drafts"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:279
+msgid "General"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:287
+msgid "Send"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:292
+msgid "Statistics"
+msgstr ""
+
+#: application/controller/admin/webpush_message_edit.php:434
+#: application/controller/admin/webpush_message_list.php:329
+#: application/controller/admin/webpush_settings.php:450
+#: application/controller/admin/webpush_subscription_list.php:250
+msgid "Messages"
+msgstr ""
+
+#: application/controller/post/tinymce.php:67
+msgid "Description"
+msgstr ""
+
+#: application/controller/shortcode.php:432
+msgid "URL is required."
+msgstr ""
+
+#: application/controller/shortcode.php:1989 system/controller/shortcode.php:21
+msgid "Login"
+msgstr ""
+
+#: application/controller/shortcode.php:2055
+#: application/controller/shortcode.php:2070
+msgid "before"
+msgstr ""
+
+#: application/controller/shortcode.php:2055
+#: application/controller/shortcode.php:2070
+msgid "after"
+msgstr ""
+
+#: application/controller/shortcode.php:3042
+msgid "Logoff"
+msgstr ""
+
+#: application/controller/user/account_editor.php:245
+msgid "Continue?"
+msgstr ""
+
+#: application/controller/user/login_form.php:98
+#: application/controller/user/signup_form.php:110
+#: system/library/ajax/dialog/base.php:104
+#: system/library/ajax/dialog/base.php:127
+#: system/library/ajax/dialog/base.php:197
+#: system/library/ajax/dialog/infobox.php:30
+msgid "Close"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:124
+#, php-format
+msgid "Invalid autoresponder id: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:151
+#, php-format
+msgid "The email address %s is invalid."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:157
+#, php-format
+msgid "The autoresponder connection #%s is not active."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:216
+#, php-format
+msgid "Subscription of %s to %s failed: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:249
+msgid "generic"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:302
+msgid "Instructions"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:520
+msgid "No active autoresponder connection found for autojoin."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:525
+#, php-format
+msgid "%s is not active."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:571
+msgid "No products selected."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:589
+msgid "Could not retrieve contact data from thank you page URL."
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:643
+#, php-format
+msgid "%s - %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:715
+#: system/model/data/autoresponder.php:75
+msgid "Select autoresponder"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:782
+#: application/library/autoresponder_handler/plugin/aweber.php:211
+#: application/library/autoresponder_handler/plugin/cleverreach.php:319
+#: application/library/autoresponder_handler/plugin/cleverreach.php:364
+#: application/library/autoresponder_handler/plugin/getresponse.php:227
+#: application/library/autoresponder_handler/plugin/iContact.php:207
+#: application/library/autoresponder_handler/plugin/mailchimp.php:205
+#: application/library/autoresponder_handler/plugin/mailjet.php:137
+msgid "(Please select ...)"
+msgstr ""
+
+#: application/library/autoresponder_handler/autoresponder_handler.php:896
+#, php-format
+msgid "Subscribed %s to %s."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/aweber.php:37
+#: application/library/autoresponder_handler/plugin/aweber.php:51
+#: application/library/autoresponder_handler/plugin/iContact.php:32
+#: application/library/autoresponder_handler/plugin/iContact.php:46
+msgid "Invalid email list."
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:68
+#, php-format
+msgid "id %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/base.php:134
+msgid "Your password"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:38
+#: application/library/autoresponder_handler/plugin/cleverreach.php:125
+#, php-format
+msgid "Error adding %s to group %s: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/cleverreach.php:199
+#: application/library/autoresponder_handler/plugin/mailchimp.php:64
+msgid "Yes"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/flatratenewsletter.php:40
+#, php-format
+msgid "Error adding %s to list %s. HTTP result code: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:91
+#: application/library/autoresponder_handler/plugin/generic.php:190
+msgid "Notification URL"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:97
+msgid "Method"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:104
+msgid "Parameter name for email"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:110
+#: application/library/autoresponder_handler/plugin/generic.php:191
+msgid "Parameter name for first name"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:116
+#: application/library/autoresponder_handler/plugin/generic.php:192
+msgid "Parameter name for last name"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:123
+msgid "Number of extra parameters"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:135
+#: application/library/autoresponder_handler/plugin/generic.php:172
+#, php-format
+msgid "Extra parameter %s name"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/generic.php:141
+#: application/library/autoresponder_handler/plugin/generic.php:175
+#, php-format
+msgid "Extra parameter %s value"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_api.php:58
+#, php-format
+msgid "Failed to create new tag %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:89
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:110
+#, php-format
+msgid "Could not send email to %s: %s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:117
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:212
+#, php-format
+msgid "MY_MAILLINGLIST@%s"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:252
+msgid "subscribe"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:257
+msgid "unsubscribe"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:262
+msgid "Autoresponder email address"
+msgstr ""
+
+#: application/library/autoresponder_handler/plugin/klicktipp_via_mail.php:267
+msgid "Email subject"
+msgstr ""
+
+#: application/library/facebook_connector/facebook_connector.php:120
+#, php-format
+msgid "Error code: %s"
+msgstr ""
+
+#: application/library/form_renderer/input/display_ipn_url_per_product.php:35
+#: application/library/form_renderer/input/product_content.php:349
+#: system/library/form_renderer/input/map.php:13
+#: system/library/form_renderer/input/select_sequence.php:355
+#: system/library/form_renderer/layout/base.php:156 system/view/table.php:30
+msgid ": "
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:372
+msgid "signup"
+msgstr ""
+
+#: application/library/payment_handler/payment_handler.php:883
+#, php-format
+msgid "#%s"
+msgstr ""
+
+#: application/library/table_renderer/type/upgrade_info.php:42
+#: system/library/table_renderer/type/yes_no_bit.php:14
+msgid "active"
+msgstr ""
+
+#: application/library/table_renderer/type/upgrade_info.php:43
+#: system/library/table_renderer/type/yes_no_bit.php:15
+msgid "not active"
+msgstr ""
+
+#: application/model/data/exam.php:145 system/helper/html_input.php:332
+#: system/library/form_renderer/input/yes_no_bit.php:14
+msgid "yes"
+msgstr ""
+
+#: application/model/data/exam.php:145 system/helper/html_input.php:333
+#: system/library/form_renderer/input/yes_no_bit.php:15
+msgid "no"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:118
+msgid "Optin now"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:119
+msgid "Optout now"
+msgstr ""
+
+#: application/model/data/webpush_settings.php:134
+#: application/model/data/webpush_settings.php:137
+#: system/library/ajax/dialog/confirm.php:8
+#: system/library/ajax/dialog/form.php:46
+msgid "Cancel"
+msgstr ""
+
+#: application/model/logic/notifier.php:47
+msgid "Error contacting the mailtemplate server:"
+msgstr ""
+
+#: application/model/queue/webpush.php:36
+#, php-format
+msgid "Please enter a valid user name in field %s"
+msgstr ""
+
+#: system/base/controller.php:135
+msgid "Permission denied."
+msgstr ""
+
+#: system/class/widget.php:45
+#, php-format
+msgid "Shows a login area (like the %s %s shortcode)"
+msgstr ""
+
+#: system/controller/admin/checklist.php:105
+msgid "Completed - click to mark as uncompleted"
+msgstr ""
+
+#: system/controller/admin/checklist.php:106
+msgid "Click to mark as completed"
+msgstr ""
+
+#: system/controller/admin/checklist.php:111
+msgid "Completed"
+msgstr ""
+
+#: system/controller/admin/checklist.php:112
+msgid "Not yet completed"
+msgstr ""
+
+#: system/controller/admin/checklist.php:351
+#: system/controller/admin/checklist.php:355
+msgid "Click here."
+msgstr ""
+
+#: system/controller/admin/form.php:207 system/controller/user/form.php:198
+msgid "Save Changes"
+msgstr ""
+
+#: system/controller/admin/log.php:72
+msgid "Warning"
+msgstr ""
+
+#: system/controller/admin/log.php:107 system/model/logic/cronjob.php:112
+msgid "Minutely jobs"
+msgstr ""
+
+#: system/controller/admin/log.php:108 system/model/logic/cronjob.php:113
+msgid "Hourly jobs"
+msgstr ""
+
+#: system/controller/admin/log.php:109 system/model/logic/cronjob.php:114
+msgid "Daily jobs"
+msgstr ""
+
+#: system/controller/admin/log.php:110 system/model/logic/cronjob.php:115
+msgid "Weekly jobs"
+msgstr ""
+
+#: system/controller/admin/log.php:141 system/model/logic/cronjob.php:146
+msgid "Some recurrent tasks (\"Cronjobs\") are NOT running periodically:"
+msgstr ""
+
+#: system/controller/admin/log.php:148 system/model/logic/cronjob.php:153
+msgid "The recurrent tasks (\"Cronjobs\") are running periodically."
+msgstr ""
+
+#: system/controller/admin/multi_elements.php:158
+msgid "Currently you have no elements to edit."
+msgstr ""
+
+#: system/controller/admin/table.php:179
+msgid "Add new"
+msgstr ""
+
+#: system/controller/admin/table.php:220 system/controller/admin/table.php:221
+#: system/library/table_renderer/base_table.php:561
+msgid "No items found."
+msgstr ""
+
+#: system/controller/admin/table.php:238
+msgid "Deleted one item irrevocably."
+msgstr ""
+
+#: system/controller/admin/table.php:240
+#, php-format
+msgid "Deleted %s items irrevocably."
+msgstr ""
+
+#: system/controller/admin/table.php:244
+msgid "Moved one item to trash."
+msgstr ""
+
+#: system/controller/admin/table.php:246
+#, php-format
+msgid "Moved %s items to trash."
+msgstr ""
+
+#: system/controller/admin/table.php:250
+msgid "Restored one item from trash."
+msgstr ""
+
+#: system/controller/admin/table.php:252
+#, php-format
+msgid "Restored %s items from trash."
+msgstr ""
+
+#: system/controller/admin/table.php:256
+msgid "Activated one item."
+msgstr ""
+
+#: system/controller/admin/table.php:258
+#, php-format
+msgid "Activated %s items."
+msgstr ""
+
+#: system/controller/admin/table.php:262
+msgid "Deactivated one item."
+msgstr ""
+
+#: system/controller/admin/table.php:264
+#, php-format
+msgid "Deactivated %s items."
+msgstr ""
+
+#: system/controller/admin/table.php:268
+msgid "Copied one item."
+msgstr ""
+
+#: system/controller/admin/table.php:270
+#, php-format
+msgid "Copied %s items."
+msgstr ""
+
+#: system/controller/admin/table.php:274
+msgid "Published one item."
+msgstr ""
+
+#: system/controller/admin/table.php:276
+#, php-format
+msgid "Published %s items."
+msgstr ""
+
+#: system/controller/admin/table.php:280
+msgid "Unpublished one item."
+msgstr ""
+
+#: system/controller/admin/table.php:282
+#, php-format
+msgid "Unpublished %s items."
+msgstr ""
+
+#: system/controller/admin/table.php:286
+#, php-format
+msgid "Action %s performend successfully on %s item(s)."
+msgstr ""
+
+#: system/controller/admin/table.php:292
+msgid "The action could not be completed."
+msgstr ""
+
+#: system/controller/admin/table.php:303
+msgid "Undo"
+msgstr ""
+
+#: system/controller/shortcode.php:293
+#, php-format
+msgid "Parameter %s is required."
+msgstr ""
+
+#: system/controller/widget/base_view.php:12
+#, php-format
+msgid "Another %s widget."
+msgstr ""
+
+#: system/core/init.php:433
+msgid "Error connecting to the upgrade server:"
+msgstr ""
+
+#: system/core/init.php:590
+#, php-format
+msgid "Upgrading %s from version %s to %s."
+msgstr ""
+
+#: system/helper/date.php:43
+msgid "m/d/Y"
+msgstr ""
+
+#: system/helper/date.php:67
+msgid "H:i"
+msgstr ""
+
+#: system/helper/date.php:123
+msgid "in 1 second"
+msgstr ""
+
+#: system/helper/date.php:123
+#, php-format
+msgid "in %s seconds"
+msgstr ""
+
+#: system/helper/date.php:124
+msgid "in 1 minute"
+msgstr ""
+
+#: system/helper/date.php:124
+#, php-format
+msgid "in %s minutes"
+msgstr ""
+
+#: system/helper/date.php:125
+msgid "in 1 hour"
+msgstr ""
+
+#: system/helper/date.php:125
+#, php-format
+msgid "in %s hours"
+msgstr ""
+
+#: system/helper/date.php:126
+msgid "in 1 day"
+msgstr ""
+
+#: system/helper/date.php:126
+#, php-format
+msgid "in %s days"
+msgstr ""
+
+#: system/helper/date.php:127
+msgid "in 1 week"
+msgstr ""
+
+#: system/helper/date.php:127
+#, php-format
+msgid "in %s weeks"
+msgstr ""
+
+#: system/helper/date.php:128
+msgid "in 1 month"
+msgstr ""
+
+#: system/helper/date.php:128
+#, php-format
+msgid "in %s months"
+msgstr ""
+
+#: system/helper/date.php:129
+msgid "in 1 year"
+msgstr ""
+
+#: system/helper/date.php:129
+#, php-format
+msgid "in %s years"
+msgstr ""
+
+#: system/helper/date.php:133
+msgid "for 1 second"
+msgstr ""
+
+#: system/helper/date.php:133
+#, php-format
+msgid "for %s seconds"
+msgstr ""
+
+#: system/helper/date.php:134
+msgid "for 1 minute"
+msgstr ""
+
+#: system/helper/date.php:134
+#, php-format
+msgid "for %s minutes"
+msgstr ""
+
+#: system/helper/date.php:135
+msgid "for 1 hour"
+msgstr ""
+
+#: system/helper/date.php:135
+#, php-format
+msgid "for %s hours"
+msgstr ""
+
+#: system/helper/date.php:136
+msgid "for 1 day"
+msgstr ""
+
+#: system/helper/date.php:136
+#, php-format
+msgid "for %s days"
+msgstr ""
+
+#: system/helper/date.php:137
+msgid "for 1 week"
+msgstr ""
+
+#: system/helper/date.php:137
+#, php-format
+msgid "for %s weeks"
+msgstr ""
+
+#: system/helper/date.php:138
+msgid "for 1 month"
+msgstr ""
+
+#: system/helper/date.php:138
+#, php-format
+msgid "for %s months"
+msgstr ""
+
+#: system/helper/date.php:139
+msgid "for 1 year"
+msgstr ""
+
+#: system/helper/date.php:139
+#, php-format
+msgid "for %s years"
+msgstr ""
+
+#: system/helper/date.php:143
+msgid "after 1 second"
+msgstr ""
+
+#: system/helper/date.php:143
+#, php-format
+msgid "after %s seconds"
+msgstr ""
+
+#: system/helper/date.php:144
+msgid "after 1 minute"
+msgstr ""
+
+#: system/helper/date.php:144
+#, php-format
+msgid "after %s minutes"
+msgstr ""
+
+#: system/helper/date.php:145
+msgid "after 1 hour"
+msgstr ""
+
+#: system/helper/date.php:145
+#, php-format
+msgid "after %s hours"
+msgstr ""
+
+#: system/helper/date.php:146
+msgid "after 1 day"
+msgstr ""
+
+#: system/helper/date.php:146
+#, php-format
+msgid "after %s days"
+msgstr ""
+
+#: system/helper/date.php:147
+msgid "after 1 week"
+msgstr ""
+
+#: system/helper/date.php:147
+#, php-format
+msgid "after %s weeks"
+msgstr ""
+
+#: system/helper/date.php:148
+msgid "after 1 month"
+msgstr ""
+
+#: system/helper/date.php:148
+#, php-format
+msgid "after %s months"
+msgstr ""
+
+#: system/helper/date.php:149
+msgid "after 1 year"
+msgstr ""
+
+#: system/helper/date.php:149
+#, php-format
+msgid "after %s years"
+msgstr ""
+
+#: system/helper/date.php:153
+msgid "1 second ago"
+msgstr ""
+
+#: system/helper/date.php:153
+#, php-format
+msgid "%s seconds ago"
+msgstr ""
+
+#: system/helper/date.php:154
+msgid "1 minute ago"
+msgstr ""
+
+#: system/helper/date.php:154
+#, php-format
+msgid "%s minutes ago"
+msgstr ""
+
+#: system/helper/date.php:155
+msgid "1 hour ago"
+msgstr ""
+
+#: system/helper/date.php:155
+#, php-format
+msgid "%s hours ago"
+msgstr ""
+
+#: system/helper/date.php:156
+msgid "1 day ago"
+msgstr ""
+
+#: system/helper/date.php:156
+#, php-format
+msgid "%s days ago"
+msgstr ""
+
+#: system/helper/date.php:157
+msgid "1 week ago"
+msgstr ""
+
+#: system/helper/date.php:157
+#, php-format
+msgid "%s weeks ago"
+msgstr ""
+
+#: system/helper/date.php:158
+msgid "1 month ago"
+msgstr ""
+
+#: system/helper/date.php:158
+#, php-format
+msgid "%s months ago"
+msgstr ""
+
+#: system/helper/date.php:159
+msgid "1 year ago"
+msgstr ""
+
+#: system/helper/date.php:159
+#, php-format
+msgid "%s years ago"
+msgstr ""
+
+#: system/helper/date.php:161 system/helper/date.php:230
+msgid "today"
+msgstr ""
+
+#: system/helper/date.php:165
+msgid "1 second"
+msgstr ""
+
+#: system/helper/date.php:165
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: system/helper/date.php:166
+msgid "1 minute"
+msgstr ""
+
+#: system/helper/date.php:166
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: system/helper/date.php:167
+msgid "1 hour"
+msgstr ""
+
+#: system/helper/date.php:167
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: system/helper/date.php:168
+msgid "1 day"
+msgstr ""
+
+#: system/helper/date.php:168
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: system/helper/date.php:169
+msgid "1 week"
+msgstr ""
+
+#: system/helper/date.php:169
+#, php-format
+msgid "%s weeks"
+msgstr ""
+
+#: system/helper/date.php:170
+msgid "1 month"
+msgstr ""
+
+#: system/helper/date.php:170
+#, php-format
+msgid "%s months"
+msgstr ""
+
+#: system/helper/date.php:171
+msgid "1 year"
+msgstr ""
+
+#: system/helper/date.php:171
+#, php-format
+msgid "%s years"
+msgstr ""
+
+#: system/helper/format.php:90
+msgid "byte"
+msgstr ""
+
+#: system/helper/format.php:90
+msgid "bytes"
+msgstr ""
+
+#: system/helper/format.php:91
+msgid "kb"
+msgstr ""
+
+#: system/helper/format.php:92
+msgid "mb"
+msgstr ""
+
+#: system/helper/format.php:93
+msgid "gb"
+msgstr ""
+
+#: system/helper/format.php:94
+msgid "tb"
+msgstr ""
+
+#: system/helper/holiday.php:22
+msgid "New year"
+msgstr ""
+
+#: system/helper/holiday.php:24
+msgid "Rose monday"
+msgstr ""
+
+#: system/helper/holiday.php:25
+msgid "Ash wednesday"
+msgstr ""
+
+#: system/helper/holiday.php:26
+msgid "Good friday"
+msgstr ""
+
+#: system/helper/holiday.php:27
+msgid "Easter sunday"
+msgstr ""
+
+#: system/helper/holiday.php:29
+msgid "Whit sunday"
+msgstr ""
+
+#: system/helper/holiday.php:32
+msgid "Halloween"
+msgstr ""
+
+#: system/helper/holiday.php:33
+msgid "Christmas eve"
+msgstr ""
+
+#: system/helper/holiday.php:34
+msgid "Christmas 1st day"
+msgstr ""
+
+#: system/helper/holiday.php:36
+msgid "New years eve"
+msgstr ""
+
+#: system/helper/html.php:566
+msgid "and"
+msgstr ""
+
+#: system/helper/html.php:566
+msgid "or"
+msgstr ""
+
+#: system/helper/html_input.php:193
+msgid "Please select"
+msgstr ""
+
+#: system/helper/html_input.php:343
+msgid "Design - Menus"
+msgstr ""
+
+#: system/helper/html_input.php:345
+#, php-format
+msgid "Go to %s and add a menu."
+msgstr ""
+
+#: system/helper/html_input.php:358
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: system/helper/html_input.php:399
+#: system/library/form_renderer/input/checkbox_list.php:45
+#: system/library/table_renderer/type/id_list.php:53
+msgid "all"
+msgstr ""
+
+#: system/helper/html_input.php:654
+msgid "Select page"
+msgstr ""
+
+#: system/helper/html_input.php:774
+msgid "Open URL"
+msgstr ""
+
+#: system/helper/html_input.php:892 system/helper/html_input.php:893
+#: system/helper/html_input.php:894
+msgid "Choose image"
+msgstr ""
+
+#: system/helper/html_input_date.php:19
+msgid "Now"
+msgstr ""
+
+#: system/helper/html_input_date.php:22
+msgid "Next"
+msgstr ""
+
+#: system/helper/html_input_date.php:23
+msgid "Today"
+msgstr ""
+
+#: system/helper/html_input_date.php:25
+msgid ""
+"January,February,March,April,May,June,July,August,September,October,November,"
+"December"
+msgstr ""
+
+#: system/helper/html_input_date.php:28
+msgid "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+msgstr ""
+
+#: system/helper/html_input_date.php:31
+msgid "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday"
+msgstr ""
+
+#: system/helper/html_input_date.php:34
+msgid "Su,Mo,Tu,We,Th,Fr,Sa"
+msgstr ""
+
+#: system/helper/html_input_date.php:37
+msgid "We"
+msgstr ""
+
+#: system/helper/html_input_date.php:38
+msgid "yy/mm/dd"
+msgstr ""
+
+#: system/helper/url.php:264
+msgid "Click here"
+msgstr ""
+
+#: system/helper/wordpress.php:308 system/helper/wordpress.php:342
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: The password you entered for the username <strong>"
+"%1$s</strong> is incorrect. <a href=\"%2$s\" title=\"Password Lost and Found"
+"\">Lost your password</a>?"
+msgstr ""
+
+#: system/library/form_renderer/input/autoresponder_tag_list.php:154
+msgid ""
+"Error loading tags - please <a>check access data in your autoresponder "
+"settings</a>."
+msgstr ""
+
+#: system/library/form_renderer/input/autoresponder_tag_list.php:155
+msgid "No tags created yet."
+msgstr ""
+
+#: system/library/form_renderer/input/autoresponder_tag_list.php:190
+msgid "New tag:"
+msgstr ""
+
+#: system/library/form_renderer/input/autoresponder_tag_list.php:215
+#, php-format
+msgid "There is already a tag with the name %s."
+msgstr ""
+
+#: system/library/form_renderer/input/autoresponder_tag_list.php:225
+#, php-format
+msgid "Created tag %s."
+msgstr ""
+
+#: system/library/form_renderer/input/blog_id.php:42
+msgid "Invalid blog id"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:134
+msgid "white"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:135
+msgid "red"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:136
+msgid "orange"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:137
+msgid "yellow"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:138
+msgid "blue"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:139
+msgid "green"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:140
+msgid "purple"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:141
+msgid "teal"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:142
+msgid "pink"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:143
+msgid "cyan"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:144
+msgid "gray"
+msgstr ""
+
+#: system/library/form_renderer/input/color.php:145
+msgid "black"
+msgstr ""
+
+#: system/library/form_renderer/input/dynamic_object_list.php:163
+#: system/library/rule_validator/rule/float.php:18
+#: system/library/rule_validator/rule/numeric.php:16
+msgid "For [NAME] please enter a number."
+msgstr ""
+
+#: system/library/form_renderer/input/dynamic_object_list.php:164
+#: system/library/rule_validator/rule/email.php:21
+#: system/library/rule_validator/rule/int_list.php:26
+msgid "For [NAME] please enter a valid email address."
+msgstr ""
+
+#: system/library/form_renderer/input/dynamic_object_list.php:165
+#: system/library/rule_validator/rule_validator.php:141
+msgid "[NAME] is required. Please enter a value."
+msgstr ""
+
+#: system/library/form_renderer/input/dynamic_object_list.php:166
+#: system/library/rule_validator/rule/time.php:10
+msgid "For [NAME] please enter a valid time."
+msgstr ""
+
+#: system/library/form_renderer/input/dynamic_object_list.php:167
+msgid "Please enter correct values for the highlighted fields."
+msgstr ""
+
+#: system/library/form_renderer/input/dynamic_object_list.php:171
+msgid "Delete"
+msgstr ""
+
+#: system/library/form_renderer/input/image.php:31
+#: system/library/form_renderer/input/image.php:43
+#: system/library/form_renderer/input/image.php:68
+msgid "Select image"
+msgstr ""
+
+#: system/library/form_renderer/input/image.php:32
+msgid "Remove"
+msgstr ""
+
+#: system/library/form_renderer/input/int_list.php:11
+msgid "Seperate multiple values by commas."
+msgstr ""
+
+#: system/library/form_renderer/input/page.php:22
+msgid "No pages! Please create a page first."
+msgstr ""
+
+#: system/library/form_renderer/input/password_indicator.php:11
+msgid "Password strength"
+msgstr ""
+
+#: system/library/form_renderer/input/password_indicator.php:12
+msgid "Very weak"
+msgstr ""
+
+#: system/library/form_renderer/input/password_indicator.php:13
+msgid "No match"
+msgstr ""
+
+#: system/library/form_renderer/input/password_indicator.php:14
+msgid "Weak"
+msgstr ""
+
+#: system/library/form_renderer/input/password_indicator.php:15
+msgid "Medium"
+msgstr ""
+
+#: system/library/form_renderer/input/password_indicator.php:16
+msgid "Strong"
+msgstr ""
+
+#: system/library/form_renderer/input/upload.php:12
+#, php-format
+msgid "Max. %s"
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:62
+#, php-format
+msgid "Error contacting license server: %s"
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:112
+#, php-format
+msgid "Error fetching license: %s"
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:142
+#, php-format
+msgid "Error freening license key: %s"
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:207
+#, php-format
+msgid "%s license invalid: %s"
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:215
+#, php-format
+msgid "%s: License error"
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:226
+#, php-format
+msgid "%s license %s is valid and activated."
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:303
+msgid "<a>Click here</a> to enter a valid license code."
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:320
+#, php-format
+msgid "The license key is invalid. No license found for key %s."
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:325
+#, php-format
+msgid ""
+"Stored license does not match license key %s. Please review the license key "
+"in the plugin settings and save them again."
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:334
+#, php-format
+msgid "License %s is not for URL %s."
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:336
+msgid "The license was used for a different domain."
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:338
+msgid ""
+"To free the license<ol><li>visit the <a>DigiMember membership area</a>,</"
+"li><li>locate the license in the license list</li><li>and press the reset "
+"button to free the license.</li></ol>"
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:347
+#, php-format
+msgid ""
+"License %s is expired. This may happen also to permanent licenses if the "
+"contact to the license server is blocked."
+msgstr ""
+
+#: system/library/license_validator/plugin/download.php:355
+#, php-format
+msgid "License %s is not for %s."
+msgstr ""
+
+#: system/library/mailer.php:209
+#, php-format
+msgid "and %s more"
+msgstr ""
+
+#: system/library/mailer.php:214
+#, php-format
+msgid "send email \"%s\" to %s"
+msgstr ""
+
+#: system/library/mailer.php:218
+#, php-format
+msgid "could not sent email \"%s\" to %s. %s"
+msgstr ""
+
+#: system/library/rpc_api.php:106
+#, php-format
+msgid "Error connecting to %s server: %s"
+msgstr ""
+
+#: system/library/rule_validator/rule/absolute_url.php:15
+msgid "For [NAME], please enter a valid URL incl. domain name."
+msgstr ""
+
+#: system/library/rule_validator/rule/alpha_dash.php:17
+msgid "Only letters, digits, dashes (-) and underscores (_)"
+msgstr ""
+
+#: system/library/rule_validator/rule/alpha_dash.php:22
+#: system/library/rule_validator/rule/not_numeric.php:13
+msgid "For [NAME], please do not enter a pure number. Add e.g. a letter."
+msgstr ""
+
+#: system/library/rule_validator/rule/base.php:15
+#, php-format
+msgid "[NAME] violated rule &quot;%s&quot;!"
+msgstr ""
+
+#: system/library/rule_validator/rule/color.php:9
+msgid "For [NAME] please enter a valid color."
+msgstr ""
+
+#: system/library/rule_validator/rule/current_password.php:26
+msgid "For [NAME] please enter your current password."
+msgstr ""
+
+#: system/library/rule_validator/rule/domain.php:14
+msgid "For [NAME] please enter a valid domain name."
+msgstr ""
+
+#: system/library/rule_validator/rule/domain_part.php:14
+msgid ""
+"For [NAME] please enter a valid name consisting of letters, digits and "
+"dashes only. The name must start with a letter and end with a letter or a "
+"digit."
+msgstr ""
+
+#: system/library/rule_validator/rule/folder.php:14
+#, php-format
+msgid ""
+"For [NAME] please enter a absolute path to a folder on the server (beginning "
+"with: %s)"
+msgstr ""
+
+#: system/library/rule_validator/rule/greater_equal.php:25
+msgid "For [NAME] please enter a value of [ARG] or greater."
+msgstr ""
+
+#: system/library/rule_validator/rule/licensekey.php:20
+msgid "Please enter a valid license key for [NAME]."
+msgstr ""
+
+#: system/library/rule_validator/rule/lower_equal.php:25
+msgid "For [NAME] please enter a value of [ARG] or lower."
+msgstr ""
+
+#: system/library/rule_validator/rule/min_length.php:29
+msgid "Minimun one character"
+msgstr ""
+
+#: system/library/rule_validator/rule/min_length.php:30
+#, php-format
+msgid "Minimum %s characters"
+msgstr ""
+
+#: system/library/rule_validator/rule/min_length.php:35
+msgid "For [NAME] enter at least [ARG] characters."
+msgstr ""
+
+#: system/library/rule_validator/rule/not_equal.php:25
+msgid "For [NAME] please enter a value other than [ARG]."
+msgstr ""
+
+#: system/library/rule_validator/rule/plugin_list.php:51
+msgid "For [NAME], these plugin name are not valid:"
+msgstr ""
+
+#: system/library/rule_validator/rule/timezone.php:18
+msgid "For [NAME] please enter a valid timezone."
+msgstr ""
+
+#: system/library/rule_validator/rule/url.php:25
+msgid "For [NAME] please enter a valid URL."
+msgstr ""
+
+#: system/library/rule_validator/rule/user_id.php:22
+#: system/library/rule_validator/rule/user_name.php:23
+msgid "For [NAME] please enter a valid user id or name."
+msgstr ""
+
+#: system/library/rule_validator/rule_validator.php:54
+msgid "."
+msgstr ""
+
+#: system/library/sql_installer/sql_installer.php:20
+msgid "database"
+msgstr ""
+
+#: system/library/table_renderer/base_table.php:221
+msgid "Search"
+msgstr ""
+
+#: system/library/table_renderer/base_table.php:495
+msgid "Select action"
+msgstr ""
+
+#: system/library/table_renderer/base_table.php:498
+msgid "Apply"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:19
+msgid "1 element"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:20
+#, php-format
+msgid "%s elements"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:49
+msgid "Go to first page"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:50
+msgid "Go to previous page"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:51
+msgid "Go to next page"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:52
+msgid "Go to last page"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:54
+msgid "Current page"
+msgstr ""
+
+#: system/library/table_renderer/class/paginator.php:60
+#, php-format
+msgid "%s of %s"
+msgstr ""
+
+#: system/library/table_renderer/type/user.php:17
+#, php-format
+msgid "User #%s"
+msgstr ""
+
+#: system/model/data/autoresponder.php:90
+msgid "Not active"
+msgstr ""
+
+#: system/model/data/base.php:522
+msgid "created"
+msgstr ""
+
+#: system/model/data/base.php:527
+msgid "deleted"
+msgstr ""
+
+#: system/model/data/base.php:698
+msgid "Copy of [NAME]"
+msgstr ""
+
+#: system/model/data/user.php:105
+msgid "The user account already has been deleted."
+msgstr ""
+
+#: system/model/job/base.php:24
+msgid "New"
+msgstr ""
+
+#: system/model/job/base.php:25
+msgid "Waiting ..."
+msgstr ""
+
+#: system/model/job/base.php:26
+msgid "Running ..."
+msgstr ""
+
+#: system/model/job/base.php:27
+msgid "Aborting ..."
+msgstr ""
+
+#: system/model/job/base.php:28
+msgid "Finished"
+msgstr ""
+
+#: system/model/job/base.php:34
+msgid "Success"
+msgstr ""
+
+#: system/model/job/base.php:35
+msgid "Aborted"
+msgstr ""
+
+#: system/model/job/base.php:36
+msgid "Error!"
+msgstr ""
+
+#: system/model/job/base.php:37
+msgid "Running"
+msgstr ""
+
+#: system/model/job/base.php:151
+#, php-format
+msgid "run time: %s"
+msgstr ""
+
+#: system/model/job/base.php:158
+msgid "Successfully completed"
+msgstr ""
+
+#: system/model/job/base.php:162
+msgid "Completed with errors"
+msgstr ""
+
+#: system/model/job/base.php:275
+msgid "Aborted on user request."
+msgstr ""
+
+#: system/model/job/base.php:286
+msgid "Job crashed! Job now resetted."
+msgstr ""
+
+#: system/model/logic/action.php:70
+msgid "by viewing a page"
+msgstr ""
+
+#: system/model/logic/action.php:71
+msgid "by a login"
+msgstr ""
+
+#: system/model/logic/action.php:72
+msgid "after paused using this website"
+msgstr ""
+
+#: system/model/logic/action.php:73
+msgid "if never logged in"
+msgstr ""
+
+#: system/model/logic/action.php:74
+msgid "if product access expires"
+msgstr ""
+
+#: system/model/logic/action.php:377
+#, php-format
+msgid "Failed to set tags for %s in KlickTipp: %s"
+msgstr ""
+
+#: system/model/logic/business.php:14
+#, php-format
+msgid ""
+"At least %s characters.<p>For better security use upper and lower "
+"characters, digits and symbols like: %s."
+msgstr ""
+
+#: system/model/logic/business.php:113
+#, php-format
+msgid "User %s requested a new password."
+msgstr ""
+
+#: system/model/logic/close_window.php:38 system/model/logic/infobox.php:99
+msgid "Dismiss"
+msgstr ""
+
+#: system/model/logic/cronjob.php:53
+#, php-format
+msgid "Running weekly %s jobs"
+msgstr ""
+
+#: system/model/logic/cronjob.php:66
+#, php-format
+msgid "Running daily %s jobs"
+msgstr ""
+
+#: system/model/logic/cronjob.php:77
+#, php-format
+msgid "Running hourly %s jobs"
+msgstr ""
+
+#: system/model/logic/cronjob.php:181
+#, php-format
+msgid "Started %s job %s"
+msgstr ""
+
+#: system/model/logic/cronjob.php:189
+#, php-format
+msgid "Finished %s job %s"
+msgstr ""
+
+#: system/model/logic/features.php:101
+msgid ""
+"The license of [PRO] is not valid and so the plugin will be set back to "
+"[FREE] on [DATE]. Please enter a valid license code in the <a>[PLUGIN] "
+"settings</a>."
+msgstr ""
+
+#: system/model/logic/features.php:102
+msgid ""
+"[PRO] has been disabled and set back to [FREE], because the license is not "
+"valid. Please enter a valid license code in the <a>[PLUGIN] settings</a>."
+msgstr ""
+
+#: system/model/logic/features.php:107
+msgid ""
+"The license of the [PLUGIN] plugin is not valid and the plugin will be "
+"deactivated on [DATE]. Please enter a valid license code in the <a>[PLUGIN] "
+"settings</a>."
+msgstr ""
+
+#: system/model/logic/features.php:108
+msgid ""
+"The [PLUGIN] plugin has been deactivated, because the license is not valid. "
+"Please enter a valid license code in the <a>[PLUGIN] settings</a>."
+msgstr ""
+
+#: system/model/logic/infobox.php:330
+msgid "Error contacting the infobox server:"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:50
+msgid "Error connecting to smtp host"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:104
+msgid "You already have a password (check our other emails)"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:119
+msgid "Request password email"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:120
+msgid ""
+"This email is sent after the user has requested a new password. After the "
+"user opens the URL in the mail, a new password is generated and sent by "
+"email."
+msgstr ""
+
+#: system/model/logic/mail_hook.php:122
+msgid "URL to confirm the password"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:132
+msgid "New password email"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:133
+msgid ""
+"This email contains the new password of a user. It is sent, after a user has "
+"requested a new password. It contains the new access data of the user."
+msgstr ""
+
+#: system/model/logic/mail_hook.php:135
+msgid "Login name"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:136
+msgid "The new password"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:137
+msgid "The URL to login"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:150
+msgid "Test email"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:151
+msgid "This email is sent when the admin clicks the send test email button."
+msgstr ""
+
+#: system/model/logic/mail_hook.php:163
+#, php-format
+msgid "%s Test Mail"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:165
+#, php-format
+msgid ""
+"\n"
+"\n"
+"    Hey there!\n"
+"\n"
+"    This is just a test that your email software works fine.\n"
+"\n"
+"    Enjoy %s!\n"
+"\n"
+"    "
+msgstr ""
+
+#: system/model/logic/mail_hook.php:181
+msgid "Confirm your new password"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:183
+#, php-format
+msgid ""
+"\n"
+"    Hey there!\n"
+"\n"
+"    Someone - hopefully you - has set a new password for your account.\n"
+"\n"
+"    To activate your new password, click on this URL:\n"
+"\n"
+"    %s\n"
+"\n"
+"    If you did not set a new password for your account, just ignore this "
+"email.\n"
+"\n"
+"    Enjoy!\n"
+"    "
+msgstr ""
+
+#: system/model/logic/mail_hook.php:203
+msgid "Your new password is in this email"
+msgstr ""
+
+#: system/model/logic/mail_hook.php:205
+#, php-format
+msgid ""
+"\n"
+"    Hey there!\n"
+"\n"
+"    Your new password has just been created.\n"
+"\n"
+"    Your new access data are:\n"
+"\n"
+"    login URL: %%loginurl%%\n"
+"    user name: %%username%%\n"
+"    password:  %%password%%\n"
+"\n"
+"    Enjoy!\n"
+"    "
+msgstr ""
+
+#: system/model/queue/action_out.php:109
+#, php-format
+msgid "Failed to subscribe %s to newsletter: %s"
+msgstr ""
+
+#: system/model/queue/action_out.php:146
+#, php-format
+msgid "Gave up executing action #%s for user #%s after %s tries."
+msgstr ""
+
+#: system/model/queue/action_out.php:157
+#, php-format
+msgid "Failed to execute action #%s for user #%s."
+msgstr ""
+
+#: system/model/queue/action_out.php:163 system/model/queue/notifier.php:251
+msgid "1 try so far."
+msgstr ""
+
+#: system/model/queue/action_out.php:167 system/model/queue/notifier.php:255
+#, php-format
+msgid "%s tries so far."
+msgstr ""
+
+#: system/model/queue/action_out.php:174 system/model/queue/notifier.php:262
+msgid "1 try left."
+msgstr ""
+
+#: system/model/queue/action_out.php:178 system/model/queue/notifier.php:266
+#, php-format
+msgid "%s tries left."
+msgstr ""
+
+#: system/model/queue/notifier.php:191
+#, php-format
+msgid "Failed to notify user %s with message key %s: %s"
+msgstr ""
+
+#: system/model/queue/notifier.php:234
+#, php-format
+msgid "Gave up notifying user #%s with msg key %s after %s tries."
+msgstr ""
+
+#: system/model/queue/notifier.php:245
+#, php-format
+msgid "Could not notify user %s with message key %s."
+msgstr ""
+
+#: system/view/admin/checklist.php:3
+msgid "Setup progress:"
+msgstr ""
+
+#: system/view/admin/checklist.php:14
+msgid "Setup complete"
+msgstr ""
+
+#: system/view/admin/form.php:8
+msgid "Required"
+msgstr ""

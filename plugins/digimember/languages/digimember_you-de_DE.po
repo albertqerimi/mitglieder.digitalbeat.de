@@ -1,0 +1,486 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DigiMember User-Anrede\n"
+"POT-Creation-Date: 2022-10-14 18:10+0200\n"
+"PO-Revision-Date: 2022-10-14 18:10+0200\n"
+"Last-Translator: Incredible Webworx GmbH <support@incrediblewebworx.de>\n"
+"Language-Team: DigiMember <support@digimember.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _dgyou\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: webinc\n"
+
+#: application/controller/admin/action_settings.php:82
+#: system/model/logic/action.php:294
+msgid "<a>Click here</a> to unsubscribe."
+msgstr "<a>Klicken Sie hier</a>, um sich von diesen Nachrichten abzumelden."
+
+#: application/controller/admin/advanced_forms_edit.php:340
+#: application/controller/user/advanced_forms.php:557
+#: application/controller/user/signup_form.php:557
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:206
+msgid "Sorry, you have created too many accounts already."
+msgstr "Sie haben bereits zu viele Konten erstellt. Tut uns leid."
+
+#: application/controller/ajax/unsubscribe.php:41
+msgid "You have been unsubscribed."
+msgstr "Sie haben sich erfolgreich abgemeldet."
+
+#: application/controller/ajax/unsubscribe.php:97
+msgid "Do you want to unsubscribe from these email messages?"
+msgstr "Möchten Sie sich wirklich von diesen E-Mail-Nachrichten abmelden?"
+
+#: application/controller/ajax/unsubscribe.php:120
+msgid "You have already been unsubscribed from these email messages."
+msgstr "Sie sind bereits von diesen E-Mail-Nachrichten abgemeldet."
+
+#: application/controller/user/account_editor.php:37
+#, php-format
+msgid "Your %s Account"
+msgstr "Ihr %s-Konto"
+
+#: application/controller/user/account_editor.php:42
+msgid "Your changes have been saved."
+msgstr "Ihre Änderungen wurden gespeichert."
+
+#: application/controller/user/account_editor.php:47
+msgid "Save Changes"
+msgstr "Änderungen übernehmen"
+
+#: application/controller/user/account_editor.php:78
+#: application/controller/user/login_form.php:236
+msgid "Username"
+msgstr "Benutzername"
+
+#: application/controller/user/account_editor.php:80
+msgid "You use your username and your password to sign in."
+msgstr "Mit dem Benutzernamen und Ihrem Kennwort melden Sie sich an."
+
+#: application/controller/user/account_editor.php:94
+msgid ""
+"Please enter your current password.|This is required for security reasons "
+"for any change you make here."
+msgstr ""
+"Bitte geben Sie Ihr bestehendes Kennwort hier ein.|Das ist aus "
+"Sicherheitsgründen für jede Änderung hier notwendig."
+
+#: application/controller/user/account_editor.php:102
+msgid "New password"
+msgstr "Neues Kennwort"
+
+#: application/controller/user/account_editor.php:104
+msgid "Leave it blank to keep your password.<p>Or enter your new password."
+msgstr ""
+"Lassen Sie es leer, um Ihr Kennwort zu behalten.<p>Oder geben Sie ein neues "
+"Kennwort ein."
+
+#: application/controller/user/account_editor.php:114
+msgid "Retype password"
+msgstr "Kennwort wiederholen"
+
+#: application/controller/user/account_editor.php:115
+msgid "Repeat your new password."
+msgstr "Geben Sie Ihr Kennwort noch einmal ein."
+
+#: application/controller/user/account_editor.php:140
+msgid "Firstname"
+msgstr "Vorname"
+
+#: application/controller/user/account_editor.php:142
+msgid "Please enter your firstname."
+msgstr "Bitte geben Sie ihren Vornamen ein."
+
+#: application/controller/user/account_editor.php:153
+msgid "Lastname"
+msgstr "Nachname"
+
+#: application/controller/user/account_editor.php:155
+msgid "Please enter your lastname."
+msgstr "Bitte geben Sie ihren Nachnamen ein."
+
+#: application/controller/user/account_editor.php:167
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: application/controller/user/account_editor.php:169
+msgid "This name is displayed, when you write comments or posts."
+msgstr ""
+"Dieser Name wird angezeigt, wenn Sie einen Kommentar oder Beitrag schreiben."
+
+#: application/controller/user/account_editor.php:206
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:64
+#, php-format
+msgid ""
+"All your personal data stored on %s will be exported and copied to your "
+"local computer."
+msgstr ""
+"Ihre persönlichen Daten von %s werden jetzt exportiert und lokal auf Ihrem "
+"Computer gespeichert."
+
+#: application/controller/user/account_editor.php:207
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:65
+msgid "You will find the data in your local download folder on your computer."
+msgstr ""
+"Sie finden Ihre persönlichen Daten im lokalen Download-Ordner auf Ihrem "
+"Computer."
+
+#: application/controller/user/account_editor.php:225
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:126
+msgid "Your account and your data will be irrecoverably erased."
+msgstr ""
+"Ihr Konto und Ihre Daten werden komplett und unwiederbringlich gelöscht."
+
+#: application/controller/user/account_editor.php:226
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:127
+msgid "You will NOT be able to access any content of this site any more."
+msgstr "Sie können dann NICHT mehr auf die Inhalte dieser Website zugreifen."
+
+#: application/controller/user/account_editor.php:227
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:128
+msgid "You renounce on all claims the site owner."
+msgstr ""
+"Sie VERZICHTEN auf alle Ansprüche gegen den Webseiten-Betreiber auf Zugriff "
+"auf die Inhalte und Wiederherstellung Ihrer Daten."
+
+#: application/controller/user/account_editor.php:228
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:129
+#, php-format
+msgid "If you want to continue, enter the text %s below and click on %s."
+msgstr ""
+"Falls Sie wirklich fortfahren wollen, geben Sie den Text %s unten ein und "
+"klicken Sie auf %s."
+
+#: application/controller/user/account_editor.php:240
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:135
+msgid "Delete your account"
+msgstr "Ihr Konto löschen"
+
+#: application/controller/user/account_editor.php:242
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:137
+msgid "Your account and your data will be irrecoverably deleted."
+msgstr "Ihr Konto wird nun unwiederbringlich gelöscht."
+
+#: application/controller/user/account_editor.php:242
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:137
+msgid "You will not be able to access this site any more."
+msgstr "Sie können dann NICHT mehr auf die Inhalte dieser Website zugreifen."
+
+#: application/controller/user/account_editor.php:323
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:246
+msgid ""
+"After download the report is in your local download folder on your computer."
+msgstr ""
+"Nach dem Download finden Sie Ihre persönlichen Daten im lokalen Download-"
+"Ordner auf Ihrem Computer."
+
+#: application/controller/user/account_editor.php:419
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:186
+msgid "Your password has been changed."
+msgstr "Ihr Kennwort wurde geändert."
+
+#: application/controller/user/account_editor.php:436
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:201
+msgid "The passwords do not match."
+msgstr "Die Kennwörter stimmen nicht überein."
+
+#: application/controller/user/account_editor.php:453
+#: application/library/styled_shortcode_renderer/plugin/ds_account.php:213
+msgid "Unfortunately the display name is already taken."
+msgstr "Der Anzeigename ist leider nicht mehr frei."
+
+#: application/controller/user/advanced_forms.php:178
+#: application/controller/user/advanced_forms.php:380
+#: application/controller/user/signup_form.php:178
+#: application/controller/user/signup_form.php:380
+msgid "Sign up"
+msgstr "Anmelden"
+
+#: application/controller/user/advanced_forms.php:205
+#: application/controller/user/login_form.php:217
+#: application/controller/user/signup_form.php:205
+msgid "or"
+msgstr "oder"
+
+#: application/controller/user/advanced_forms.php:224
+#: application/controller/user/cancel_form.php:195
+#: application/controller/user/signup_form.php:224
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: application/controller/user/advanced_forms.php:248
+#: application/controller/user/cancel_form.php:244
+#: application/controller/user/signup_form.php:248
+msgid "First name"
+msgstr "Vorname"
+
+#: application/controller/user/advanced_forms.php:260
+#: application/controller/user/cancel_form.php:256
+#: application/controller/user/signup_form.php:260
+msgid "Last name"
+msgstr "Nachname"
+
+#: application/controller/user/advanced_forms.php:366
+#: application/controller/user/advanced_forms.php:478
+#: application/controller/user/signup_form.php:366
+#: application/controller/user/signup_form.php:478
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:115
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:148
+msgid "Please accept our terms and check the checkbox."
+msgstr ""
+"Bitte akzeptieren Sie unsere Bedingungen und haken Sie die Checkbox an."
+
+#: application/controller/user/advanced_forms.php:501
+#: application/controller/user/cancel_form.php:500
+#: application/controller/user/signup_form.php:501
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:176
+msgid "Please prove that you are human and not a bot."
+msgstr "Bitte zeigen Sie uns, dass Sie ein Mensch und kein Bot sind."
+
+#: application/controller/user/advanced_forms.php:594
+#: application/controller/user/signup_form.php:594
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:260
+#, php-format
+msgid "There is already an account for the email address %s."
+msgstr "Für die E-Mail-Adresse %s gab es hier bereits ein Konto."
+
+#: application/controller/user/advanced_forms.php:597
+#: application/controller/user/signup_form.php:597
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:262
+msgid "<a>Click here to login.</a>"
+msgstr "<a>Jetzt hier einloggen!</a>"
+
+#: application/controller/user/advanced_forms.php:603
+#: application/controller/user/signup_form.php:603
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:266
+#, php-format
+msgid ""
+"There is already an account for the email address %s. We have re-sent the "
+"confirmation email to this email address."
+msgstr ""
+"Für die E-Mail-Adresse %s gab es hier bereits ein Konto. Wir haben die "
+"Bestätigungsmail noch einmal dorthin versendet."
+
+#: application/controller/user/advanced_forms.php:607
+#: application/controller/user/signup_form.php:607
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:268
+#, php-format
+msgid ""
+"Your account has been created. We have send your password to %s. If you "
+"don't receive the email within 10 minutes, please check your spam folder."
+msgstr ""
+"Ihr Konto wurde erstellt. Wir haben Ihr Kennwort an %s gesendet. Falls Sie "
+"die Mail nicht innerhalb von 10 Minuten erhalten, prüfen Sie bitte Ihren "
+"Spam-Ordner."
+
+#: application/controller/user/cancel.php:143
+#: application/controller/user/cancel_form.php:182
+#: application/controller/user/cancel_form.php:372
+msgid "Cancel"
+msgstr "Kündigung"
+
+#: application/controller/user/cancel.php:208
+#: application/controller/user/login_form.php:298
+msgid "Log In"
+msgstr "Anmelden"
+
+#: application/controller/user/cancel.php:277
+#: application/controller/user/login_form.php:368
+#: application/controller/user/login_form.php:628
+msgid "Please enter a username and a password."
+msgstr "Bitte geben Sie einen Benutzernamen und ein Kennwort an."
+
+#: application/controller/user/cancel.php:309
+#: application/controller/user/login_form.php:447
+msgid "You are logged in now."
+msgstr "Sie sind nun eingeloggt."
+
+#: application/controller/user/cancel_form.php:268
+msgid "Type of cancellation/Reason for Cancellation"
+msgstr "Art der Kündigung/Grund der Kündigung"
+
+#: application/controller/user/cancel_form.php:280
+msgid "Date of cancellation"
+msgstr "Zeitpunkt der Kündigung"
+
+#: application/controller/user/cancel_form.php:533
+#, php-format
+msgid ""
+"Your entry in the cancellation for order ID %s was successful. A "
+"confirmation email was send to you."
+msgstr ""
+"Wir haben Deine Kündigung für die Bestellnummer %s eingetragen. Eine "
+"Bestätigung wurde an Deine E-Mail Adresse geschickt."
+
+#: application/controller/user/cancel_form.php:536
+#, php-format
+msgid ""
+"There was an error while processing your cancellation entry. Please try "
+"again later or contact %s."
+msgstr ""
+"Es kam zu einem Fehler bei der Eintragung Deiner Kündigung. Bitte versuche "
+"es später noch einmal oder kontaktiere %s."
+
+#: application/controller/user/exam.php:89
+msgid "You may retry this exam as often as you like."
+msgstr "Sie können diese Prüfung so oft wiederholen wie Sie mögen."
+
+#: application/controller/user/exam.php:91
+#, php-format
+msgid "You may retry this exam %s more times."
+msgstr "Sie können diese Prüfung noch %s-mal wiederholen."
+
+#: application/controller/user/exam.php:92
+msgid "You have used all your tries for this exam. You cannot retry it."
+msgstr ""
+"Sie haben alle Versuche für diese Prüfung verbraucht. Sie könnensie nicht "
+"mehr wiederholen."
+
+#: application/controller/user/login_form.php:78
+msgid "We have sent you an email with your new password."
+msgstr "Wir haben Ihnen eine E-Mail mit Ihrem neuen Kennwort geschickt."
+
+#: application/controller/user/login_form.php:82
+msgid ""
+"Maybe the link is too old or you started two requests at the same time. "
+"Please try again."
+msgstr ""
+"Vielleicht ist der Link zu alt oder Sie haben gleichzeitig zwei Anfragen "
+"gestartet. Versuchen Sie es einfach nochmal."
+
+#: application/controller/user/login_form.php:83
+msgid "Your password request could not be processed."
+msgstr "Ihre Kennwort-Änderungs-Anfrage konnte nicht verarbeitet werden."
+
+#: application/controller/user/login_form.php:178
+msgid "Login"
+msgstr "Einloggen"
+
+#: application/controller/user/login_form.php:245
+msgid "Password"
+msgstr "Kennwort"
+
+#: application/controller/user/login_form.php:254
+msgid "Remember me"
+msgstr "Eingeloggt bleiben"
+
+#: application/controller/user/login_form.php:436
+msgid "Lost your password?"
+msgstr "Kennwort vergessen?"
+
+#: application/controller/user/login_form.php:554
+#: application/controller/user/login_form.php:700
+#: application/library/styled_shortcode_renderer/plugin/ds_login.php:200
+msgid "Email"
+msgstr "E-Mail"
+
+#: application/controller/user/login_form.php:576
+#: application/controller/user/login_form.php:643
+msgid ""
+"Your account has been blocked, because there have been logins from too many "
+"devices (IPs). Please try again tomorrow."
+msgstr ""
+"Ihr Konto wurde gesperrt, weil es von zu vielen Geräten (IPs) Zugriff auf "
+"diese Seite gab. Bitte versuchen Sie es morgen wieder."
+
+#: application/controller/user/login_form.php:587
+#, php-format
+msgid "We have sent you the password confirmation link via email to %s."
+msgstr "Wir haben  den Bestätigungslink per E-Mail an %s gesendet."
+
+#: application/controller/user/login_form.php:589
+msgid ""
+"After you clicked on the link, we will send your password to you via email."
+msgstr ""
+"Wenn Sie auf den Link geklickt haben, senden wir Ihnen Ihr Kennwort per "
+"Email zu."
+
+#: application/controller/user/login_form.php:595
+#, php-format
+msgid "We have no user account for email %s."
+msgstr "Für die E-Mail %s haben wir kein Benutzerkonto."
+
+#: application/controller/user/login_form.php:644
+#, php-format
+msgid "Error code: %s"
+msgstr "Fehler-Code: %s"
+
+#: application/controller/user/login_form.php:692
+#: application/library/styled_shortcode_renderer/plugin/ds_login.php:192
+msgid ""
+"Enter your email address. Only after you clicked the link in the "
+"confirmation email, we will create a new password for you."
+msgstr ""
+"Geben Sie Ihre E-Mail-Adresse ein. Nur wenn Sie dann auf den Link in der "
+"Bestätigungsmail klicken, wird ein neues Kennwort für Sie erstellt."
+
+#: application/controller/user/login_form.php:693
+#: application/library/styled_shortcode_renderer/plugin/ds_login.php:193
+msgid "Set new password"
+msgstr "Neues Kennwort festlegen"
+
+#: application/core/init.php:257
+#, php-format
+msgid "You have too many failed login attempts. Please wait for %s."
+msgstr ""
+"Sie haben zu viele fehlgeschlagene Login-Versuche. Bitte warten Sie %s."
+
+#: application/library/styled_shortcode_renderer/plugin/ds_signup.php:221
+msgid "The registration could not be carried out."
+msgstr "Die Registrierung konnte nicht durchgeführt werden."
+
+#: application/model/logic/course.php:102
+msgid "You are at the beginning of the course."
+msgstr "Sie sind am Anfang des Kurses."
+
+#: application/model/logic/course.php:126
+msgid "You are at the end of the course."
+msgstr "Sie sind am Ende des Kurses angelangt."
+
+#: application/model/logic/course.php:144
+msgid "The course has only one module."
+msgstr "Der Kurs hat nur ein Modul."
+
+#: application/model/logic/mail_hook.php:86
+msgid "You already have a password (check our other emails)"
+msgstr "Sie haben bereits ein Kennwort (prüfen Sie Ihre anderen E-Mails)"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "name"
+#~ msgstr "Benutzername"
+
+#~ msgid ""
+#~ "The report has been created. <a>Click here</a> to download the report.|"
+#~ "After download the report is in your local download folder as file %s"
+#~ msgstr ""
+#~ "Die Datei wurde erstellt. <a>Klicken Sie hier</a>, um die Datei "
+#~ "herunterzuladen.|Nach dem Download finden Sie die Datei im Download-"
+#~ "Ordner auf Ihrem Computer als %s."
+
+#~ msgid ""
+#~ "This blog is part of a network and you are the admin. You cannot change "
+#~ "your password here."
+#~ msgstr ""
+#~ "Dieser Blog ist Teil eines Wordpress-Netzwerkes und Sie sind der Admin "
+#~ "dieses Blogs. Hier in diesem Blog können Sie Ihr Kennwort nicht ändern."
+
+#~ msgid "Your password has been updated."
+#~ msgstr "Ihr Kennwort wurde geändert."
+
+#~ msgid "The passwords do not match. Please retype your password."
+#~ msgstr ""
+#~ "Die Kennwörter stimmen nicht überein. Bitte geben Sie Ihr Kennwort noch "
+#~ "einmal ein."
+
+#~ msgid "Enter your new password."
+#~ msgstr "Geben Sie Ihr neues Kennwort ein."
+
+#~ msgid "Dismiss"
+#~ msgstr "Verwerfen"

@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="Bucklescript" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/@ahrefs/bs-atdgen-codec-runtime" />
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/@glennsl/bs-json" />
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-css" />
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-css-emotion" />
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-fetch" />
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-react-intl" />
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/re-classnames" />
+        <item url="file://$PROJECT_DIR$/webinc/src/node_modules/reason-react" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/@ahrefs/bs-atdgen-codec-runtime" />
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/@glennsl/bs-json" />
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-css" />
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-css-emotion" />
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-fetch" />
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/bs-react-intl" />
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/re-classnames" />
+      <root url="file://$PROJECT_DIR$/webinc/src/node_modules/reason-react" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+{
+    "require": {
+        "rdoepner/cleverreach": "^1.5",
+        "mailjet/mailjet-apiv3-php": "^1.5",
+        "getresponse/sdk-php": "^2.0",
+        "mailchimp/marketing": "^3.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.98",
+        "szepeviktor/phpstan-wordpress": "^0.7.7",
+        "phpstan/extension-installer": "^1.1"
+    }
+}
